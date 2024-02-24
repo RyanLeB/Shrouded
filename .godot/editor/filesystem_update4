@@ -9,3 +9,5 @@ res://Scenes/basic_enemy/basic_enemy.gd
 res://Scenes/Ability/sword_ability_controller/sword_ability_controller.tscn
 res://Scenes/Ability/sword_ability_controller/sword_ability_controller.gd
 res://Scenes/Ability/sword-ability/sword_ability.tscn
+res://Scenes/manager/enemy_manager.tscn
+res://Scenes/manager/enemy_manager.gd
