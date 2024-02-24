@@ -4,3 +4,8 @@ res://Scenes/Main/main.tscn
 res://resources/tileset.tres
 res://Scenes/game_camera/game_camera.tscn
 res://Scenes/game_camera/game_camera.gd
+res://Scenes/basic_enemy/basic_enemy.tscn
+res://Scenes/basic_enemy/basic_enemy.gd
+res://Scenes/Ability/sword_ability_controller/sword_ability_controller.tscn
+res://Scenes/Ability/sword_ability_controller/sword_ability_controller.gd
+res://Scenes/Ability/sword-ability/sword_ability.tscn
