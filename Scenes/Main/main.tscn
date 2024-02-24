@@ -1,9 +1,12 @@
-[gd_scene load_steps=3 format=3 uid="uid://bmoswyq76x5p4"]
+[gd_scene load_steps=4 format=3 uid="uid://bmoswyq76x5p4"]
 
+[ext_resource type="PackedScene" uid="uid://blcdlcvxso8ca" path="res://Scenes/game_camera/game_camera.tscn" id="1_ik26k"]
 [ext_resource type="PackedScene" uid="uid://ch8vxxiweatbb" path="res://Scenes/Player/player.tscn" id="1_ovrfb"]
 [ext_resource type="TileSet" uid="uid://c5chbiobbfid" path="res://resources/tileset.tres" id="1_sp1k0"]
 
 [node name="Main" type="Node"]
+
+[node name="GameCamera" parent="." instance=ExtResource("1_ik26k")]
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource("1_sp1k0")
