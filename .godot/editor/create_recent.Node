@@ -1,3 +1,6 @@
+Label
+MarginContainer
+CanvasLayer
 Timer
 Node
 CollisionShape2D
