@@ -1,8 +1,8 @@
-res://Scenes/ui
+res://Scenes/autoload
 res://Scenes/manager
+res://Scenes/game_object/experience_vial
+res://Scenes/ui
 res://Scenes/Ability
 res://Scenes/Ability/sword-ability
-res://Scenes/basic_enemy
-res://Scenes/game_camera
 res://resources
 res://Scenes/Main

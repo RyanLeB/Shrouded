@@ -16,3 +16,10 @@ res://Scenes/manager/arena_time_manager.tscn
 res://Scenes/manager/arena_time_manager.gd
 res://Scenes/ui/MarginContainer.gd
 res://Scenes/ui/arena_time_ui.gd
+res://Scenes/game_object/Player/player.tscn
+res://Scenes/game_object/experience_vial/experience_vial.gd
+res://Scenes/game_object/experience_vial/experience_vial.tscn
+res://Scenes/manager/experience_manager.tscn
+res://Scenes/manager/experience_manager.gd
+res://Scenes/autoload/game_event.tscn
+res://Scenes/autoload/game_event.gd
