@@ -23,3 +23,7 @@ res://Scenes/manager/experience_manager.tscn
 res://Scenes/manager/experience_manager.gd
 res://Scenes/autoload/game_event.tscn
 res://Scenes/autoload/game_event.gd
+res://Scenes/component/health_component.tscn
+res://Scenes/component/health_component.gd
+res://Scenes/game_object/basic_enemy/basic_enemy.tscn
+res://Scenes/game_object/basic_enemy/basic_enemy.gd
