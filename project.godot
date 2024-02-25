@@ -13,8 +13,6 @@ config_version=5
 config/name="DarkDescent"
 run/main_scene="res://Scenes/Main/main.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://Scenes/game_object/Player/Player.png"
-config/windows_native_icon="res://Scenes/game_object/Player/Player.png"
 
 [autoload]
 

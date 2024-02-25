@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708889392
+::res://::1708889491
 icon.svg::CompressedTexture2D::6614760068740573587::1708739268::1708889491::1::::<><>::
 README.md::TextFile::-1::1708804294::0::1::::<><>::
 ::res://assets/::1708794699
@@ -44,8 +44,8 @@ game_camera.tscn::PackedScene::3162828652488080376::1708877055::0::1::::<><>::re
 player.gd::GDScript::-1::1708813171::0::1::::<>CharacterBody2D<>::
 Player.png::CompressedTexture2D::6398031003565620561::1708740308::1708877046::1::::<><>::
 player.tscn::PackedScene::5333605090244745071::1708888059::0::1::::<><>::uid://cxfivvca5e14p::::res://Scenes/game_object/Player/Player.png<>res://Scenes/game_object/Player/player.gd<>uid://c5og622r3s70n::::res://Scenes/Ability/sword_ability_controller/sword_ability_controller.tscn
-::res://Scenes/Main/::1708889227
-main.tscn::PackedScene::3258721576015603899::1708889489::0::1::::<><>::uid://blcdlcvxso8ca::::res://Scenes/game_object/game_camera/game_camera.tscn<>uid://bbievodkkjif6::::res://Scenes/ui/arena_time_ui.tscn<>uid://ch8vxxiweatbb::::res://Scenes/game_object/Player/player.tscn<>uid://d4hn1jnv4erob::::res://Scenes/manager/enemy_manager.tscn<>uid://c5chbiobbfid::::res://resources/tileset.tres<>uid://b2qk4lun3auka::::res://Scenes/ui/experience_bar.tscn<>uid://b4ldv4pnb6pwr::::res://Scenes/manager/arena_time_manager.tscn<>uid://c6lnjj56rq6af::::res://Scenes/manager/experience_manager.tscn
+::res://Scenes/Main/::1708889493
+main.tscn::PackedScene::3258721576015603899::1708889493::0::1::::<><>::uid://blcdlcvxso8ca::::res://Scenes/game_object/game_camera/game_camera.tscn<>uid://bbievodkkjif6::::res://Scenes/ui/arena_time_ui.tscn<>uid://ch8vxxiweatbb::::res://Scenes/game_object/Player/player.tscn<>uid://d4hn1jnv4erob::::res://Scenes/manager/enemy_manager.tscn<>uid://c5chbiobbfid::::res://resources/tileset.tres<>uid://b2qk4lun3auka::::res://Scenes/ui/experience_bar.tscn<>uid://b4ldv4pnb6pwr::::res://Scenes/manager/arena_time_manager.tscn<>uid://c6lnjj56rq6af::::res://Scenes/manager/experience_manager.tscn
 ::res://Scenes/manager/::1708888942
 arena_time_manager.gd::GDScript::-1::1708815056::0::1::::<>Node<>::
 arena_time_manager.tscn::PackedScene::4444826504083453729::1708816091::0::1::::<><>::res://Scenes/manager/arena_time_manager.gd

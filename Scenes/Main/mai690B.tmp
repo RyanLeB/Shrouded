@@ -24,8 +24,7 @@ experience_manager = NodePath("../ExperienceManager")
 
 [node name="ExperienceManager" parent="." instance=ExtResource("4_ir6hq")]
 
-[node name="UpgradeManager" parent="." node_paths=PackedStringArray("experience_manager") instance=ExtResource("6_kje0b")]
-experience_manager = NodePath("../ExperienceManager")
+[node name="UpgradeManager" parent="." instance=ExtResource("6_kje0b")]
 
 [node name="GameCamera" parent="." instance=ExtResource("1_ik26k")]
 
