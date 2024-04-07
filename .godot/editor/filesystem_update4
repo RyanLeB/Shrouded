@@ -10,3 +10,6 @@ res://Scenes/autoload/game_event.tscn
 res://Scenes/autoload/game_event.gd
 res://Scenes/Ability/sword_ability_controller/sword_ability_controller.tscn
 res://Scenes/Ability/sword_ability_controller/sword_ability_controller.gd
+res://Scenes/component/vial_drop_component.tscn
+res://Scenes/manager/enemy_manager.gd
+res://Scenes/component/vial_drop_component.gd
