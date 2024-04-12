@@ -1,7 +1,3 @@
-res://Scenes/Main/main.tscn
-res://resources/tileset.tres
 res://Scenes/game_object/Player/player.tscn
-res://Scenes/Ability/sword_ability_controller/sword_ability_controller.gd
-res://Scenes/ui/arena_time_ui.tscn
-res://Scenes/ui/arena_time_ui.gd
-res://Scenes/manager/arena_time_manager.tscn
+res://resources/tileset.tres
+res://Scenes/Main/main.tscn

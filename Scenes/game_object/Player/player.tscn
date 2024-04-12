@@ -1,20 +1,20 @@
 [gd_scene load_steps=10 format=3 uid="uid://ch8vxxiweatbb"]
 
-[ext_resource type="Texture2D" uid="uid://cxfivvca5e14p" path="res://Scenes/game_object/Player/Player.png" id="1_8y8ro"]
 [ext_resource type="Script" path="res://Scenes/game_object/Player/player.gd" id="1_fabc8"]
 [ext_resource type="PackedScene" uid="uid://daejyk1n81nqr" path="res://Scenes/component/health_component.tscn" id="2_12ktq"]
 [ext_resource type="PackedScene" uid="uid://c5og622r3s70n" path="res://Scenes/Ability/sword_ability_controller/sword_ability_controller.tscn" id="2_tyonw"]
+[ext_resource type="Texture2D" uid="uid://ds6cclediub2j" path="res://Scenes/game_object/GreyHoodguy1.png" id="4_wn8e4"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_17ou2"]
-bg_color = Color(0.247059, 0.14902, 0.192157, 1)
+bg_color = Color(0.121569, 0.0627451, 0.0901961, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eehp4"]
-bg_color = Color(0.262745, 0.882353, 0.701961, 1)
-border_width_left = 2
-border_width_top = 2
-border_width_right = 2
-border_width_bottom = 2
-border_color = Color(0.247059, 0.14902, 0.192157, 1)
+bg_color = Color(0.92549, 0, 0.109804, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.121569, 0.0627451, 0.0901961, 1)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ip8mj"]
 radius = 32.0
@@ -62,7 +62,9 @@ collision_mask = 0
 shape = SubResource("CircleShape2D_ip8mj")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_8y8ro")
+position = Vector2(0, -3)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("4_wn8e4")
 offset = Vector2(0, -8)
 
 [node name="CollisionArea2D" type="Area2D" parent="."]
