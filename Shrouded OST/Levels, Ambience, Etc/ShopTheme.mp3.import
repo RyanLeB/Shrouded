@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cw4bx31emdy8j"
+path="res://.godot/imported/ShopTheme.mp3-5420582d967045a07fd49f3d3e7d58eb.mp3str"
+
+[deps]
+
+source_file="res://Shrouded OST/Levels, Ambience, Etc/ShopTheme.mp3"
+dest_files=["res://.godot/imported/ShopTheme.mp3-5420582d967045a07fd49f3d3e7d58eb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

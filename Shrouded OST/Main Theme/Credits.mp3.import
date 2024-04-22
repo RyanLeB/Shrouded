@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://25o2cbw1hhl"
+path="res://.godot/imported/Credits.mp3-03e8e71b77e244c95b834130a62181bf.mp3str"
+
+[deps]
+
+source_file="res://Shrouded OST/Main Theme/Credits.mp3"
+dest_files=["res://.godot/imported/Credits.mp3-03e8e71b77e244c95b834130a62181bf.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

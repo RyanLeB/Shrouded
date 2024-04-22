@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://gubjplyqev42"
+path="res://.godot/imported/BossThemeMaybe.mp3-da6d4d87cf2d966e910820ed24e6fb1d.mp3str"
+
+[deps]
+
+source_file="res://Shrouded OST/Battles/BossThemeMaybe.mp3"
+dest_files=["res://.godot/imported/BossThemeMaybe.mp3-da6d4d87cf2d966e910820ed24e6fb1d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

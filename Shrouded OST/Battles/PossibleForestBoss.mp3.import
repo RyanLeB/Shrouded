@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d4f4mbek2628o"
+path="res://.godot/imported/PossibleForestBoss.mp3-db6257c5c6e9f58dd724995859f28edb.mp3str"
+
+[deps]
+
+source_file="res://Shrouded OST/Battles/PossibleForestBoss.mp3"
+dest_files=["res://.godot/imported/PossibleForestBoss.mp3-db6257c5c6e9f58dd724995859f28edb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

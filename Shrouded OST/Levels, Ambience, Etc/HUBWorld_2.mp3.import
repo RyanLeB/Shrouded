@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://881xki6t2uen"
+path="res://.godot/imported/HUBWorld_2.mp3-5542ed6d42d449ad7099321a2929f42d.mp3str"
+
+[deps]
+
+source_file="res://Shrouded OST/Levels, Ambience, Etc/HUBWorld_2.mp3"
+dest_files=["res://.godot/imported/HUBWorld_2.mp3-5542ed6d42d449ad7099321a2929f42d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
