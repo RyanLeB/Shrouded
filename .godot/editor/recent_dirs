@@ -1,10 +1,8 @@
-res://Scenes/Ability/axe_ability
-res://Scenes/Ability/axe_ability_controller
+res://Scenes/component
 res://Scenes/ui
 res://Scenes/manager
 res://resources/upgrades
 res://Scenes/game_object/Player
-res://Scenes/component
 res://Scenes/autoload
 res://Scenes/game_object/experience_vial
 res://Scenes/Ability

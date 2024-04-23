@@ -1,5 +1,6 @@
-Node2D
 AnimationPlayer
+GPUParticles2D
+Node2D
 CollisionShape2D
 Sprite2D
 Timer
@@ -11,4 +12,3 @@ VBoxContainer
 PanelContainer
 CanvasLayer
 ProgressBar
-Area2D
