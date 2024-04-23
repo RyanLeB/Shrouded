@@ -1,8 +1,8 @@
 [gd_scene load_steps=8 format=3 uid="uid://dd4ywavw2nahn"]
 
-[ext_resource type="Script" path="res://Scenes/Ability/axe_ability/axe_ability.gd" id="1_0tf4f"]
-[ext_resource type="Texture2D" uid="uid://dryxtxboes0rk" path="res://Scenes/Ability/axe_ability/Axe.png" id="1_2lxpr"]
-[ext_resource type="PackedScene" uid="uid://cycdfunfhnvmb" path="res://Scenes/component/hitbox_component.tscn" id="3_3u3y0"]
+[ext_resource type="Script" path="res://Scenes/Ability/scythe_ability/scythe_ability.gd" id="1_273d6"]
+[ext_resource type="Texture2D" uid="uid://brajrrbw4foty" path="res://Scenes/Ability/scythe_ability/Scythe.png" id="2_sx40j"]
+[ext_resource type="PackedScene" uid="uid://cycdfunfhnvmb" path="res://Scenes/component/hitbox_component.tscn" id="3_hg5gq"]
 
 [sub_resource type="Animation" id="Animation_rx3g0"]
 resource_name = "default"
@@ -44,8 +44,8 @@ _data = {
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_v1mdk"]
 
-[node name="AxeAbility" type="Node2D"]
-script = ExtResource("1_0tf4f")
+[node name="ScytheAbility" type="Node2D"]
+script = ExtResource("1_273d6")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -54,9 +54,10 @@ libraries = {
 autoplay = "default"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_2lxpr")
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("2_sx40j")
 
-[node name="HitboxComponent" parent="." instance=ExtResource("3_3u3y0")]
+[node name="HitboxComponent" parent="." instance=ExtResource("3_hg5gq")]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HitboxComponent"]
 shape = SubResource("CircleShape2D_v1mdk")

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dryxtxboes0rk"
-path="res://.godot/imported/Axe.png-b072f3ab4124c7092397ce29075820f4.ctex"
+uid="uid://brajrrbw4foty"
+path="res://.godot/imported/Scythe.png-1cc880a74f8d67c85f68cfc92dd2b176.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/Ability/axe_ability/Axe.png"
-dest_files=["res://.godot/imported/Axe.png-b072f3ab4124c7092397ce29075820f4.ctex"]
+source_file="res://Scenes/Ability/scythe_ability/Scythe.png"
+dest_files=["res://.godot/imported/Scythe.png-1cc880a74f8d67c85f68cfc92dd2b176.ctex"]
 
 [params]
 

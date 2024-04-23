@@ -1,6 +1,6 @@
 extends Node
 
-@export var axe_ability_scene: PackedScene
+@export var scythe_ability_scene: PackedScene
 
 var damage = 10
 
@@ -18,7 +18,7 @@ func on_timer_timeout():
 	if foreground == null:
 		return
 	
-	var axe_instance = axe_ability_scene.instantiate() as Node2D
-	foreground.add_child(axe_instance)
-	axe_instance.global_position = player.global_position
-	axe_instance.hitbox_component.damage = damage
+	var scythe_instance = scythe_ability_scene.instantiate() as Node2D
+	foreground.add_child(scythe_instance)
+	scythe_instance.global_position = player.global_position
+	scythe_instance.hitbox_component.damage = damage

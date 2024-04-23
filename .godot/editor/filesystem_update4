@@ -18,3 +18,9 @@ res://Scenes/Ability/axe_ability/axe_ability.tscn
 res://Scenes/Ability/axe_ability_controller/axe_ability_controller.gd
 res://Scenes/Ability/sword_ability_controller/sword_ability_controller.tscn
 res://Scenes/Ability/axe_ability/axe_ability.gd
+res://Scenes/Ability/scythe_ability_controller/axe_ability_controller.tscn
+res://Scenes/Ability/scythe_ability_controller/scythe_ability_controller.tscn
+res://Scenes/Ability/scythe_ability/scythe_ability.tscn
+res://Scenes/Ability/scythe_ability_controller/scythe_ability_controller.gd
+res://Scenes/Ability/sword-ability/sword_ability.tscn
+res://Scenes/autoload/game_event.tscn
