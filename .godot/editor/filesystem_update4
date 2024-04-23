@@ -1,3 +1,9 @@
 res://Scenes/Main/main.tscn
 res://resources/tileset.tres
 res://Scenes/game_object/Player/player.tscn
+res://Scenes/ui/victory_screen.tscn
+res://Scenes/ui/victory_screen.gd
+res://Scenes/manager/arena_time_manager.tscn
+res://Scenes/manager/arena_time_manager.gd
+res://Scenes/ui/arena_time_ui.tscn
+res://Scenes/ui/ability_upgrade_card.tscn
