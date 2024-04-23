@@ -13,3 +13,8 @@ res://Scenes/Main/main.gd
 res://Scenes/Ability/sword_ability_controller/sword_ability_controller.gd
 res://Scenes/manager/enemy_manager.gd
 res://Scenes/manager/enemy_manager.tscn
+res://Scenes/Ability/axe_ability_controller/axe_ability_controller.tscn
+res://Scenes/Ability/axe_ability/axe_ability.tscn
+res://Scenes/Ability/axe_ability_controller/axe_ability_controller.gd
+res://Scenes/Ability/sword_ability_controller/sword_ability_controller.tscn
+res://Scenes/Ability/axe_ability/axe_ability.gd
