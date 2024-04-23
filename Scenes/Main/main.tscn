@@ -1,16 +1,20 @@
-[gd_scene load_steps=10 format=3 uid="uid://bmoswyq76x5p4"]
+[gd_scene load_steps=12 format=3 uid="uid://bmoswyq76x5p4"]
 
+[ext_resource type="Script" path="res://Scenes/Main/main.gd" id="1_hnkm0"]
 [ext_resource type="PackedScene" uid="uid://blcdlcvxso8ca" path="res://Scenes/game_object/game_camera/game_camera.tscn" id="1_ik26k"]
 [ext_resource type="PackedScene" uid="uid://bbievodkkjif6" path="res://Scenes/ui/arena_time_ui.tscn" id="1_j4wuk"]
 [ext_resource type="PackedScene" uid="uid://ch8vxxiweatbb" path="res://Scenes/game_object/Player/player.tscn" id="1_ovrfb"]
 [ext_resource type="PackedScene" uid="uid://d4hn1jnv4erob" path="res://Scenes/manager/enemy_manager.tscn" id="1_qrvje"]
 [ext_resource type="TileSet" uid="uid://c5chbiobbfid" path="res://resources/tileset.tres" id="1_sp1k0"]
 [ext_resource type="PackedScene" uid="uid://b2qk4lun3auka" path="res://Scenes/ui/experience_bar.tscn" id="2_bg4j1"]
+[ext_resource type="PackedScene" uid="uid://ke1sjca8ix7t" path="res://Scenes/ui/end_screen.tscn" id="2_u8oqs"]
 [ext_resource type="PackedScene" uid="uid://b4ldv4pnb6pwr" path="res://Scenes/manager/arena_time_manager.tscn" id="2_v8fbd"]
 [ext_resource type="PackedScene" uid="uid://c6lnjj56rq6af" path="res://Scenes/manager/experience_manager.tscn" id="4_ir6hq"]
 [ext_resource type="PackedScene" uid="uid://c6b8mn6mye12d" path="res://Scenes/manager/upgrade_manager.tscn" id="6_kje0b"]
 
 [node name="Main" type="Node"]
+script = ExtResource("1_hnkm0")
+end_screen_scene = ExtResource("2_u8oqs")
 
 [node name="ArenaTimeUI" parent="." node_paths=PackedStringArray("arena_time_manager") instance=ExtResource("1_j4wuk")]
 arena_time_manager = NodePath("../ArenaTimeManager")
@@ -20,7 +24,8 @@ experience_manager = NodePath("../ExperienceManager")
 
 [node name="ArenaTimeManager" parent="." instance=ExtResource("2_v8fbd")]
 
-[node name="EnemyManager" parent="." instance=ExtResource("1_qrvje")]
+[node name="EnemyManager" parent="." node_paths=PackedStringArray("arena_time_manager") instance=ExtResource("1_qrvje")]
+arena_time_manager = NodePath("../ArenaTimeManager")
 
 [node name="ExperienceManager" parent="." instance=ExtResource("4_ir6hq")]
 
@@ -38,6 +43,7 @@ layer_0/tile_data = PackedInt32Array(1769515, 0, 4, 1703979, 65536, 4, 1638443, 
 y_sort_enabled = true
 
 [node name="Player" parent="Entities" instance=ExtResource("1_ovrfb")]
+unique_name_in_owner = true
 position = Vector2(303, 168)
 
 [node name="Foreground" type="Node2D" parent="." groups=["foreground_layer"]]

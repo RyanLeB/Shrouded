@@ -7,3 +7,9 @@ res://Scenes/manager/arena_time_manager.tscn
 res://Scenes/manager/arena_time_manager.gd
 res://Scenes/ui/arena_time_ui.tscn
 res://Scenes/ui/ability_upgrade_card.tscn
+res://Scenes/ui/end_screen.tscn
+res://Scenes/ui/end_screen.gd
+res://Scenes/Main/main.gd
+res://Scenes/Ability/sword_ability_controller/sword_ability_controller.gd
+res://Scenes/manager/enemy_manager.gd
+res://Scenes/manager/enemy_manager.tscn
