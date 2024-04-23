@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Ability" load_steps=3 format=3 uid="uid://cqrcxr5ffr8pb"]
+
+[ext_resource type="Script" path="res://resources/upgrades/ability.gd" id="1_gdqgt"]
+[ext_resource type="PackedScene" uid="uid://clc82wv1hhc8c" path="res://Scenes/Ability/scythe_ability_controller/scythe_ability_controller.tscn" id="1_nhckv"]
+
+[resource]
+script = ExtResource("1_gdqgt")
+ability_controller_scene = ExtResource("1_nhckv")
+id = "scythe"
+max_quantity = 1
+name = "Spectral Scythe"
+description = "Periodically sends out a spinning scythe in a spiral motion."
