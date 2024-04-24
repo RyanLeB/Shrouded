@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AbilityUpgrade" load_steps=2 format=3 uid="uid://da4ym52jfytv"]
+
+[ext_resource type="Script" path="res://resources/upgrades/ability_upgrade.gd" id="1_7bfg0"]
+
+[resource]
+script = ExtResource("1_7bfg0")
+id = "scythe_damage"
+max_quantity = 0
+name = "Spectral Scythe Enhancement"
+description = "Increases Spectral Scythe attack damage by 10%."
