@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-const MAX_SPEED = 125
+@export var MAX_SPEED: int = 125
 const ACCELERATION_SMOOTHING = 25 
 
 @onready var damage_interval_timer = $DamageIntervalTimer

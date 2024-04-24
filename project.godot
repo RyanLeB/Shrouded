@@ -17,7 +17,6 @@ config/features=PackedStringArray("4.2", "Forward Plus")
 [autoload]
 
 GameEvent="*res://Scenes/autoload/game_event.tscn"
-Spawning="*res://addons/BulletUpHell/Spawning.tscn"
 
 [debug]
 

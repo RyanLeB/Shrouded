@@ -1,2 +1,14 @@
 res://Scenes/Ability/sword-ability/sword_ability.tscn
 res://resources/tileset.tres
+res://Scenes/Main/main.tscn
+res://Scenes/component/velocity_component.tscn
+res://Scenes/component/velocity_component.gd
+res://Scenes/game_object/wizard_enemy/wizard_enemy.tscn
+res://Scenes/game_object/basic_enemy/basic_enemy.tscn
+res://Scenes/game_object/basic_enemy/basic_enemy.gd
+res://Scenes/game_object/wizard_enemy/wizard_enemy.gd
+res://Scenes/manager/enemy_manager.tscn
+res://Scenes/game_object/Player/player.tscn
+res://Scenes/game_object/Player/player.gd
+res://scripts/weighted_table.gd
+res://Scenes/manager/enemy_manager.gd

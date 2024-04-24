@@ -1,5 +1,6 @@
-res://
 res://Scenes/component
+res://Scenes/game_object/wizard_enemy
+res://
 res://Scenes/ui
 res://Scenes/manager
 res://resources/upgrades
