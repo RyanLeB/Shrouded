@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1713916543
+::res://::1713974340
 icon.svg::CompressedTexture2D::6614760068740573587::1713794268::1713804606::1::::<><>::
 LICENSE.md::TextFile::-1::1713908607::0::1::::<><>::
 README.md::TextFile::-1::1713794268::0::1::::<><>::
@@ -9,8 +9,11 @@ tile_0111.png::CompressedTexture2D::5863370313378358373::1713915914::1713915902:
 tilemap_packed.png::CompressedTexture2D::7657654321577555965::1713794268::1713794268::1::::<><>::
 ::res://Concept Art design for Shrouded/::1713804607
 Dark-forest2.jpg::CompressedTexture2D::6996354470266293361::1713795142::1713804607::1::::<><>::
-::res://resources/::1713915726
-tileset.tres::TileSet::202443019959988351::1713915726::0::1::::<><>::uid://dhdoph0o7degj::::res://assets/environment/tilemap_packed.png
+::res://resources/::1713974173
+tileset.tres::TileSet::202443019959988351::1713967932::0::1::::<><>::uid://dhdoph0o7degj::::res://assets/environment/tilemap_packed.png
+::res://resources/theme/::1713974334
+Bitfantasy.ttf::FontFile::9220220752028521775::1713972012::1713974258::1::::<><>::
+theme.tres::Theme::1120851792893287054::1713974334::0::1::::<><>::uid://d4mlxoepwg232::::res://resources/theme/Bitfantasy.ttf
 ::res://resources/upgrades/::1713898425
 ability.gd::GDScript::-1::1713896903::0::1::::Ability<>AbilityUpgrade<>::
 ability_upgrade.gd::GDScript::-1::1713898001::0::1::::AbilityUpgrade<>Resource<>::
@@ -35,7 +38,7 @@ sword_ability_controller.tscn::PackedScene::6907829087302399119::1713898960::0::
 ::res://Scenes/autoload/::1713898960
 game_event.gd::GDScript::-1::1713794268::0::1::::<>Node<>::
 game_event.tscn::PackedScene::8189361450873458168::1713898960::0::1::::<><>::res://Scenes/autoload/game_event.gd
-::res://Scenes/component/::1713918148
+::res://Scenes/component/::1713970971
 death_component.gd::GDScript::-1::1713906790::0::1::::<>Node2D<>::
 death_component.tscn::PackedScene::8122001050448361588::1713907838::0::1::::<><>::res://Scenes/component/death_component.gd<>uid://bwr46uv7ehpr5::::res://Scenes/game_object/basic_enemy/basic_enemy.png
 health_component.gd::GDScript::-1::1713794268::0::1::::HealthComponent<>Node<>::
@@ -44,8 +47,8 @@ hitbox_component.gd::GDScript::-1::1713794268::0::1::::HitboxComponent<>Area2D<>
 hitbox_component.tscn::PackedScene::6461694520941450149::1713794268::0::1::::<><>::res://Scenes/component/hitbox_component.gd
 hurtbox_component.gd::GDScript::-1::1713794268::0::1::::HurtboxComponent<>Area2D<>::
 hurtbox_component.tscn::PackedScene::7745480278702365044::1713794268::0::1::::<><>::res://Scenes/component/hurtbox_component.gd
-velocity_component.gd::GDScript::-1::1713917105::0::1::::<>Node<>::
-velocity_component.tscn::PackedScene::9028492523576675952::1713918148::0::1::::<><>::res://Scenes/component/velocity_component.gd
+velocity_component.gd::GDScript::-1::1713968745::0::1::::<>Node<>::
+velocity_component.tscn::PackedScene::9028492523576675952::1713970971::0::1::::<><>::res://Scenes/component/velocity_component.gd
 vial_drop_component.gd::GDScript::-1::1713794268::0::1::::<>Node<>::
 vial_drop_component.tscn::PackedScene::3555925504121082267::1713794268::0::1::::<><>::res://Scenes/component/vial_drop_component.gd<>uid://2qeen4r8hve8::::res://Scenes/game_object/experience_vial/experience_vial.tscn
 ::res://Scenes/game_object/::1713915967
@@ -55,33 +58,35 @@ GreyHoodguy1.png::CompressedTexture2D::8486782536596936227::1713794268::17137942
 PurpleHoodguy1.png::CompressedTexture2D::8690084869165593876::1713794268::1713794268::1::::<><>::
 RedHoodguy1.png::CompressedTexture2D::8753965421341802927::1713794268::1713794268::1::::<><>::
 YellowHoodguy1.png::CompressedTexture2D::4869249060615353881::1713794268::1713794268::1::::<><>::
-::res://Scenes/game_object/basic_enemy/::1713918148
+::res://Scenes/game_object/basic_enemy/::1713971077
 basic_enemy.gd::GDScript::-1::1713917934::0::1::::<>CharacterBody2D<>::
 basic_enemy.png::CompressedTexture2D::3967486902317576532::1713794268::1713794268::1::::<><>::
-basic_enemy.tscn::PackedScene::3093652597678361045::1713918148::0::1::::<><>::res://Scenes/game_object/basic_enemy/basic_enemy.gd<>uid://bwr46uv7ehpr5::::res://Scenes/game_object/basic_enemy/basic_enemy.png<>uid://daejyk1n81nqr::::res://Scenes/component/health_component.tscn<>uid://bqwrtq838mmq2::::res://Scenes/component/vial_drop_component.tscn<>uid://dnymf2jxl2j6k::::res://Scenes/component/death_component.tscn<>uid://d1vp7nohu6nbc::::res://Scenes/component/velocity_component.tscn<>uid://dil76toga1piy::::res://Scenes/component/hurtbox_component.tscn
-::res://Scenes/game_object/experience_vial/::1713794268
-experience_vial.gd::GDScript::-1::1713794268::0::1::::<>Node2D<>::
+basic_enemy.tscn::PackedScene::3093652597678361045::1713971077::0::1::::<><>::res://Scenes/game_object/basic_enemy/basic_enemy.gd<>uid://bwr46uv7ehpr5::::res://Scenes/game_object/basic_enemy/basic_enemy.png<>uid://daejyk1n81nqr::::res://Scenes/component/health_component.tscn<>uid://bqwrtq838mmq2::::res://Scenes/component/vial_drop_component.tscn<>uid://dnymf2jxl2j6k::::res://Scenes/component/death_component.tscn<>uid://d1vp7nohu6nbc::::res://Scenes/component/velocity_component.tscn<>uid://dil76toga1piy::::res://Scenes/component/hurtbox_component.tscn
+::res://Scenes/game_object/experience_vial/::1713971365
+Bitfantasy.ttf::FontFile::3225740501115904802::1713971365::1713971354::1::::<><>::
+EXP.png::CompressedTexture2D::59329880584874725::1713969604::1713969610::1::::<><>::
+experience_vial.gd::GDScript::-1::1713970970::0::1::::<>Node2D<>::
 experience_vial.png::CompressedTexture2D::7269117896633740459::1713794268::1713794268::1::::<><>::
-experience_vial.tscn::PackedScene::1928379561858197029::1713794268::0::1::::<><>::res://Scenes/game_object/experience_vial/experience_vial.gd<>uid://dbthksbqgtofr::::res://Scenes/game_object/experience_vial/experience_vial.png
+experience_vial.tscn::PackedScene::1928379561858197029::1713971006::0::1::::<><>::res://Scenes/game_object/experience_vial/experience_vial.gd<>uid://30fitdgcxld::::res://Scenes/game_object/experience_vial/EXP.png
 ::res://Scenes/game_object/game_camera/::1713794268
 game_camera.gd::GDScript::-1::1713794268::0::1::::<>Camera2D<>::
 game_camera.tscn::PackedScene::3162828652488080376::1713794268::0::1::::<><>::res://Scenes/game_object/game_camera/game_camera.gd
-::res://Scenes/game_object/Player/::1713918497
+::res://Scenes/game_object/Player/::1713918522
 player.gd::GDScript::-1::1713918479::0::1::::<>CharacterBody2D<>::
 Player.png::CompressedTexture2D::6398031003565620561::1713794268::1713794268::1::::<><>::
 player.tscn::PackedScene::5333605090244745071::1713918522::0::1::::<><>::res://Scenes/game_object/Player/player.gd<>uid://daejyk1n81nqr::::res://Scenes/component/health_component.tscn<>uid://c5og622r3s70n::::res://Scenes/Ability/sword_ability_controller/sword_ability_controller.tscn<>uid://ds6cclediub2j::::res://Scenes/game_object/GreyHoodguy1.png
-::res://Scenes/game_object/wizard_enemy/::1713918148
-wizard_enemy.gd::GDScript::-1::1713917990::0::1::::<>CharacterBody2D<>::
-wizard_enemy.tscn::PackedScene::4857670871814260904::1713918148::0::1::::<><>::res://Scenes/game_object/wizard_enemy/wizard_enemy.gd<>uid://daejyk1n81nqr::::res://Scenes/component/health_component.tscn<>uid://d1vp7nohu6nbc::::res://Scenes/component/velocity_component.tscn<>uid://dnymf2jxl2j6k::::res://Scenes/component/death_component.tscn<>uid://ylyk5pbs3w41::::res://Scenes/game_object/wizard_enemy/wizard_enemy.png<>uid://dil76toga1piy::::res://Scenes/component/hurtbox_component.tscn<>uid://bqwrtq838mmq2::::res://Scenes/component/vial_drop_component.tscn
+::res://Scenes/game_object/wizard_enemy/::1713970971
+wizard_enemy.gd::GDScript::-1::1713968818::0::1::::<>CharacterBody2D<>::
 wizard_enemy.png::CompressedTexture2D::1708717067316065836::1713915924::1713915972::1::::<><>::
-::res://Scenes/Main/::1713918497
+wizard_enemy.tscn::PackedScene::4857670871814260904::1713970971::0::1::::<><>::res://Scenes/game_object/wizard_enemy/wizard_enemy.gd<>uid://daejyk1n81nqr::::res://Scenes/component/health_component.tscn<>uid://d1vp7nohu6nbc::::res://Scenes/component/velocity_component.tscn<>uid://dnymf2jxl2j6k::::res://Scenes/component/death_component.tscn<>uid://ylyk5pbs3w41::::res://Scenes/game_object/wizard_enemy/wizard_enemy.png<>uid://dil76toga1piy::::res://Scenes/component/hurtbox_component.tscn<>uid://bqwrtq838mmq2::::res://Scenes/component/vial_drop_component.tscn
+::res://Scenes/Main/::1713974334
 main.gd::GDScript::-1::1713906393::0::1::::<>Node<>::
-main.tscn::PackedScene::3258721576015603899::1713918497::0::1::::<><>::res://Scenes/Main/main.gd<>uid://blcdlcvxso8ca::::res://Scenes/game_object/game_camera/game_camera.tscn<>uid://bbievodkkjif6::::res://Scenes/ui/arena_time_ui.tscn<>uid://ch8vxxiweatbb::::res://Scenes/game_object/Player/player.tscn<>uid://d4hn1jnv4erob::::res://Scenes/manager/enemy_manager.tscn<>uid://c5chbiobbfid::::res://resources/tileset.tres<>uid://b2qk4lun3auka::::res://Scenes/ui/experience_bar.tscn<>uid://ke1sjca8ix7t::::res://Scenes/ui/end_screen.tscn<>uid://b4ldv4pnb6pwr::::res://Scenes/manager/arena_time_manager.tscn<>uid://c6lnjj56rq6af::::res://Scenes/manager/experience_manager.tscn<>uid://c6b8mn6mye12d::::res://Scenes/manager/upgrade_manager.tscn
+main.tscn::PackedScene::3258721576015603899::1713974334::0::1::::<><>::res://Scenes/Main/main.gd<>uid://blcdlcvxso8ca::::res://Scenes/game_object/game_camera/game_camera.tscn<>uid://bbievodkkjif6::::res://Scenes/ui/arena_time_ui.tscn<>uid://ch8vxxiweatbb::::res://Scenes/game_object/Player/player.tscn<>uid://d4hn1jnv4erob::::res://Scenes/manager/enemy_manager.tscn<>uid://c5chbiobbfid::::res://resources/tileset.tres<>uid://b2qk4lun3auka::::res://Scenes/ui/experience_bar.tscn<>uid://ke1sjca8ix7t::::res://Scenes/ui/end_screen.tscn<>uid://b4ldv4pnb6pwr::::res://Scenes/manager/arena_time_manager.tscn<>uid://c6lnjj56rq6af::::res://Scenes/manager/experience_manager.tscn<>uid://c6b8mn6mye12d::::res://Scenes/manager/upgrade_manager.tscn<>uid://bkcuahjo37wb2::::res://Scenes/game_object/basic_enemy/basic_enemy.tscn<>uid://cbhden0us7fum::::res://Scenes/game_object/wizard_enemy/wizard_enemy.tscn
 tile_0111.png::CompressedTexture2D::4552903304061499774::1713915887::1713915887::1::::<><>::
-::res://Scenes/manager/::1713918148
+::res://Scenes/manager/::1713968981
 arena_time_manager.gd::GDScript::-1::1713877943::0::1::::<>Node<>::
 arena_time_manager.tscn::PackedScene::4444826504083453729::1713886690::0::1::::<><>::res://Scenes/manager/arena_time_manager.gd<>uid://ke1sjca8ix7t::::res://Scenes/ui/end_screen.tscn
-enemy_manager.gd::GDScript::-1::1713886689::0::1::::<>Node<>::
+enemy_manager.gd::GDScript::-1::1713968981::0::1::::<>Node<>::
 enemy_manager.tscn::PackedScene::9210025406193835761::1713918148::0::1::::<><>::res://Scenes/manager/enemy_manager.gd<>uid://cbhden0us7fum::::res://Scenes/game_object/wizard_enemy/wizard_enemy.tscn
 experience_manager.gd::GDScript::-1::1713794268::0::1::::<>Node<>::
 experience_manager.tscn::PackedScene::6972209588997135985::1713794268::0::1::::<><>::res://Scenes/manager/experience_manager.gd
@@ -99,6 +104,8 @@ experience_bar.tscn::PackedScene::4315209073216879748::1713794268::0::1::::<><>:
 MarginContainer.gd::GDScript::-1::1713794268::0::1::::<>MarginContainer<>::
 upgrade_screen.gd::GDScript::-1::1713794268::0::1::::<>CanvasLayer<>::
 upgrade_screen.tscn::PackedScene::7172774227965153604::1713794268::0::1::::<><>::res://Scenes/ui/upgrade_screen.gd<>uid://cype7eyu53mdp::::res://Scenes/ui/ability_upgrade_card.tscn
+::res://scripts/::1713918884
+weighted_table.gd::GDScript::-1::1713918884::0::1::::WeightedTable<>RefCounted<>::
 ::res://Shrouded OST/::1713803690
 ::res://Shrouded OST/Battles/::1713804606
 Another_Battle.mp3::AudioStreamMP3::6388824612287675440::1713796241::1713804606::1::::<><>::
@@ -107,7 +114,7 @@ BossThemeMaybe.mp3::AudioStreamMP3::462498212002415145::1713796069::1713804606::
 Caverns Boss Fight.mp3::AudioStreamMP3::1878329651561151461::1713742975::1713804606::1::::<><>::
 No_End.mp3::AudioStreamMP3::6265783574385936011::1713796141::1713804606::1::::<><>::
 PossibleForestBoss.mp3::AudioStreamMP3::9206842686863881284::1713796036::1713804606::1::::<><>::
-::res://Shrouded OST/Levels, Ambience, Etc/::1713804606
+::res://Shrouded OST/Levels, Ambience, Etc/::1713972016
 Castle_Theme.mp3::AudioStreamMP3::528640389147976451::1713796095::1713804606::1::::<><>::
 Caverns main.mp3::AudioStreamMP3::7366359484580584593::1713742979::1713804606::1::::<><>::
 ForestTheme.mp3::AudioStreamMP3::8849392372327577219::1713801637::1713804606::1::::<><>::

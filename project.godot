@@ -32,7 +32,11 @@ window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/BulletUpHell/plugin.cfg")
+enabled=PackedStringArray()
+
+[gui]
+
+theme/custom="res://resources/theme/theme.tres"
 
 [input]
 
