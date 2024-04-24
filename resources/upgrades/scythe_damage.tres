@@ -6,5 +6,5 @@
 script = ExtResource("1_7bfg0")
 id = "scythe_damage"
 max_quantity = 0
-name = "Spectral Scythe Enhancement"
+name = "Scythe Enhancement"
 description = "Increases Spectral Scythe attack damage by 10%."

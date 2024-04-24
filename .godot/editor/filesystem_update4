@@ -23,3 +23,12 @@ res://Scenes/Ability/sword_ability_controller/sword_ability_controller.tscn
 res://Scenes/Ability/sword_ability_controller/sword_ability_controller.gd
 res://Scenes/Ability/scythe_ability_controller/scythe_ability_controller.tscn
 res://Scenes/Ability/scythe_ability_controller/scythe_ability_controller.gd
+res://Scenes/ui/ability_upgrade_card.tscn
+res://resources/theme/theme.tres
+res://Scenes/ui/ability_upgrade_card.gd
+res://Scenes/ui/upgrade_screen.tscn
+res://Scenes/ui/upgrade_screen.gd
+res://resources/upgrades/scythe.tres
+res://Scenes/manager/enemy_manager.tscn
+res://Scenes/manager/enemy_manager.gd
+res://Scenes/manager/arena_time_manager.tscn
