@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1_t63tr")
-id = "sword_rate"
-max_quantity = 0
-name = "Quick Blade"
-description = "Increases sword attack speed by 10%."
+id = "player_speed"
+max_quantity = 2
+name = "Hermes Boots"
+description = "Increases player movement speed by 10%."

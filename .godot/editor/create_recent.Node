@@ -1,6 +1,10 @@
-VBoxContainer
+Timer
+AudioStreamPlayer2D
 AnimationPlayer
+AnimationTree
 ColorRect
+CanvasLayer
+VBoxContainer
 PointLight2D
 DirectionalLight2D
 MarginContainer
@@ -9,7 +13,3 @@ Node
 Sprite2D
 Label
 Node2D
-CollisionShape2D
-CharacterBody2D
-GPUParticles2D
-Timer

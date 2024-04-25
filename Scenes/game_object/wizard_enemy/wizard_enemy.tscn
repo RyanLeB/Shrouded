@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://cbhden0us7fum"]
+[gd_scene load_steps=18 format=3 uid="uid://cbhden0us7fum"]
 
 [ext_resource type="Script" path="res://Scenes/game_object/wizard_enemy/wizard_enemy.gd" id="1_5ye20"]
 [ext_resource type="PackedScene" uid="uid://daejyk1n81nqr" path="res://Scenes/component/health_component.tscn" id="1_sm5bj"]
@@ -9,6 +9,8 @@
 [ext_resource type="PackedScene" uid="uid://esb0ee5qnhki" path="res://Scenes/component/hit_flash_component.tscn" id="5_w22f3"]
 [ext_resource type="Shader" path="res://Scenes/component/hit_flash_component.gdshader" id="6_xbmx3"]
 [ext_resource type="PackedScene" uid="uid://bqwrtq838mmq2" path="res://Scenes/component/vial_drop_component.tscn" id="7_nebkc"]
+[ext_resource type="PackedScene" uid="uid://v23cjo2kcglc" path="res://Scenes/component/random_audio_stream_player_2d_component.tscn" id="8_vmb4n"]
+[ext_resource type="AudioStream" uid="uid://b6bfj54i05k0r" path="res://assets/audio/HitSound.ogg" id="9_e4183"]
 
 [sub_resource type="Animation" id="Animation_i671l"]
 length = 0.001
@@ -154,6 +156,12 @@ hit_flash_material = SubResource("ShaderMaterial_2uop5")
 [node name="DeathComponent" parent="." node_paths=PackedStringArray("health_component", "sprite") instance=ExtResource("2_x41o5")]
 health_component = NodePath("../HealthComponent")
 sprite = NodePath("../Visuals/Sprite2D")
+
+[node name="RandomAudioStreamPlayer2DComponent" parent="." instance=ExtResource("8_vmb4n")]
+volume_db = -8.888
+pitch_scale = 3.24
+max_distance = 300.0
+streams = Array[AudioStream]([ExtResource("9_e4183")])
 
 [node name="Visuals" type="Node2D" parent="."]
 

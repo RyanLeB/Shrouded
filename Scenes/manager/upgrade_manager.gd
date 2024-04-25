@@ -12,13 +12,14 @@ var upgrade_scythe = preload("res://resources/upgrades/scythe.tres")
 var upgrade_scythe_damage = preload("res://resources/upgrades/scythe_damage.tres")
 var upgrade_sword_rate = preload("res://resources/upgrades/sword_rate.tres")
 var upgrade_sword_damage = preload("res://resources/upgrades/sword_damage.tres")
+var upgrade_player_speed = preload("res://resources/upgrades/player_speed.tres")
 
 
 func _ready():
 	upgrade_pool.add_item(upgrade_scythe, 10)
 	upgrade_pool.add_item(upgrade_sword_rate, 10)
 	upgrade_pool.add_item(upgrade_sword_damage, 10)
-	
+	upgrade_pool.add_item(upgrade_player_speed, 5)
 	
 	experience_manager.level_up.connect(on_level_up)
 	

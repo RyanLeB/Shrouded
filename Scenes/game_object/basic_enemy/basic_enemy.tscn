@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://bkcuahjo37wb2"]
+[gd_scene load_steps=18 format=3 uid="uid://bkcuahjo37wb2"]
 
 [ext_resource type="Script" path="res://Scenes/game_object/basic_enemy/basic_enemy.gd" id="1_4rlg5"]
 [ext_resource type="Texture2D" uid="uid://bwr46uv7ehpr5" path="res://Scenes/game_object/basic_enemy/basic_enemy.png" id="2_06t44"]
@@ -9,6 +9,8 @@
 [ext_resource type="PackedScene" uid="uid://dil76toga1piy" path="res://Scenes/component/hurtbox_component.tscn" id="4_i17ic"]
 [ext_resource type="Shader" path="res://Scenes/component/hit_flash_component.gdshader" id="6_ejg4y"]
 [ext_resource type="PackedScene" uid="uid://esb0ee5qnhki" path="res://Scenes/component/hit_flash_component.tscn" id="7_r1df1"]
+[ext_resource type="PackedScene" uid="uid://v23cjo2kcglc" path="res://Scenes/component/random_audio_stream_player_2d_component.tscn" id="10_blgb1"]
+[ext_resource type="AudioStream" uid="uid://b6bfj54i05k0r" path="res://assets/audio/HitSound.ogg" id="10_c52yx"]
 
 [sub_resource type="Animation" id="Animation_2ryd7"]
 length = 0.001
@@ -153,3 +155,9 @@ offset = Vector2(0, -6)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -6.35)
 shape = SubResource("CircleShape2D_cxrvu")
+
+[node name="RandomAudioStreamPlayer2DComponent" parent="." instance=ExtResource("10_blgb1")]
+volume_db = -8.888
+pitch_scale = 3.24
+max_distance = 300.0
+streams = Array[AudioStream]([ExtResource("10_c52yx")])
