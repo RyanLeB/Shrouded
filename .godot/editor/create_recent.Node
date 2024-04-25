@@ -1,6 +1,8 @@
+VBoxContainer
+AnimationPlayer
+ColorRect
 PointLight2D
 DirectionalLight2D
-AnimationPlayer
 MarginContainer
 PanelContainer
 Node
@@ -11,4 +13,3 @@ CollisionShape2D
 CharacterBody2D
 GPUParticles2D
 Timer
-Button

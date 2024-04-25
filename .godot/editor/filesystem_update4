@@ -1,6 +1,10 @@
-res://Scenes/Main/main.tscn
+res://Scenes/game_object/Player/player.tscn
 res://resources/theme/theme.tres
 res://Scenes/component/hit_flash_component.gdshader
 res://Scenes/component/hit_flash_component_material.tres
 res://resources/tileset.tres
-res://Scenes/ui/arena_time_ui.tscn
+res://Scenes/ui/experience_bar.tscn
+res://Scenes/Main/main.tscn
+res://Scenes/ui/upgrade_screen.tscn
+res://Scenes/ui/end_screen.tscn
+res://Scenes/ui/end_screen.gd

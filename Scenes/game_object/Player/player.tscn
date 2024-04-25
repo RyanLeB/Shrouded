@@ -92,7 +92,7 @@ _data = {
 }
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_17ou2"]
-bg_color = Color(0.121569, 0.0627451, 0.0901961, 1)
+bg_color = Color(0.0862745, 0.0862745, 0.0862745, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eehp4"]
 bg_color = Color(0.92549, 0, 0.109804, 1)
@@ -100,7 +100,7 @@ border_width_left = 1
 border_width_top = 1
 border_width_right = 1
 border_width_bottom = 1
-border_color = Color(0.121569, 0.0627451, 0.0901961, 1)
+border_color = Color(0.0862745, 0.0862745, 0.0862745, 0)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ip8mj"]
 radius = 32.0
@@ -140,7 +140,7 @@ pivot_offset = Vector2(16, 3)
 theme_override_styles/background = SubResource("StyleBoxFlat_17ou2")
 theme_override_styles/fill = SubResource("StyleBoxFlat_eehp4")
 max_value = 1.0
-value = 0.5
+value = 0.6
 show_percentage = false
 
 [node name="PickupArea2D" type="Area2D" parent="."]
