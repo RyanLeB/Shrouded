@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://daejyk1n81nqr" path="res://Scenes/component/health_component.tscn" id="2_12ktq"]
 [ext_resource type="PackedScene" uid="uid://d1vp7nohu6nbc" path="res://Scenes/component/velocity_component.tscn" id="2_rp1qu"]
 [ext_resource type="PackedScene" uid="uid://c5og622r3s70n" path="res://Scenes/Ability/sword_ability_controller/sword_ability_controller.tscn" id="2_tyonw"]
-[ext_resource type="Texture2D" uid="uid://bkxfufypjoxqd" path="res://Pixels resources/Characters/Character-40.png" id="5_bpft4"]
+[ext_resource type="Texture2D" uid="uid://byo3xu8mu6dna" path="res://Pixels resources/Characters/Character-44.png" id="5_enggb"]
 
 [sub_resource type="Animation" id="Animation_vm5y7"]
 length = 0.001
@@ -138,9 +138,9 @@ one_shot = true
 [node name="HealthBar" type="ProgressBar" parent="."]
 custom_minimum_size = Vector2(32, 6)
 offset_left = -16.0
-offset_top = 4.0
+offset_top = 7.0
 offset_right = 16.0
-offset_bottom = 10.0
+offset_bottom = 13.0
 pivot_offset = Vector2(16, 3)
 theme_override_styles/background = SubResource("StyleBoxFlat_17ou2")
 theme_override_styles/fill = SubResource("StyleBoxFlat_eehp4")
@@ -162,7 +162,7 @@ shape = SubResource("CircleShape2D_ip8mj")
 [node name="Sprite2D" type="Sprite2D" parent="Visuals"]
 position = Vector2(0, -3)
 scale = Vector2(0.6, 0.6)
-texture = ExtResource("5_bpft4")
+texture = ExtResource("5_enggb")
 offset = Vector2(0, -8)
 
 [node name="CollisionArea2D" type="Area2D" parent="."]
