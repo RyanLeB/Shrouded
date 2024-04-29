@@ -1,22 +1,26 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714138941
+::res://::1714398074
 icon.svg::CompressedTexture2D::6614760068740573587::1713794268::1713804606::1::::<><>::
 LICENSE.md::TextFile::-1::1713908607::0::1::::<><>::
 README.md::TextFile::-1::1713794268::0::1::::<><>::
 ::res://assets/::1714060405
-::res://assets/audio/::1714136515
+::res://assets/audio/::1714392585
 DeathSound.ogg::AudioStreamOggVorbis::5049438734468038162::1714062654::1714062654::1::::<><>::
-default_bus_layout.tres::AudioBusLayout::2753991253846394750::1714061264::0::1::::<><>::
+default_bus_layout.tres::AudioBusLayout::2753991253846394750::1714392585::0::1::::<><>::
 HitSound.ogg::AudioStreamOggVorbis::4564660492233056843::1714060395::1714060410::1::::<><>::
 ::res://assets/environment/::1713794268
 tilemap_packed.png::CompressedTexture2D::7657654321577555965::1713794268::1713794268::1::::<><>::
 ::res://assets/UI/::1714056759
 ui.png::CompressedTexture2D::6905146853958178960::1714056759::1714056759::1::::<><>::
-::res://Concept Art design for Shrouded/::1714392496
+::res://Concept Art design for Shrouded/::1714392502
 Concept art-cavern.jpg::CompressedTexture2D::5987731309406539844::1714002662::1714002669::1::::<><>::
 Concept art-dungeon.jpg::CompressedTexture2D::2657723835179234461::1714002662::1714002669::1::::<><>::
 Dark-forest-Color21.jpg::CompressedTexture2D::873737819620246494::1714392496::1714392502::1::::<><>::
 Hub-area-Color2.jpg::CompressedTexture2D::4566363369994824604::1714392496::1714392502::1::::<><>::
+::res://Pixels resources/::1714398074
+::res://Pixels resources/Characters/::1714398074
+Character-32.png::CompressedTexture2D::8329465585632717835::1714398074::1714398093::1::::<><>::
+Character-40.png::CompressedTexture2D::3136129409644922463::1714398074::1714398093::1::::<><>::
 ::res://resources/::1714078253
 tileset.tres::TileSet::202443019959988351::1714078253::0::1::::<><>::uid://dhdoph0o7degj::::res://assets/environment/tilemap_packed.png
 ::res://resources/theme/::1714078253
@@ -49,7 +53,7 @@ sword_ability_controller.tscn::PackedScene::6907829087302399119::1714145621::0::
 ::res://Scenes/autoload/::1714058598
 game_event.gd::GDScript::-1::1714057964::0::1::::<>Node<>::
 game_event.tscn::PackedScene::8189361450873458168::1714058598::0::1::::<><>::res://Scenes/autoload/game_event.gd
-::res://Scenes/component/::1714145621
+::res://Scenes/component/::1714393050
 death_component.gd::GDScript::-1::1714063281::0::1::::<>Node2D<>::
 death_component.tscn::PackedScene::8122001050448361588::1714064145::0::1::::<><>::res://Scenes/component/death_component.gd<>uid://bwr46uv7ehpr5::::res://Scenes/game_object/basic_enemy/basic_enemy.png<>uid://v23cjo2kcglc::::res://Scenes/component/random_audio_stream_player_2d_component.tscn<>uid://b6bfj54i05k0r::::res://assets/audio/HitSound.ogg
 health_component.gd::GDScript::-1::1713794268::0::1::::HealthComponent<>Node<>::
@@ -57,7 +61,7 @@ health_component.tscn::PackedScene::7168109440118371301::1713983121::0::1::::<><
 hitbox_component.gd::GDScript::-1::1713794268::0::1::::HitboxComponent<>Area2D<>::
 hitbox_component.tscn::PackedScene::6461694520941450149::1713794268::0::1::::<><>::res://Scenes/component/hitbox_component.gd
 hit_flash_component.gd::GDScript::-1::1713980153::0::1::::<>Node<>::
-hit_flash_component.gdshader::Shader::-1::1714145621::0::1::::<><>::
+hit_flash_component.gdshader::Shader::-1::1714393050::0::1::::<><>::
 hit_flash_component.tscn::PackedScene::318019753623176096::1713981754::0::1::::<><>::res://Scenes/component/hit_flash_component.gd<>uid://dwpukudihghtq::::res://Scenes/component/hit_flash_component_material.tres
 hit_flash_component_material.tres::ShaderMaterial::8735615530695788946::1714078253::0::1::::<><>::res://Scenes/component/hit_flash_component.gdshader
 hurtbox_component.gd::GDScript::-1::1714060736::0::1::::HurtboxComponent<>Area2D<>::
@@ -96,11 +100,11 @@ player.tscn::PackedScene::5333605090244745071::1714145621::0::1::::<><>::res://S
 wizard_enemy.gd::GDScript::-1::1714062392::0::1::::<>CharacterBody2D<>::
 wizard_enemy.png::CompressedTexture2D::1708717067316065836::1713915924::1713915972::1::::<><>::
 wizard_enemy.tscn::PackedScene::4857670871814260904::1714064145::0::1::::<><>::res://Scenes/game_object/wizard_enemy/wizard_enemy.gd<>uid://daejyk1n81nqr::::res://Scenes/component/health_component.tscn<>uid://d1vp7nohu6nbc::::res://Scenes/component/velocity_component.tscn<>uid://dnymf2jxl2j6k::::res://Scenes/component/death_component.tscn<>uid://ylyk5pbs3w41::::res://Scenes/game_object/wizard_enemy/wizard_enemy.png<>uid://dil76toga1piy::::res://Scenes/component/hurtbox_component.tscn<>uid://esb0ee5qnhki::::res://Scenes/component/hit_flash_component.tscn<>res://Scenes/component/hit_flash_component.gdshader<>uid://bqwrtq838mmq2::::res://Scenes/component/vial_drop_component.tscn<>uid://v23cjo2kcglc::::res://Scenes/component/random_audio_stream_player_2d_component.tscn<>uid://b6bfj54i05k0r::::res://assets/audio/HitSound.ogg
-::res://Scenes/Main/::1714145621
+::res://Scenes/Main/::1714393050
 main.gd::GDScript::-1::1713906393::0::1::::<>Node<>::
-main.tscn::PackedScene::3258721576015603899::1714145621::0::1::::<><>::res://Scenes/Main/main.gd<>uid://blcdlcvxso8ca::::res://Scenes/game_object/game_camera/game_camera.tscn<>uid://bbievodkkjif6::::res://Scenes/ui/arena_time_ui.tscn<>uid://ch8vxxiweatbb::::res://Scenes/game_object/Player/player.tscn<>uid://d4hn1jnv4erob::::res://Scenes/manager/enemy_manager.tscn<>uid://c5chbiobbfid::::res://resources/tileset.tres<>uid://b2qk4lun3auka::::res://Scenes/ui/experience_bar.tscn<>uid://ke1sjca8ix7t::::res://Scenes/ui/end_screen.tscn<>uid://b4ldv4pnb6pwr::::res://Scenes/manager/arena_time_manager.tscn<>uid://3mabw7g8m1pk::::res://Scenes/ui/vignette.tscn<>uid://c6lnjj56rq6af::::res://Scenes/manager/experience_manager.tscn<>uid://c6b8mn6mye12d::::res://Scenes/manager/upgrade_manager.tscn<>uid://bkcuahjo37wb2::::res://Scenes/game_object/basic_enemy/basic_enemy.tscn<>uid://cbhden0us7fum::::res://Scenes/game_object/wizard_enemy/wizard_enemy.tscn
+main.tscn::PackedScene::3258721576015603899::1714393049::0::1::::<><>::res://Scenes/Main/main.gd<>uid://blcdlcvxso8ca::::res://Scenes/game_object/game_camera/game_camera.tscn<>uid://bbievodkkjif6::::res://Scenes/ui/arena_time_ui.tscn<>uid://ch8vxxiweatbb::::res://Scenes/game_object/Player/player.tscn<>uid://d4hn1jnv4erob::::res://Scenes/manager/enemy_manager.tscn<>uid://c5chbiobbfid::::res://resources/tileset.tres<>uid://b2qk4lun3auka::::res://Scenes/ui/experience_bar.tscn<>uid://ke1sjca8ix7t::::res://Scenes/ui/end_screen.tscn<>uid://b4ldv4pnb6pwr::::res://Scenes/manager/arena_time_manager.tscn<>uid://3mabw7g8m1pk::::res://Scenes/ui/vignette.tscn<>uid://c6lnjj56rq6af::::res://Scenes/manager/experience_manager.tscn<>uid://c6b8mn6mye12d::::res://Scenes/manager/upgrade_manager.tscn<>uid://bkcuahjo37wb2::::res://Scenes/game_object/basic_enemy/basic_enemy.tscn<>uid://cbhden0us7fum::::res://Scenes/game_object/wizard_enemy/wizard_enemy.tscn
 tile_0111.png::CompressedTexture2D::4552903304061499774::1713915887::1713915887::1::::<><>::
-::res://Scenes/manager/::1714145621
+::res://Scenes/manager/::1714393050
 arena_time_manager.gd::GDScript::-1::1714138822::0::1::::<>Node<>::
 arena_time_manager.tscn::PackedScene::4444826504083453729::1714064157::0::1::::<><>::res://Scenes/manager/arena_time_manager.gd<>uid://ke1sjca8ix7t::::res://Scenes/ui/end_screen.tscn
 enemy_manager.gd::GDScript::-1::1713999202::0::1::::<>Node<>::
@@ -108,8 +112,8 @@ enemy_manager.tscn::PackedScene::9210025406193835761::1714000437::0::1::::<><>::
 experience_manager.gd::GDScript::-1::1713794268::0::1::::<>Node<>::
 experience_manager.tscn::PackedScene::6972209588997135985::1713794268::0::1::::<><>::res://Scenes/manager/experience_manager.gd
 upgrade_manager.gd::GDScript::-1::1714139393::0::1::::<>Node<>::
-upgrade_manager.tscn::PackedScene::6952785719477391969::1714145621::0::1::::<><>::res://Scenes/manager/upgrade_manager.gd<>uid://dagssqm3no7pg::::res://Scenes/ui/upgrade_screen.tscn
-::res://Scenes/ui/::1714145621
+upgrade_manager.tscn::PackedScene::6952785719477391969::1714393050::0::1::::<><>::res://Scenes/manager/upgrade_manager.gd<>uid://dagssqm3no7pg::::res://Scenes/ui/upgrade_screen.tscn
+::res://Scenes/ui/::1714393050
 ability_upgrade_card.gd::GDScript::-1::1714002379::0::1::::<>PanelContainer<>::
 ability_upgrade_card.tscn::PackedScene::6488639542504518117::1714002603::0::1::::<><>::res://Scenes/ui/ability_upgrade_card.gd
 arena_time_ui.gd::GDScript::-1::1713794268::0::1::::<>CanvasLayer<>::
@@ -124,7 +128,7 @@ MarginContainer.gd::GDScript::-1::1713794268::0::1::::<>MarginContainer<>::
 upgrade_screen.gd::GDScript::-1::1714052271::0::1::::<>CanvasLayer<>::
 upgrade_screen.tscn::PackedScene::7172774227965153604::1714056327::0::1::::<><>::res://Scenes/ui/upgrade_screen.gd<>uid://cype7eyu53mdp::::res://Scenes/ui/ability_upgrade_card.tscn
 vignette.gd::GDScript::-1::1714058268::0::1::::<>CanvasLayer<>::
-vignette.gdshader::Shader::-1::1714145621::0::1::::<><>::
+vignette.gdshader::Shader::-1::1714393050::0::1::::<><>::
 vignette.tscn::PackedScene::1990063145972187296::1714058598::0::1::::<><>::res://Scenes/ui/vignette.gdshader<>res://Scenes/ui/vignette.gd
 ::res://scripts/::1713981905
 weighted_table.gd::GDScript::-1::1713981905::0::1::::WeightedTable<>RefCounted<>::
