@@ -10,7 +10,7 @@
 [ext_resource type="Shader" path="res://Scenes/component/hit_flash_component.gdshader" id="6_xbmx3"]
 [ext_resource type="PackedScene" uid="uid://bqwrtq838mmq2" path="res://Scenes/component/vial_drop_component.tscn" id="7_nebkc"]
 [ext_resource type="PackedScene" uid="uid://v23cjo2kcglc" path="res://Scenes/component/random_audio_stream_player_2d_component.tscn" id="8_vmb4n"]
-[ext_resource type="AudioStream" uid="uid://b6bfj54i05k0r" path="res://assets/audio/HitSound.ogg" id="9_e4183"]
+[ext_resource type="AudioStream" uid="uid://blgwyya674de" path="res://assets/audio/EnemyHit.wav" id="9_pv78k"]
 
 [sub_resource type="Animation" id="Animation_i671l"]
 length = 0.001
@@ -158,10 +158,11 @@ health_component = NodePath("../HealthComponent")
 sprite = NodePath("../Visuals/Sprite2D")
 
 [node name="RandomAudioStreamPlayer2DComponent" parent="." instance=ExtResource("8_vmb4n")]
-volume_db = -8.888
+volume_db = -17.0
 pitch_scale = 3.24
-max_distance = 300.0
-streams = Array[AudioStream]([ExtResource("9_e4183")])
+streams = Array[AudioStream]([ExtResource("9_pv78k")])
+min_pitch = 1.0
+max_pitch = 1.5
 
 [node name="Visuals" type="Node2D" parent="."]
 

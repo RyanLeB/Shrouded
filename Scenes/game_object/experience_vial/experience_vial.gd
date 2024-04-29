@@ -22,7 +22,10 @@ func tween_collect(percent: float, start_position: Vector2):
 
 func collect():
 	GameEvent.emit_experience_vial_collected(1)
+	$RandomAudioStreamPlayer2DComponent.play_random()
+	await get_tree().create_timer(0.1).timeout
 	queue_free()
+	
 
 func disable_collision():
 	collision_shape_2d.disabled = true
@@ -35,6 +38,6 @@ func on_area_entered(other_area: Area2D):
 	.set_ease(Tween.EASE_IN).set_trans(Tween.TRANS_BACK)
 	tween.tween_property(sprite, "scale", Vector2.ZERO, .05).set_delay(.45)
 	tween.chain()
-	tween.tween_callback(collect)
 	
+	tween.tween_callback(collect)
 	

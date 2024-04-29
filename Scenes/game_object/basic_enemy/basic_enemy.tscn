@@ -10,7 +10,7 @@
 [ext_resource type="Shader" path="res://Scenes/component/hit_flash_component.gdshader" id="6_ejg4y"]
 [ext_resource type="PackedScene" uid="uid://esb0ee5qnhki" path="res://Scenes/component/hit_flash_component.tscn" id="7_r1df1"]
 [ext_resource type="PackedScene" uid="uid://v23cjo2kcglc" path="res://Scenes/component/random_audio_stream_player_2d_component.tscn" id="10_blgb1"]
-[ext_resource type="AudioStream" uid="uid://b6bfj54i05k0r" path="res://assets/audio/HitSound.ogg" id="10_c52yx"]
+[ext_resource type="AudioStream" uid="uid://blgwyya674de" path="res://assets/audio/EnemyHit.wav" id="11_52oja"]
 
 [sub_resource type="Animation" id="Animation_2ryd7"]
 length = 0.001
@@ -157,6 +157,8 @@ position = Vector2(0, -6.35)
 shape = SubResource("CircleShape2D_cxrvu")
 
 [node name="RandomAudioStreamPlayer2DComponent" parent="." instance=ExtResource("10_blgb1")]
-volume_db = -8.888
+volume_db = -17.0
 pitch_scale = 3.24
-streams = Array[AudioStream]([ExtResource("10_c52yx")])
+streams = Array[AudioStream]([ExtResource("11_52oja")])
+min_pitch = 1.0
+max_pitch = 1.5

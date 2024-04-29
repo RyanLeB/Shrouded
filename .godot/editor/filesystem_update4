@@ -21,3 +21,10 @@ res://Scenes/Ability/sword-ability/sword_ability.tscn
 res://resources/upgrades/scythe.tres
 res://Scenes/manager/upgrade_manager.gd
 res://assets/audio/default_bus_layout.tres
+res://Scenes/game_object/experience_vial/experience_vial.tscn
+res://Scenes/game_object/experience_vial/experience_vial.gd
+res://Scenes/component/vial_drop_component.tscn
+res://Scenes/component/random_audio_stream_player_2d_component.gd
+res://Scenes/game_object/Player/player.gd
+res://Scenes/game_object/wizard_enemy/wizard_enemy.tscn
+res://Scenes/component/death_component.tscn

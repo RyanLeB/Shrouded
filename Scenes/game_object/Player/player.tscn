@@ -1,10 +1,12 @@
-[gd_scene load_steps=14 format=3 uid="uid://ch8vxxiweatbb"]
+[gd_scene load_steps=16 format=3 uid="uid://ch8vxxiweatbb"]
 
 [ext_resource type="Script" path="res://Scenes/game_object/Player/player.gd" id="1_fabc8"]
 [ext_resource type="PackedScene" uid="uid://daejyk1n81nqr" path="res://Scenes/component/health_component.tscn" id="2_12ktq"]
 [ext_resource type="PackedScene" uid="uid://d1vp7nohu6nbc" path="res://Scenes/component/velocity_component.tscn" id="2_rp1qu"]
 [ext_resource type="PackedScene" uid="uid://c5og622r3s70n" path="res://Scenes/Ability/sword_ability_controller/sword_ability_controller.tscn" id="2_tyonw"]
 [ext_resource type="Texture2D" uid="uid://byo3xu8mu6dna" path="res://Pixels resources/Characters/Character-44.png" id="5_enggb"]
+[ext_resource type="PackedScene" uid="uid://v23cjo2kcglc" path="res://Scenes/component/random_audio_stream_player_2d_component.tscn" id="5_xxjft"]
+[ext_resource type="AudioStream" uid="uid://cqrkpkxq4b5ac" path="res://assets/audio/HITSOUNDEFFECT.mp3" id="6_1pvyj"]
 
 [sub_resource type="Animation" id="Animation_vm5y7"]
 length = 0.001
@@ -130,6 +132,12 @@ acceleration = 25.0
 [node name="Abilities" type="Node" parent="."]
 
 [node name="SwordAbilityController" parent="Abilities" instance=ExtResource("2_tyonw")]
+
+[node name="HitRandomStreamPlayer" parent="." instance=ExtResource("5_xxjft")]
+volume_db = -2.578
+streams = Array[AudioStream]([ExtResource("6_1pvyj")])
+min_pitch = 0.6
+max_pitch = 0.7
 
 [node name="DamageIntervalTimer" type="Timer" parent="."]
 wait_time = 0.5
