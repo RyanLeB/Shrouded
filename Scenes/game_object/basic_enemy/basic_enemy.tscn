@@ -159,5 +159,4 @@ shape = SubResource("CircleShape2D_cxrvu")
 [node name="RandomAudioStreamPlayer2DComponent" parent="." instance=ExtResource("10_blgb1")]
 volume_db = -8.888
 pitch_scale = 3.24
-max_distance = 300.0
 streams = Array[AudioStream]([ExtResource("10_c52yx")])

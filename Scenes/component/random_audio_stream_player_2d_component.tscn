@@ -3,5 +3,6 @@
 [ext_resource type="Script" path="res://Scenes/component/random_audio_stream_player_2d_component.gd" id="1_2tk74"]
 
 [node name="RandomAudioStreamPlayer2DComponent" type="AudioStreamPlayer2D"]
+max_distance = 300.0
 bus = &"SFX"
 script = ExtResource("1_2tk74")
