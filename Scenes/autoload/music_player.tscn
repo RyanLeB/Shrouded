@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4vqkm7afhs0l"]
+
+[ext_resource type="AudioStream" uid="uid://caej34eqsidjv" path="res://Shrouded OST/Levels, Ambience, Etc/Dungeon Theme.mp3" id="1_tptlw"]
+[ext_resource type="Script" path="res://Scenes/autoload/music_player.gd" id="2_hirxl"]
+
+[node name="MusicPlayer" type="AudioStreamPlayer"]
+process_mode = 3
+stream = ExtResource("1_tptlw")
+volume_db = -20.0
+autoplay = true
+bus = &"Music"
+script = ExtResource("2_hirxl")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true

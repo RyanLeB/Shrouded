@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://caej34eqsidjv"
+path="res://.godot/imported/Dungeon Theme.mp3-15204d33b51e73cdfbf6a465ddabecba.mp3str"
+
+[deps]
+
+source_file="res://Shrouded OST/Levels, Ambience, Etc/Dungeon Theme.mp3"
+dest_files=["res://.godot/imported/Dungeon Theme.mp3-15204d33b51e73cdfbf6a465ddabecba.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

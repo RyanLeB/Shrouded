@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://mqcylt84yxh"
+path="res://.godot/imported/CalmTune.mp3-0eec4653d4a0259c3e12f65e018e6f09.mp3str"
+
+[deps]
+
+source_file="res://Shrouded OST/Levels, Ambience, Etc/CalmTune.mp3"
+dest_files=["res://.godot/imported/CalmTune.mp3-0eec4653d4a0259c3e12f65e018e6f09.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

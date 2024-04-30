@@ -1,12 +1,12 @@
-res://Scenes/component
 res://Scenes/ui
+res://Scenes/autoload
+res://Scenes/component
 res://resources/theme
 res://Scenes/game_object/wizard_enemy
 res://
 res://Scenes/manager
 res://resources/upgrades
 res://Scenes/game_object/Player
-res://Scenes/autoload
 res://Scenes/game_object/experience_vial
 res://Scenes/Ability
 res://Scenes/Ability/sword-ability

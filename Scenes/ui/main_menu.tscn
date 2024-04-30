@@ -1,0 +1,59 @@
+[gd_scene load_steps=5 format=3 uid="uid://bo22ueoin0rfm"]
+
+[ext_resource type="PackedScene" uid="uid://b4wwookp53201" path="res://Scenes/ui/sound_button.tscn" id="1_ojt6s"]
+[ext_resource type="Script" path="res://Scenes/ui/main_menu.gd" id="1_svep3"]
+[ext_resource type="PackedScene" uid="uid://bkcsjsk2ciff" path="res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn" id="2_suudq"]
+[ext_resource type="AudioStream" uid="uid://b33608sdgoyqm" path="res://Shrouded OST/Main Theme/Shrouded.mp3" id="3_m0kt2"]
+
+[node name="MainMenu" type="CanvasLayer"]
+script = ExtResource("1_svep3")
+
+[node name="BackgroundMusicPlayer" parent="." instance=ExtResource("2_suudq")]
+stream = ExtResource("3_m0kt2")
+volume_db = -10.223
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/PanelContainer/MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Shrouded"
+
+[node name="PlayButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource("1_ojt6s")]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Play"
+
+[node name="OptionsButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource("1_ojt6s")]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Options
+"
+
+[node name="QuitButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource("1_ojt6s")]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Quit Game
+"
