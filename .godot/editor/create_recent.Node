@@ -1,3 +1,4 @@
+TileMap
 MarginContainer
 PanelContainer
 Label
@@ -11,4 +12,3 @@ AnimationPlayer
 AnimationTree
 ColorRect
 PointLight2D
-DirectionalLight2D

@@ -1,13 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714488023
+::res://::1714488186
 icon.svg::CompressedTexture2D::6614760068740573587::1713794268::1713804606::1::::<><>::
 LICENSE.md::TextFile::-1::1713908607::0::1::::<><>::
 README.md::TextFile::-1::1713794268::0::1::::<><>::
 ::res://addons/::1714488127
-::res://addons/dialogue_manager/::1714488139
+::res://addons/dialogue_manager/::1714488304
 constants.gd::GDScript::-1::1714488127::0::1::::<>Node<>::
 dialogue_label.gd::GDScript::-1::1714488127::0::1::::DialogueLabel<>RichTextLabel<>res://addons/dialogue_manager/assets/icon.svg::
-dialogue_label.tscn::PackedScene::5518490004210093266::1714488127::0::1::::<><>::res://addons/dialogue_manager/dialogue_label.gd
+dialogue_label.tscn::PackedScene::5518490004210093266::1714488304::0::1::::<><>::res://addons/dialogue_manager/dialogue_label.gd
 dialogue_line.gd::GDScript::-1::1714488127::0::1::::DialogueLine<>RefCounted<>::
 dialogue_manager.gd::GDScript::-1::1714488127::0::1::::<>Node<>::
 dialogue_reponses_menu.gd::GDScript::-1::1714488127::0::1::::DialogueResponsesMenu<>VBoxContainer<>res://addons/dialogue_manager/assets/responses_menu.svg::
@@ -19,14 +19,14 @@ plugin.cfg::TextFile::-1::1714488127::0::1::::<><>::
 plugin.gd::GDScript::-1::1714488127::0::1::::<>EditorPlugin<>::
 settings.gd::GDScript::-1::1714488127::0::1::::<>Node<>::
 test_scene.gd::GDScript::-1::1714488127::0::1::::BaseDialogueTestScene<>Node2D<>::
-test_scene.tscn::PackedScene::7710882382057798857::1714488139::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
+test_scene.tscn::PackedScene::7710882382057798857::1714488304::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
 ::res://addons/dialogue_manager/assets/::1714488128
 icon.svg::CompressedTexture2D::9148339284877624195::1714488127::1714488128::1::::<><>::
 responses_menu.svg::CompressedTexture2D::8371359403825774630::1714488127::1714488128::1::::<><>::
 update.svg::CompressedTexture2D::9126631778427806641::1714488127::1714488128::1::::<><>::
-::res://addons/dialogue_manager/components/::1714488127
+::res://addons/dialogue_manager/components/::1714488303
 code_edit.gd::GDScript::-1::1714488127::0::1::::<>CodeEdit<>::
-code_edit.tscn::PackedScene::5379618807048408118::1714488127::0::1::::<><>::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>res://addons/dialogue_manager/components/code_edit.gd
+code_edit.tscn::PackedScene::5379618807048408118::1714488303::0::1::::<><>::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>res://addons/dialogue_manager/components/code_edit.gd
 code_edit_syntax_highlighter.gd::GDScript::-1::1714488127::0::1::::<>SyntaxHighlighter<>::
 dialogue_cache.gd::GDScript::-1::1714488127::0::1::::<>Node<>::
 download_update_panel.gd::GDScript::-1::1714488127::0::1::::<>Control<>::
@@ -47,9 +47,9 @@ title_list.gd::GDScript::-1::1714488127::0::1::::<>VBoxContainer<>::
 title_list.tscn::PackedScene::6134415340044566558::1714488127::0::1::::<><>::res://addons/dialogue_manager/components/title_list.gd
 update_button.gd::GDScript::-1::1714488127::0::1::::<>Button<>::
 update_button.tscn::PackedScene::5825087957514786930::1714488127::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk::::res://addons/dialogue_manager/components/download_update_panel.tscn
-::res://addons/dialogue_manager/example_balloon/::1714488170
+::res://addons/dialogue_manager/example_balloon/::1714488345
 example_balloon.gd::GDScript::-1::1714488127::0::1::::<>CanvasLayer<>::
-example_balloon.tscn::PackedScene::2304415056852043862::1714488170::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
+example_balloon.tscn::PackedScene::2304415056852043862::1714488345::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
 small_example_balloon.tscn::PackedScene::1883859960814163368::1714488127::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
 ::res://addons/dialogue_manager/l10n/::1714488127
 en.mo::Translation::-1::1714488127::0::1::::<><>::
@@ -72,10 +72,10 @@ plugin.cfg::TextFile::-1::1714487750::0::1::::<><>::
 README.md::TextFile::-1::1714487750::0::1::::<><>::
 ::res://addons/maaacks_music_controller/base/::1714487750
 ::res://addons/maaacks_music_controller/base/scenes/::1714487750
-::res://addons/maaacks_music_controller/base/scenes/Autoloads/::1714488169
-ProjectMusicController.tscn::PackedScene::1256348865492462175::1714488169::0::1::::<><>::res://addons/maaacks_music_controller/base/scripts/MusicController.gd
-::res://addons/maaacks_music_controller/base/scenes/MusicPlayers/::1714488169
-BackgroundMusicPlayer.tscn::PackedScene::90986700461605327::1714488169::0::1::::<><>::
+::res://addons/maaacks_music_controller/base/scenes/Autoloads/::1714488345
+ProjectMusicController.tscn::PackedScene::1256348865492462175::1714488345::0::1::::<><>::res://addons/maaacks_music_controller/base/scripts/MusicController.gd
+::res://addons/maaacks_music_controller/base/scenes/MusicPlayers/::1714506318
+BackgroundMusicPlayer.tscn::PackedScene::90986700461605327::1714506318::0::1::::<><>::
 ::res://addons/maaacks_music_controller/base/scripts/::1714487750
 MusicController.gd::GDScript::-1::1714487750::0::1::::MusicController<>Node<>::
 ::res://assets/::1714060405
@@ -106,15 +106,70 @@ Concept art-cavern.jpg::CompressedTexture2D::5987731309406539844::1714002662::17
 Concept art-dungeon.jpg::CompressedTexture2D::2657723835179234461::1714002662::1714002669::1::::<><>::
 Dark-forest-Color21.jpg::CompressedTexture2D::873737819620246494::1714392496::1714392502::1::::<><>::
 Hub-area-Color2.jpg::CompressedTexture2D::4566363369994824604::1714392496::1714392502::1::::<><>::
-::res://Pixels resources/::1714398074
+::res://Pixels resources/::1714566414
 ::res://Pixels resources/Characters/::1714420250
 Character-32.png::CompressedTexture2D::8329465585632717835::1714398074::1714398093::1::::<><>::
 Character-40.png::CompressedTexture2D::3136129409644922463::1714398074::1714398093::1::::<><>::
 Character-44.png::CompressedTexture2D::4101596470638711486::1714398732::1714398737::1::::<><>::
 Character-50.png::CompressedTexture2D::7507030635572463016::1714398732::1714398737::1::::<><>::
 Character-64.png::CompressedTexture2D::1500293551231918765::1714398732::1714398737::1::::<><>::
-::res://resources/::1714078253
-tileset.tres::TileSet::202443019959988351::1714078253::0::1::::<><>::uid://dhdoph0o7degj::::res://assets/environment/tilemap_packed.png
+::res://Pixels resources/Dungeon/::1714568577
+Barrel-001.png::CompressedTexture2D::2383992011370923701::1714566414::1714566420::1::::<><>::
+Box-001.png::CompressedTexture2D::8767431888798292738::1714566414::1714566420::1::::<><>::
+Candle-001.png::CompressedTexture2D::4972373442100391565::1714566414::1714566420::1::::<><>::
+Cemetery-001.png::CompressedTexture2D::8292612500076517044::1714566414::1714566420::1::::<><>::
+Earth-001.png::CompressedTexture2D::2556273063872514351::1714566414::1714566420::1::::<><>::
+Earth-002.png::CompressedTexture2D::6901631969178603430::1714566414::1714566420::1::::<><>::
+Earth-003.png::CompressedTexture2D::7680860018110426811::1714566414::1714566420::1::::<><>::
+Earth-004.png::CompressedTexture2D::7579954582512176962::1714566414::1714566420::1::::<><>::
+Earth-005.png::CompressedTexture2D::3369451138688768525::1714566414::1714566420::1::::<><>::
+Earth-006.png::CompressedTexture2D::668544107785917374::1714566414::1714566420::1::::<><>::
+Earth-007.png::CompressedTexture2D::904685903899382592::1714566414::1714566420::1::::<><>::
+Earth-008.png::CompressedTexture2D::3622749297776285549::1714566414::1714566420::1::::<><>::
+Earth-009.png::CompressedTexture2D::8377356245347148200::1714566414::1714566420::1::::<><>::
+Earth-010.png::CompressedTexture2D::3061756105124204129::1714566414::1714566420::1::::<><>::
+Earth-011.png::CompressedTexture2D::4737467004091194063::1714566414::1714566420::1::::<><>::
+Earth-012.png::CompressedTexture2D::4407242662383820123::1714566414::1714566420::1::::<><>::
+Earth-013.png::CompressedTexture2D::7158391813882464245::1714566414::1714566420::1::::<><>::
+Earth-014.png::CompressedTexture2D::5043596267322354495::1714566414::1714566420::1::::<><>::
+Floor-001.png::CompressedTexture2D::6512366711891238075::1714566414::1714566420::1::::<><>::
+Floor-002.png::CompressedTexture2D::6837387306110489721::1714566414::1714566420::1::::<><>::
+Floor-003.png::CompressedTexture2D::944993780059929073::1714566414::1714566420::1::::<><>::
+Floor-004.png::CompressedTexture2D::8143028029523705733::1714566414::1714566420::1::::<><>::
+Floor-005.png::CompressedTexture2D::7556275025840019713::1714566414::1714566420::1::::<><>::
+Floor-006.png::CompressedTexture2D::2209433956345675302::1714566414::1714566420::1::::<><>::
+Floor-007.png::CompressedTexture2D::4721670310474380650::1714566414::1714566420::1::::<><>::
+Floor-008.png::CompressedTexture2D::2476241471966501221::1714566414::1714566420::1::::<><>::
+Floor-009.png::CompressedTexture2D::4474801979741564255::1714566414::1714566420::1::::<><>::
+Floor-010.png::CompressedTexture2D::1201109908953587617::1714566414::1714566420::1::::<><>::
+Floor-011.png::CompressedTexture2D::3473362818221873908::1714566414::1714566420::1::::<><>::
+Floor-012.png::CompressedTexture2D::6710216996734715881::1714566414::1714566420::1::::<><>::
+Floor-013.png::CompressedTexture2D::2660690474493435330::1714566414::1714566420::1::::<><>::
+Gate-001.png::CompressedTexture2D::7034280275361362138::1714566414::1714566420::1::::<><>::
+Gate-002.png::CompressedTexture2D::4444319595308829733::1714566414::1714566420::1::::<><>::
+Jar-001.png::CompressedTexture2D::7666824066290416291::1714566414::1714566420::1::::<><>::
+Jar-002.png::CompressedTexture2D::7516351338537429876::1714566414::1714566420::1::::<><>::
+Pillar-001.png::CompressedTexture2D::6846527248573556209::1714566414::1714566420::1::::<><>::
+Pillar-002.png::CompressedTexture2D::8962320462463323322::1714566414::1714566420::1::::<><>::
+Pillar-003.png::CompressedTexture2D::1819538508194629168::1714566414::1714566420::1::::<><>::
+Pillar-004.png::CompressedTexture2D::8785162131565309138::1714566414::1714566420::1::::<><>::
+Pillar-005.png::CompressedTexture2D::3353110682997593288::1714566414::1714566420::1::::<><>::
+Sample-image2.png::CompressedTexture2D::1352568222320235692::1714566414::1714566420::1::::<><>::
+Sample-image.png::CompressedTexture2D::6657511023551931137::1714566414::1714566420::1::::<><>::
+Sample-imageTRANS.png::CompressedTexture2D::8245965500605559614::1714568577::1714568577::1::::<><>::
+Stone-001.png::CompressedTexture2D::5091701864390634839::1714566415::1714566420::1::::<><>::
+Stone-002.png::CompressedTexture2D::7055401697047554555::1714566415::1714566420::1::::<><>::
+Stone-003.png::CompressedTexture2D::1450763764641027721::1714566415::1714566420::1::::<><>::
+Stone-004.png::CompressedTexture2D::5279956148688729977::1714566415::1714566420::1::::<><>::
+Stone-005.png::CompressedTexture2D::2930184574697630376::1714566415::1714566420::1::::<><>::
+Stone-006.png::CompressedTexture2D::7952529486405196055::1714566415::1714566420::1::::<><>::
+Wall-001.png::CompressedTexture2D::4070598399066970929::1714566415::1714566420::1::::<><>::
+Wall-002.png::CompressedTexture2D::4945275171350074887::1714566415::1714566420::1::::<><>::
+Wall-003.png::CompressedTexture2D::8642697791203510519::1714566415::1714566420::1::::<><>::
+Wall-004.png::CompressedTexture2D::227713847110688122::1714566415::1714566420::1::::<><>::
+Web-001.png::CompressedTexture2D::3865048633692670373::1714566415::1714566420::1::::<><>::
+::res://resources/::1714567914
+tileset.tres::TileSet::202443019959988351::1714567914::0::1::::<><>::uid://dhdoph0o7degj::::res://assets/environment/tilemap_packed.png<>uid://tjguo1b4jwp5::::res://Pixels resources/Dungeon/Sample-image2.png<>uid://bpqr1psp2k6p1::::res://Pixels resources/Dungeon/Floor-011.png<>uid://c2uqj8mep1rkr::::res://Pixels resources/Dungeon/Floor-012.png<>uid://bd54gh8xr16cc::::res://Pixels resources/Dungeon/Floor-013.png<>uid://np056mxi2y70::::res://Pixels resources/Dungeon/Floor-003.png<>uid://doasqnd8b0ss8::::res://Pixels resources/Dungeon/Floor-004.png<>uid://dfwk0maum0uqj::::res://Pixels resources/Dungeon/Floor-005.png<>uid://6qjb37pc4twg::::res://Pixels resources/Dungeon/Floor-006.png<>uid://b8jhhqrrs6sqk::::res://Pixels resources/Dungeon/Floor-007.png<>uid://bbjrlntb34pir::::res://Pixels resources/Dungeon/Floor-008.png<>uid://b40vlnce3q2fj::::res://Pixels resources/Dungeon/Floor-009.png<>uid://rd3dtb0561wv::::res://Pixels resources/Dungeon/Floor-010.png
 ::res://resources/theme/::1714078253
 Bitfantasy.ttf::FontFile::9220220752028521775::1713972012::1713974258::1::::<><>::
 theme.tres::Theme::1120851792893287054::1714078253::0::1::::<><>::uid://d4mlxoepwg232::::res://resources/theme/Bitfantasy.ttf<>uid://c5m503mmlhm1e::::res://assets/UI/ui.png
@@ -145,9 +200,9 @@ sword_ability_controller.tscn::PackedScene::6907829087302399119::1714145621::0::
 ::res://Scenes/autoload/::1714486952
 game_event.gd::GDScript::-1::1714057964::0::1::::<>Node<>::
 game_event.tscn::PackedScene::8189361450873458168::1714058598::0::1::::<><>::res://Scenes/autoload/game_event.gd
-music_player.tscn::PackedScene::4466239091575529389::1714486952::0::1::::<><>::uid://caej34eqsidjv::::res://Shrouded OST/Levels, Ambience, Etc/Dungeon Theme.mp3<>res://Scenes/autoload/music_player.gd
 music_player.gd::GDScript::-1::1714486592::0::1::::<>AudioStreamPlayer<>::
-::res://Scenes/component/::1714488170
+music_player.tscn::PackedScene::4466239091575529389::1714486952::0::1::::<><>::uid://caej34eqsidjv::::res://Shrouded OST/Levels, Ambience, Etc/Dungeon Theme.mp3<>res://Scenes/autoload/music_player.gd
+::res://Scenes/component/::1714567915
 death_component.gd::GDScript::-1::1714063281::0::1::::<>Node2D<>::
 death_component.tscn::PackedScene::8122001050448361588::1714423788::0::1::::<><>::res://Scenes/component/death_component.gd<>uid://bwr46uv7ehpr5::::res://Scenes/game_object/basic_enemy/basic_enemy.png<>uid://v23cjo2kcglc::::res://Scenes/component/random_audio_stream_player_2d_component.tscn<>uid://blgwyya674de::::res://assets/audio/EnemyHit.wav
 health_component.gd::GDScript::-1::1713794268::0::1::::HealthComponent<>Node<>::
@@ -155,15 +210,15 @@ health_component.tscn::PackedScene::7168109440118371301::1713983121::0::1::::<><
 hitbox_component.gd::GDScript::-1::1713794268::0::1::::HitboxComponent<>Area2D<>::
 hitbox_component.tscn::PackedScene::6461694520941450149::1713794268::0::1::::<><>::res://Scenes/component/hitbox_component.gd
 hit_flash_component.gd::GDScript::-1::1713980153::0::1::::<>Node<>::
-hit_flash_component.gdshader::Shader::-1::1714488170::0::1::::<><>::
+hit_flash_component.gdshader::Shader::-1::1714567915::0::1::::<><>::
 hit_flash_component.tscn::PackedScene::318019753623176096::1713981754::0::1::::<><>::res://Scenes/component/hit_flash_component.gd<>uid://dwpukudihghtq::::res://Scenes/component/hit_flash_component_material.tres
 hit_flash_component_material.tres::ShaderMaterial::8735615530695788946::1714078253::0::1::::<><>::res://Scenes/component/hit_flash_component.gdshader
 hurtbox_component.gd::GDScript::-1::1714060736::0::1::::HurtboxComponent<>Area2D<>::
 hurtbox_component.tscn::PackedScene::7745480278702365044::1713977625::0::1::::<><>::res://Scenes/component/hurtbox_component.gd
 random_audio_stream_player_2d_component.gd::GDScript::-1::1714402409::0::1::::<>AudioStreamPlayer2D<>::
 random_audio_stream_player_2d_component.tscn::PackedScene::1531408058721183648::1714484769::0::1::::<><>::res://Scenes/component/random_audio_stream_player_2d_component.gd
-random_stream_player_component.tscn::PackedScene::7830776108336764071::1714484769::0::1::::<><>::res://Scenes/component/random_stream_player_component.gd
 random_stream_player_component.gd::GDScript::-1::1714482834::0::1::::<>AudioStreamPlayer<>::
+random_stream_player_component.tscn::PackedScene::7830776108336764071::1714484769::0::1::::<><>::res://Scenes/component/random_stream_player_component.gd
 velocity_component.gd::GDScript::-1::1713968745::0::1::::<>Node<>::
 velocity_component.tscn::PackedScene::9028492523576675952::1713970971::0::1::::<><>::res://Scenes/component/velocity_component.gd
 vial_drop_component.gd::GDScript::-1::1713794268::0::1::::<>Node<>::
@@ -196,9 +251,9 @@ player.tscn::PackedScene::5333605090244745071::1714423689::0::1::::<><>::res://S
 wizard_enemy.gd::GDScript::-1::1714062392::0::1::::<>CharacterBody2D<>::
 wizard_enemy.png::CompressedTexture2D::1708717067316065836::1713915924::1713915972::1::::<><>::
 wizard_enemy.tscn::PackedScene::4857670871814260904::1714423733::0::1::::<><>::res://Scenes/game_object/wizard_enemy/wizard_enemy.gd<>uid://daejyk1n81nqr::::res://Scenes/component/health_component.tscn<>uid://d1vp7nohu6nbc::::res://Scenes/component/velocity_component.tscn<>uid://dnymf2jxl2j6k::::res://Scenes/component/death_component.tscn<>uid://ylyk5pbs3w41::::res://Scenes/game_object/wizard_enemy/wizard_enemy.png<>uid://dil76toga1piy::::res://Scenes/component/hurtbox_component.tscn<>uid://esb0ee5qnhki::::res://Scenes/component/hit_flash_component.tscn<>res://Scenes/component/hit_flash_component.gdshader<>uid://bqwrtq838mmq2::::res://Scenes/component/vial_drop_component.tscn<>uid://v23cjo2kcglc::::res://Scenes/component/random_audio_stream_player_2d_component.tscn<>uid://blgwyya674de::::res://assets/audio/EnemyHit.wav
-::res://Scenes/Main/::1714488169
+::res://Scenes/Main/::1714567914
 main.gd::GDScript::-1::1713906393::0::1::::<>Node<>::
-main.tscn::PackedScene::3258721576015603899::1714488169::0::1::::<><>::res://Scenes/Main/main.gd<>uid://blcdlcvxso8ca::::res://Scenes/game_object/game_camera/game_camera.tscn<>uid://bbievodkkjif6::::res://Scenes/ui/arena_time_ui.tscn<>uid://ch8vxxiweatbb::::res://Scenes/game_object/Player/player.tscn<>uid://d4hn1jnv4erob::::res://Scenes/manager/enemy_manager.tscn<>uid://c5chbiobbfid::::res://resources/tileset.tres<>uid://b2qk4lun3auka::::res://Scenes/ui/experience_bar.tscn<>uid://ke1sjca8ix7t::::res://Scenes/ui/end_screen.tscn<>uid://b4ldv4pnb6pwr::::res://Scenes/manager/arena_time_manager.tscn<>uid://bkcsjsk2ciff::::res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn<>uid://3mabw7g8m1pk::::res://Scenes/ui/vignette.tscn<>uid://c6lnjj56rq6af::::res://Scenes/manager/experience_manager.tscn<>uid://caej34eqsidjv::::res://Shrouded OST/Levels, Ambience, Etc/Dungeon Theme.mp3<>uid://c6b8mn6mye12d::::res://Scenes/manager/upgrade_manager.tscn<>uid://bkcuahjo37wb2::::res://Scenes/game_object/basic_enemy/basic_enemy.tscn<>uid://cbhden0us7fum::::res://Scenes/game_object/wizard_enemy/wizard_enemy.tscn
+main.tscn::PackedScene::3258721576015603899::1714567914::0::1::::<><>::res://Scenes/Main/main.gd<>uid://blcdlcvxso8ca::::res://Scenes/game_object/game_camera/game_camera.tscn<>uid://bbievodkkjif6::::res://Scenes/ui/arena_time_ui.tscn<>uid://ch8vxxiweatbb::::res://Scenes/game_object/Player/player.tscn<>uid://d4hn1jnv4erob::::res://Scenes/manager/enemy_manager.tscn<>uid://c5chbiobbfid::::res://resources/tileset.tres<>uid://b2qk4lun3auka::::res://Scenes/ui/experience_bar.tscn<>uid://ke1sjca8ix7t::::res://Scenes/ui/end_screen.tscn<>uid://b4ldv4pnb6pwr::::res://Scenes/manager/arena_time_manager.tscn<>uid://bkcsjsk2ciff::::res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn<>uid://3mabw7g8m1pk::::res://Scenes/ui/vignette.tscn<>uid://c6lnjj56rq6af::::res://Scenes/manager/experience_manager.tscn<>uid://caej34eqsidjv::::res://Shrouded OST/Levels, Ambience, Etc/Dungeon Theme.mp3<>uid://c6b8mn6mye12d::::res://Scenes/manager/upgrade_manager.tscn<>uid://bkcuahjo37wb2::::res://Scenes/game_object/basic_enemy/basic_enemy.tscn<>uid://cbhden0us7fum::::res://Scenes/game_object/wizard_enemy/wizard_enemy.tscn
 tile_0111.png::CompressedTexture2D::4552903304061499774::1713915887::1713915887::1::::<><>::
 ::res://Scenes/manager/::1714486868
 arena_time_manager.gd::GDScript::-1::1714485972::0::1::::<>Node<>::
@@ -209,7 +264,7 @@ experience_manager.gd::GDScript::-1::1713794268::0::1::::<>Node<>::
 experience_manager.tscn::PackedScene::6972209588997135985::1713794268::0::1::::<><>::res://Scenes/manager/experience_manager.gd
 upgrade_manager.gd::GDScript::-1::1714139393::0::1::::<>Node<>::
 upgrade_manager.tscn::PackedScene::6952785719477391969::1714423689::0::1::::<><>::res://Scenes/manager/upgrade_manager.gd<>uid://dagssqm3no7pg::::res://Scenes/ui/upgrade_screen.tscn
-::res://Scenes/ui/::1714488170
+::res://Scenes/ui/::1714567915
 ability_upgrade_card.gd::GDScript::-1::1714002379::0::1::::<>PanelContainer<>::
 ability_upgrade_card.tscn::PackedScene::6488639542504518117::1714486868::0::1::::<><>::res://Scenes/ui/ability_upgrade_card.gd<>uid://djtj0duuw7hud::::res://Scenes/component/random_stream_player_component.tscn<>uid://bqemrac8o10el::::res://assets/audio/HUDHoverReal.wav<>uid://cwqhuip0gon05::::res://assets/audio/UpgradeSelect.wav
 arena_time_ui.gd::GDScript::-1::1713794268::0::1::::<>CanvasLayer<>::
@@ -220,15 +275,15 @@ experience_bar.gd::GDScript::-1::1713794268::0::1::::<>CanvasLayer<>::
 experience_bar.tscn::PackedScene::4315209073216879748::1714054595::0::1::::<><>::res://Scenes/ui/experience_bar.gd
 floating_text.gd::GDScript::-1::1713977604::0::1::::<>Node2D<>::
 floating_text.tscn::PackedScene::1025709942110663167::1713977625::0::1::::<><>::res://Scenes/ui/floating_text.gd
-MarginContainer.gd::GDScript::-1::1713794268::0::1::::<>MarginContainer<>::
-main_menu.tscn::PackedScene::3426478000770481426::1714488169::0::1::::<><>::uid://b4wwookp53201::::res://Scenes/ui/sound_button.tscn<>res://Scenes/ui/main_menu.gd<>uid://bkcsjsk2ciff::::res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn<>uid://b33608sdgoyqm::::res://Shrouded OST/Main Theme/Shrouded.mp3
 main_menu.gd::GDScript::-1::1714487577::0::1::::<>CanvasLayer<>::
+main_menu.tscn::PackedScene::3426478000770481426::1714506318::0::1::::<><>::uid://b4wwookp53201::::res://Scenes/ui/sound_button.tscn<>res://Scenes/ui/main_menu.gd<>uid://bkcsjsk2ciff::::res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn<>uid://b33608sdgoyqm::::res://Shrouded OST/Main Theme/Shrouded.mp3
+MarginContainer.gd::GDScript::-1::1713794268::0::1::::<>MarginContainer<>::
 sound_button.gd::GDScript::-1::1714482961::0::1::::<>Button<>::
 sound_button.tscn::PackedScene::4468674986238586232::1714484769::0::1::::<><>::res://Scenes/ui/sound_button.gd<>uid://djtj0duuw7hud::::res://Scenes/component/random_stream_player_component.tscn<>uid://dt3idbae0y02r::::res://assets/audio/ButtonSelect.wav
 upgrade_screen.gd::GDScript::-1::1714052271::0::1::::<>CanvasLayer<>::
 upgrade_screen.tscn::PackedScene::7172774227965153604::1714056327::0::1::::<><>::res://Scenes/ui/upgrade_screen.gd<>uid://cype7eyu53mdp::::res://Scenes/ui/ability_upgrade_card.tscn
 vignette.gd::GDScript::-1::1714058268::0::1::::<>CanvasLayer<>::
-vignette.gdshader::Shader::-1::1714488170::0::1::::<><>::
+vignette.gdshader::Shader::-1::1714567915::0::1::::<><>::
 vignette.tscn::PackedScene::1990063145972187296::1714058598::0::1::::<><>::res://Scenes/ui/vignette.gdshader<>res://Scenes/ui/vignette.gd
 ::res://scripts/::1713981905
 weighted_table.gd::GDScript::-1::1713981905::0::1::::WeightedTable<>RefCounted<>::
