@@ -19,6 +19,7 @@ func _ready():
 func set_defeat():
 	$%TitleLabel.text = "Defeat"
 	$%DescriptionLabel.text = "You Lost!"
+	
 	play_jingle(true)
 	
 	
