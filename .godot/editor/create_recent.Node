@@ -1,8 +1,9 @@
+HSlider
+Label
+VBoxContainer
 TileMap
 MarginContainer
 PanelContainer
-Label
-VBoxContainer
 CanvasLayer
 Timer
 AudioStreamPlayer

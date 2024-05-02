@@ -46,3 +46,5 @@ res://addons/dialogue_manager/test_scene.tscn
 res://addons/dialogue_manager/example_balloon/example_balloon.tscn
 res://addons/dialogue_manager/components/code_edit.tscn
 res://addons/dialogue_manager/dialogue_label.tscn
+res://Scenes/ui/options_menu.tscn
+res://Scenes/ui/options_menu.gd
