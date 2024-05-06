@@ -1,3 +1,5 @@
+res://resources
+res://Scenes/Main
 res://Pixels resources/Dungeon
 res://Scenes/ui
 res://Scenes/autoload
@@ -11,5 +13,3 @@ res://Scenes/game_object/Player
 res://Scenes/game_object/experience_vial
 res://Scenes/Ability
 res://Scenes/Ability/sword-ability
-res://resources
-res://Scenes/Main
