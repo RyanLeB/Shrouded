@@ -2,6 +2,8 @@ extends CanvasLayer
 
 @onready var panel_container = %PanelContainer
 
+
+var options_menu_scene = preload("res://Scenes/ui/options_menu.tscn")
 var is_closing
 
 
@@ -10,7 +12,8 @@ func _ready():
 	panel_container.pivot_offset = panel_container.size / 2
 	
 	$%ResumeButton.pressed.connect(on_resume_pressed)
-	
+	$%OptionsButton.pressed.connect(on_options_pressed)
+	$%QuitButton.pressed.connect(on_quit_pressed)
 	
 	$AnimationPlayer.play("default")
 	
@@ -44,3 +47,19 @@ func close():
 
 func on_resume_pressed():
 	close()
+
+
+func on_options_pressed():
+	var options_menu_instance = options_menu_scene.instantiate()
+	add_child(options_menu_instance)
+	options_menu_instance.back_pressed.connect(on_options_back_pressed.bind(options_menu_instance))
+	
+
+
+func on_options_back_pressed(options_menu: Node):
+	options_menu.queue_free()
+
+
+func on_quit_pressed():
+	get_tree().paused = false
+	get_tree().change_scene_to_file("res://Scenes/ui/main_menu.tscn")

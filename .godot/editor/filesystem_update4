@@ -5,3 +5,5 @@ res://Scenes/component/hit_flash_component_material.tres
 res://Scenes/ui/vignette.gdshader
 res://Scenes/ui/pause_menu.tscn
 res://Scenes/ui/upgrade_screen.tscn
+res://Scenes/ui/pause_menu.gd
+res://Scenes/ui/options_menu.tscn
