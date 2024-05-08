@@ -21,8 +21,6 @@ grow_vertical = 2
 
 [node name="PanelContainer" type="PanelContainer" parent="MarginContainer"]
 layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
 
 [node name="MarginContainer" type="MarginContainer" parent="MarginContainer/PanelContainer"]
 layout_mode = 2
@@ -33,27 +31,44 @@ theme_override_constants/margin_bottom = 8
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/PanelContainer/MarginContainer"]
 layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-
-[node name="Label" type="Label" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 32
-text = "Shrouded"
+size_flags_horizontal = 0
+size_flags_vertical = 8
 
 [node name="PlayButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource("1_ojt6s")]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
+size_flags_horizontal = 0
 text = "Play"
 
 [node name="OptionsButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource("1_ojt6s")]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
+size_flags_horizontal = 0
 text = "Options
 "
 
 [node name="QuitButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource("1_ojt6s")]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
+size_flags_horizontal = 0
 text = "Quit Game
 "
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+custom_minimum_size = Vector2(100, 0)
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -148.0
+offset_top = 25.0
+offset_right = 152.0
+offset_bottom = 85.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/normal_font_size = 46
+bbcode_enabled = true
+text = "[center][tornado radius=3.0 freq=5.0 connected=1]Shrouded[/tornado][/center]"

@@ -1,6 +1,9 @@
+AnimationPlayer
+AnimationTree
+RichTextLabel
+VBoxContainer
 HSlider
 Label
-VBoxContainer
 TileMap
 MarginContainer
 PanelContainer
@@ -9,7 +12,3 @@ Timer
 AudioStreamPlayer
 Button
 AudioStreamPlayer2D
-AnimationPlayer
-AnimationTree
-ColorRect
-PointLight2D
