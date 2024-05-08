@@ -8,6 +8,7 @@ func _ready():
 
 
 func on_player_died():
+	ProjectMusicController.stop()
 	var end_screen_instance = end_screen_scene.instantiate()
 	add_child(end_screen_instance)
 	end_screen_instance.set_defeat()

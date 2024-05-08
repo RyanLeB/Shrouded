@@ -6,6 +6,11 @@ res://Scenes/ui/vignette.gdshader
 res://Scenes/Main/main.tscn
 res://Scenes/ui/main_menu.tscn
 res://Scenes/ui/end_screen.tscn
-res://Scenes/Main/cavern.tscn
+res://Scenes/game_object/basic_enemy/basic_enemy.tscn
+res://Scenes/manager/enemy_manager.tscn
 res://resources/caverntileset.tres
-res://resources/tileset.tres
+res://Scenes/Main/cavern.tscn
+res://Scenes/ui/vignette.tscn
+res://Scenes/ui/end_screen.gd
+res://Scenes/Main/main.gd
+res://addons/maaacks_music_controller/base/scenes/Autoloads/ProjectMusicController.tscn

@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://dlcufl3kcrv0f"]
+[gd_scene load_steps=17 format=3 uid="uid://cagsdp5kaflfn"]
 
 [ext_resource type="Script" path="res://Scenes/Main/main.gd" id="1_vnyh6"]
 [ext_resource type="PackedScene" uid="uid://ke1sjca8ix7t" path="res://Scenes/ui/end_screen.tscn" id="2_nc733"]
@@ -14,7 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://c6lnjj56rq6af" path="res://Scenes/manager/experience_manager.tscn" id="12_45ady"]
 [ext_resource type="PackedScene" uid="uid://c6b8mn6mye12d" path="res://Scenes/manager/upgrade_manager.tscn" id="13_xjoqu"]
 [ext_resource type="PackedScene" uid="uid://blcdlcvxso8ca" path="res://Scenes/game_object/game_camera/game_camera.tscn" id="14_8ft6w"]
-[ext_resource type="TileSet" uid="uid://dvibh1sc3g308" path="res://resources/caverntileset.tres" id="15_tn7iq"]
+[ext_resource type="TileSet" uid="uid://c1wpcfjubqlf7" path="res://resources/caverntileset.tres" id="15_tn7iq"]
 [ext_resource type="PackedScene" uid="uid://ch8vxxiweatbb" path="res://Scenes/game_object/Player/player.tscn" id="66_fr0v8"]
 
 [node name="Cavern" type="Node"]
