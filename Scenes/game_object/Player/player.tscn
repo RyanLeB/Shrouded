@@ -6,14 +6,14 @@
 [ext_resource type="PackedScene" uid="uid://c5og622r3s70n" path="res://Scenes/Ability/sword_ability_controller/sword_ability_controller.tscn" id="2_tyonw"]
 [ext_resource type="PackedScene" uid="uid://v23cjo2kcglc" path="res://Scenes/component/random_audio_stream_player_2d_component.tscn" id="5_xxjft"]
 [ext_resource type="AudioStream" uid="uid://cqrkpkxq4b5ac" path="res://assets/audio/HITSOUNDEFFECT.mp3" id="6_1pvyj"]
-[ext_resource type="Texture2D" uid="uid://cnrpry7dkijfq" path="res://Pixels resources/Character Animation/Idle/Idle-01.png" id="7_0fi25"]
-[ext_resource type="Texture2D" uid="uid://5dbyw26qsjdy" path="res://Pixels resources/Character Animation/Idle/Idle-02.png" id="8_uwxx2"]
-[ext_resource type="Texture2D" uid="uid://km4g414p6sew" path="res://Pixels resources/Character Animation/Idle/Idle-03.png" id="9_eedvk"]
-[ext_resource type="Texture2D" uid="uid://tacijwor2582" path="res://Pixels resources/Character Animation/Idle/Idle-04.png" id="10_qkydw"]
-[ext_resource type="Texture2D" uid="uid://dpwmlo55eidsv" path="res://Pixels resources/Character Animation/Idle/Idle-05.png" id="11_6qr21"]
-[ext_resource type="Texture2D" uid="uid://dpdttr2m3wr76" path="res://Pixels resources/Character Animation/Idle/Idle-06.png" id="12_y8spa"]
-[ext_resource type="Texture2D" uid="uid://d4ehx41wj41kc" path="res://Pixels resources/Character Animation/Idle/Idle-07.png" id="13_eejme"]
-[ext_resource type="Texture2D" uid="uid://dbjkb5n8h718a" path="res://Pixels resources/Character Animation/Idle/Idle-08.png" id="14_8k0dk"]
+[ext_resource type="Texture2D" uid="uid://dkfouus1to5fj" path="res://Pixels resources/Character Animation/Idle-2/Idle-01.png" id="7_8urtf"]
+[ext_resource type="Texture2D" uid="uid://1uit1kddmjon" path="res://Pixels resources/Character Animation/Idle-2/Idle-02.png" id="8_wl5lf"]
+[ext_resource type="Texture2D" uid="uid://c6ffchehbsg8p" path="res://Pixels resources/Character Animation/Idle-2/Idle-03.png" id="9_mjeht"]
+[ext_resource type="Texture2D" uid="uid://buhiuuvwnw18s" path="res://Pixels resources/Character Animation/Idle-2/Idle-04.png" id="10_hg7of"]
+[ext_resource type="Texture2D" uid="uid://cr3bnvoqba4di" path="res://Pixels resources/Character Animation/Idle-2/Idle-05.png" id="11_2rx4t"]
+[ext_resource type="Texture2D" uid="uid://d0ro8511xiduj" path="res://Pixels resources/Character Animation/Idle-2/Idle-06.png" id="12_j1fqe"]
+[ext_resource type="Texture2D" uid="uid://m0cx2y56flec" path="res://Pixels resources/Character Animation/Idle-2/Idle-07.png" id="13_2csru"]
+[ext_resource type="Texture2D" uid="uid://dosgpwfhrhox" path="res://Pixels resources/Character Animation/Idle-2/Idle-08.png" id="14_odyrq"]
 [ext_resource type="Texture2D" uid="uid://hnideimfra67" path="res://Pixels resources/Character Animation/RUN-Down/Run-Down-01.png" id="15_uffyu"]
 [ext_resource type="Texture2D" uid="uid://c0q802wiroxjl" path="res://Pixels resources/Character Animation/RUN-Down/Run-Down-02.png" id="16_mw7uo"]
 [ext_resource type="Texture2D" uid="uid://b35uwusqnrt4x" path="res://Pixels resources/Character Animation/RUN-Down/Run-Down-03.png" id="17_m2vq3"]
@@ -97,28 +97,28 @@ radius = 32.0
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("7_0fi25")
+"texture": ExtResource("7_8urtf")
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_uwxx2")
+"texture": ExtResource("8_wl5lf")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_eedvk")
+"texture": ExtResource("9_mjeht")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_qkydw")
+"texture": ExtResource("10_hg7of")
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_6qr21")
+"texture": ExtResource("11_2rx4t")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_y8spa")
+"texture": ExtResource("12_j1fqe")
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_eejme")
+"texture": ExtResource("13_2csru")
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_8k0dk")
+"texture": ExtResource("14_odyrq")
 }],
 "loop": true,
 "name": &"Idle",
@@ -416,7 +416,7 @@ position = Vector2(0, -4)
 scale = Vector2(0.6, 0.6)
 sprite_frames = SubResource("SpriteFrames_6ct3k")
 animation = &"Idle"
-frame_progress = 0.699297
+frame_progress = 0.351453
 
 [node name="CollisionArea2D" type="Area2D" parent="."]
 position = Vector2(0, 1)

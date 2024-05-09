@@ -20,6 +20,7 @@
 [node name="Cavern" type="Node"]
 script = ExtResource("1_vnyh6")
 end_screen_scene = ExtResource("2_nc733")
+metadata/_edit_horizontal_guides_ = [-63.0]
 
 [node name="BackgroundMusicPlayer" parent="." instance=ExtResource("3_ml6w3")]
 stream = ExtResource("4_rkgdx")

@@ -9,3 +9,5 @@ res://Scenes/ui/pause_menu.tscn
 res://Scenes/ui/upgrade_screen.tscn
 res://Scenes/ui/options_menu.tscn
 res://Scenes/ui/experience_bar.tscn
+res://resources/caverntileset.tres
+res://Scenes/Main/cavern.tscn
