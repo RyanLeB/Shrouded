@@ -1,5 +1,5 @@
 98a70190bc03ec62debef81a9418c486
-::res://::1715196982
+::res://::1715264267
 icon.svg::CompressedTexture2D::6614760068740573587::1715007032::1715007032::1::::<><>::
 LICENSE.md::TextFile::-1::1715007030::0::1::::<><>::
 README.md::TextFile::-1::1715007031::0::1::::<><>::
@@ -106,7 +106,7 @@ Concept art-cavern.jpg::CompressedTexture2D::5987731309406539844::1715007030::17
 Concept art-dungeon.jpg::CompressedTexture2D::2657723835179234461::1715007030::1715007030::1::::<><>::
 Dark-forest-Color21.jpg::CompressedTexture2D::873737819620246494::1715007030::1715007030::1::::<><>::
 Hub-area-Color2.jpg::CompressedTexture2D::4566363369994824604::1715007030::1715007030::1::::<><>::
-::res://Pixels resources/::1715094825
+::res://Pixels resources/::1715271022
 ::res://Pixels resources/Cavern/::1715007233
 Barrel-001.png::CompressedTexture2D::5156189352074358870::1715007030::1715007232::1::::<><>::
 Barrel-002.png::CompressedTexture2D::601618637761134576::1715007030::1715007232::1::::<><>::
@@ -177,6 +177,88 @@ Wall-012.png::CompressedTexture2D::5494038410643929701::1715007030::1715007232::
 Wall-013.png::CompressedTexture2D::4408328188657904143::1715007030::1715007232::1::::<><>::
 Wall-014.png::CompressedTexture2D::1001053130014717208::1715007030::1715007232::1::::<><>::
 Wall-015.png::CompressedTexture2D::5438359917194811083::1715007030::1715007232::1::::<><>::
+::res://Pixels resources/Character Animation/::1715271022
+::res://Pixels resources/Character Animation/Idle/::1715271022
+Idle-01.png::CompressedTexture2D::5721333180031658910::1715271022::1715271029::1::::<><>::
+Idle-02.png::CompressedTexture2D::2111963217103654738::1715271022::1715271029::1::::<><>::
+Idle-03.png::CompressedTexture2D::728434041663678702::1715271022::1715271029::1::::<><>::
+Idle-04.png::CompressedTexture2D::1333724256815146525::1715271022::1715271029::1::::<><>::
+Idle-05.png::CompressedTexture2D::8258260046925016517::1715271022::1715271029::1::::<><>::
+Idle-06.png::CompressedTexture2D::8219476327048923731::1715271022::1715271029::1::::<><>::
+Idle-07.png::CompressedTexture2D::9203463684162504822::1715271022::1715271029::1::::<><>::
+Idle-08.png::CompressedTexture2D::7248640847518417050::1715271022::1715271029::1::::<><>::
+::res://Pixels resources/Character Animation/RUN-Down/::1715271022
+Run-Down-01.png::CompressedTexture2D::518650132597262102::1715271022::1715271029::1::::<><>::
+Run-Down-02.png::CompressedTexture2D::6562642260513813145::1715271022::1715271029::1::::<><>::
+Run-Down-03.png::CompressedTexture2D::4414894344519550741::1715271022::1715271029::1::::<><>::
+Run-Down-04.png::CompressedTexture2D::6636461201578522546::1715271022::1715271029::1::::<><>::
+Run-Down-05.png::CompressedTexture2D::9048482772200513126::1715271022::1715271029::1::::<><>::
+Run-Down-06.png::CompressedTexture2D::6119718634693399758::1715271022::1715271029::1::::<><>::
+Run-Down-07.png::CompressedTexture2D::2047091206808182434::1715271022::1715271029::1::::<><>::
+Run-Down-08.png::CompressedTexture2D::5897876151417830196::1715271022::1715271029::1::::<><>::
+::res://Pixels resources/Character Animation/RUN-Down left/::1715271022
+Run-Downleft-01.png::CompressedTexture2D::1417701439863030729::1715271022::1715271029::1::::<><>::
+Run-Downleft-02.png::CompressedTexture2D::6291278898907576759::1715271022::1715271029::1::::<><>::
+Run-Downleft-03.png::CompressedTexture2D::1387944597971932037::1715271022::1715271029::1::::<><>::
+Run-Downleft-04.png::CompressedTexture2D::3204133525035395040::1715271022::1715271029::1::::<><>::
+Run-Downleft-05.png::CompressedTexture2D::3804954004844265434::1715271022::1715271029::1::::<><>::
+Run-Downleft-06.png::CompressedTexture2D::2665885919606887738::1715271022::1715271029::1::::<><>::
+Run-Downleft-07.png::CompressedTexture2D::6918140645376432266::1715271022::1715271029::1::::<><>::
+Run-Downleft-08.png::CompressedTexture2D::2245611907349607801::1715271022::1715271029::1::::<><>::
+::res://Pixels resources/Character Animation/RUN-Down Right/::1715271022
+Run-Down-right-01.png::CompressedTexture2D::246206510960900553::1715271022::1715271029::1::::<><>::
+Run-Down-right-02.png::CompressedTexture2D::5278085482637310049::1715271022::1715271029::1::::<><>::
+Run-Down-right-03.png::CompressedTexture2D::6213673018784417783::1715271022::1715271029::1::::<><>::
+Run-Down-right-04.png::CompressedTexture2D::8881377203312553706::1715271022::1715271029::1::::<><>::
+Run-Down-right-05.png::CompressedTexture2D::3821265590527706858::1715271022::1715271029::1::::<><>::
+Run-Down-right-06.png::CompressedTexture2D::4192099044782092948::1715271022::1715271029::1::::<><>::
+Run-Down-right-07.png::CompressedTexture2D::4797865980959436091::1715271022::1715271029::1::::<><>::
+Run-Down-right-08.png::CompressedTexture2D::1855155618078193923::1715271022::1715271029::1::::<><>::
+::res://Pixels resources/Character Animation/RUN-Left/::1715271022
+Run-Left-01.png::CompressedTexture2D::4845086721533144469::1715271022::1715271029::1::::<><>::
+Run-Left-02.png::CompressedTexture2D::349667717229149789::1715271022::1715271029::1::::<><>::
+Run-Left-03.png::CompressedTexture2D::1886596585523588062::1715271022::1715271029::1::::<><>::
+Run-Left-04.png::CompressedTexture2D::5189680388880170236::1715271022::1715271029::1::::<><>::
+Run-Left-05.png::CompressedTexture2D::8662531097495512436::1715271022::1715271029::1::::<><>::
+Run-Left-06.png::CompressedTexture2D::1190520234611721530::1715271022::1715271029::1::::<><>::
+Run-Left-07.png::CompressedTexture2D::454591934701929335::1715271022::1715271029::1::::<><>::
+Run-Left-08.png::CompressedTexture2D::701621888890239165::1715271022::1715271029::1::::<><>::
+::res://Pixels resources/Character Animation/RUN-Right/::1715271022
+Run-right-01.png::CompressedTexture2D::5396586898057809292::1715271022::1715271029::1::::<><>::
+Run-right-02.png::CompressedTexture2D::8448453135114753370::1715271022::1715271029::1::::<><>::
+Run-right-03.png::CompressedTexture2D::550740058535560951::1715271022::1715271029::1::::<><>::
+Run-right-04.png::CompressedTexture2D::9153873996163959333::1715271022::1715271029::1::::<><>::
+Run-right-05.png::CompressedTexture2D::2193237468683573930::1715271022::1715271029::1::::<><>::
+Run-right-06.png::CompressedTexture2D::899426265256500752::1715271022::1715271029::1::::<><>::
+Run-right-07.png::CompressedTexture2D::6635690632683491314::1715271022::1715271029::1::::<><>::
+Run-right-08.png::CompressedTexture2D::2607983423804463009::1715271022::1715271029::1::::<><>::
+::res://Pixels resources/Character Animation/RUN-Up/::1715271022
+Run-Up-01.png::CompressedTexture2D::4728621838003706007::1715271022::1715271029::1::::<><>::
+Run-Up-02.png::CompressedTexture2D::7734511394833256941::1715271022::1715271029::1::::<><>::
+Run-Up-03.png::CompressedTexture2D::7679704997129371875::1715271022::1715271029::1::::<><>::
+Run-Up-04.png::CompressedTexture2D::8594976982650759775::1715271022::1715271029::1::::<><>::
+Run-Up-05.png::CompressedTexture2D::7615033600385132103::1715271022::1715271029::1::::<><>::
+Run-Up-06.png::CompressedTexture2D::7266206356991328809::1715271022::1715271029::1::::<><>::
+Run-Up-07.png::CompressedTexture2D::8598650042454556194::1715271022::1715271029::1::::<><>::
+Run-Up-08.png::CompressedTexture2D::6289310562123361508::1715271022::1715271029::1::::<><>::
+::res://Pixels resources/Character Animation/RUN-Up left/::1715271022
+Run-Upleft-01.png::CompressedTexture2D::4638595989460041003::1715271022::1715271029::1::::<><>::
+Run-Upleft-02.png::CompressedTexture2D::136427550327050849::1715271022::1715271029::1::::<><>::
+Run-Upleft-03.png::CompressedTexture2D::184013522935283463::1715271022::1715271029::1::::<><>::
+Run-Upleft-04.png::CompressedTexture2D::8810563938010326340::1715271022::1715271029::1::::<><>::
+Run-Upleft-05.png::CompressedTexture2D::2998331459786752968::1715271022::1715271029::1::::<><>::
+Run-Upleft-06.png::CompressedTexture2D::5063966991671468794::1715271022::1715271029::1::::<><>::
+Run-Upleft-07.png::CompressedTexture2D::2032417132849800116::1715271022::1715271029::1::::<><>::
+Run-Upleft-08.png::CompressedTexture2D::7689783212563078993::1715271022::1715271029::1::::<><>::
+::res://Pixels resources/Character Animation/RUN-Up right/::1715271022
+Run-Upright-01.png::CompressedTexture2D::5238103127607292855::1715271022::1715271029::1::::<><>::
+Run-Upright-02.png::CompressedTexture2D::4500461791895094021::1715271022::1715271029::1::::<><>::
+Run-Upright-03.png::CompressedTexture2D::5634584797527794807::1715271022::1715271029::1::::<><>::
+Run-Upright-04.png::CompressedTexture2D::1128729450206328451::1715271022::1715271029::1::::<><>::
+Run-Upright-05.png::CompressedTexture2D::31469822013365474::1715271022::1715271029::1::::<><>::
+Run-Upright-06.png::CompressedTexture2D::2361231915042037392::1715271022::1715271029::1::::<><>::
+Run-Upright-07.png::CompressedTexture2D::2092543385241135945::1715271022::1715271029::1::::<><>::
+Run-Upright-08.png::CompressedTexture2D::4110854870147409711::1715271022::1715271029::1::::<><>::
 ::res://Pixels resources/Characters/::1715007030
 Character-32.png::CompressedTexture2D::8329465585632717835::1715007030::1715007030::1::::<><>::
 Character-40.png::CompressedTexture2D::3136129409644922463::1715007030::1715007030::1::::<><>::
@@ -306,17 +388,17 @@ Web-001.png::CompressedTexture2D::3865048633692670373::1715007031::1715007031::1
 ::res://resources/::1715187225
 caverntileset.tres::TileSet::8649817400602702739::1715187225::0::1::::<><>::uid://cjqm81h7k7k7d::::res://Pixels resources/Cavern/Wall-015.png<>uid://srp05aqx5ir4::::res://Pixels resources/Cavern/Earth-001.png<>uid://drangn35q2be::::res://Pixels resources/Cavern/Earth-002.png<>uid://c46qjt5rblnnw::::res://Pixels resources/Cavern/Earth-003.png<>uid://b2br33gp0xtak::::res://Pixels resources/Cavern/Earth-004.png<>uid://c7bq5ycwoxxlw::::res://Pixels resources/Cavern/Earth-005.png<>uid://m4qdf7sesm4h::::res://Pixels resources/Cavern/Earth-006.png<>uid://mijratofrwtf::::res://Pixels resources/Cavern/Earth-007.png<>uid://c6exatkeilqby::::res://Pixels resources/Cavern/Earth-008.png<>uid://csjx4tk7g27t7::::res://Pixels resources/Cavern/Earth-009.png<>uid://cjr45fbskwgvs::::res://Pixels resources/Cavern/Earth-010.png<>uid://cfpxxkhba2yfu::::res://Pixels resources/Cavern/Barrel-001.png<>uid://caliwoyy84i07::::res://Pixels resources/Cavern/Earth-011.png<>uid://75yxakgu63g7::::res://Pixels resources/Cavern/Earth-012.png<>uid://djwnhnsj2qeua::::res://Pixels resources/Cavern/Earth-013.png<>uid://dj0a6pxg1l88r::::res://Pixels resources/Cavern/Gate-001.png<>uid://ce8yoos73exmh::::res://Pixels resources/Cavern/Gate-002.png<>uid://btd2wshhh32cp::::res://Pixels resources/Cavern/Light-001.png<>uid://6badd6cf1kvf::::res://Pixels resources/Cavern/Light-002.png<>uid://blkp41dmp8lnn::::res://Pixels resources/Cavern/Minecart-001.png<>uid://bxtvmabtoidae::::res://Pixels resources/Cavern/Paddle-001.png<>uid://c7m7q8d5fqf41::::res://Pixels resources/Cavern/Paddle-002.png<>uid://itotofgrokce::::res://Pixels resources/Cavern/Barrel-002.png<>uid://dr2rdbpu65onc::::res://Pixels resources/Cavern/Paddle-003.png<>uid://b1fh5boreu43h::::res://Pixels resources/Cavern/Paddle-004.png<>uid://co3d1xphryuwj::::res://Pixels resources/Cavern/Paddle-005.png<>uid://bd071e781wr5i::::res://Pixels resources/Cavern/Paddle-006.png<>uid://bf1l2kthr23l0::::res://Pixels resources/Cavern/Paddle-007.png<>uid://uvbu5av5l4q4::::res://Pixels resources/Cavern/Paddle-008.png<>uid://de43fb7fj1c3h::::res://Pixels resources/Cavern/Paddle-009.png<>uid://cfv7xr8bu0sxo::::res://Pixels resources/Cavern/Paddle-010.png<>uid://gho5av1f0t7b::::res://Pixels resources/Cavern/Paddle-011.png<>uid://d3s0ulmd435ka::::res://Pixels resources/Cavern/Paddle-012.png<>uid://4sgu2g83iw25::::res://Pixels resources/Cavern/Chest-001.png<>uid://c5wk78437to8b::::res://Pixels resources/Cavern/Paddle-013.png<>uid://67oylkgctc0p::::res://Pixels resources/Cavern/Paddle-014.png<>uid://cfhl5yyyyfa4p::::res://Pixels resources/Cavern/Paddle-015.png<>uid://cgg6ou60sara7::::res://Pixels resources/Cavern/Pickaxe.png<>uid://jl3xsfbfq15l::::res://Pixels resources/Cavern/Pixels-Cavern-Sample.png<>uid://xbxt04ene8u::::res://Pixels resources/Cavern/Skeleton-001.png<>uid://l1fdft6px6n::::res://Pixels resources/Cavern/Skeleton-002.png<>uid://cawmujf6iwmly::::res://Pixels resources/Cavern/Skeleton-003.png<>uid://bt3545ojm02ij::::res://Pixels resources/Cavern/Stone-001.png<>uid://cdqxqow03y5sr::::res://Pixels resources/Cavern/Stone-002.png<>uid://0skuw4ttbsfm::::res://Pixels resources/Cavern/Chest-002.png<>uid://cctum4k25uy0h::::res://Pixels resources/Cavern/Stone-003.png<>uid://c3dltil7wtjlv::::res://Pixels resources/Cavern/Stone-004.png<>uid://cqvtu48xim7fq::::res://Pixels resources/Cavern/Stone-005.png<>uid://bj65puaixgion::::res://Pixels resources/Cavern/Track-001.png<>uid://t8f8i18fitku::::res://Pixels resources/Cavern/Track-002.png<>uid://cxbjla74xipn1::::res://Pixels resources/Cavern/Track-003.png<>uid://c6dhytx8he4np::::res://Pixels resources/Cavern/Wall-001.png<>uid://5ortnifk5ogu::::res://Pixels resources/Cavern/Wall-002.png<>uid://bcndtdu4nal2q::::res://Pixels resources/Cavern/Wall-003.png<>uid://c0v8h1epscytl::::res://Pixels resources/Cavern/Wall-004.png<>uid://c47lwxdgmhybp::::res://Pixels resources/Cavern/Crystal-001.png<>uid://7xcjbydrrivs::::res://Pixels resources/Cavern/Wall-005.png<>uid://i8wmfh4213su::::res://Pixels resources/Cavern/Wall-006.png<>uid://c25k720hqmpy2::::res://Pixels resources/Cavern/Wall-007.png<>uid://21tn2ppic6lg::::res://Pixels resources/Cavern/Wall-008.png<>uid://cah4wmtjec115::::res://Pixels resources/Cavern/Wall-009.png<>uid://dkflqiuvr4m7m::::res://Pixels resources/Cavern/Wall-010.png<>uid://wxt57ikss3dk::::res://Pixels resources/Cavern/Wall-011.png<>uid://ckjmalqpq1j14::::res://Pixels resources/Cavern/Wall-012.png<>uid://b32oryrlro3d0::::res://Pixels resources/Cavern/Wall-013.png<>uid://oi6g02p1vsv5::::res://Pixels resources/Cavern/Wall-014.png<>uid://d35w1ie2ycklh::::res://Pixels resources/Cavern/Crystal-002.png<>uid://cne0jydag7quf::::res://Pixels resources/Cavern/Crystal-003.png<>uid://k255twqhdk0q::::res://Pixels resources/Cavern/Crystal-004.png
 tileset.tres::TileSet::202443019959988351::1715011582::0::1::::<><>::uid://dhdoph0o7degj::::res://assets/environment/tilemap_packed.png<>uid://tjguo1b4jwp5::::res://Pixels resources/Dungeon/Sample-image2.png<>uid://bpqr1psp2k6p1::::res://Pixels resources/Dungeon/Floor-011.png<>uid://c2uqj8mep1rkr::::res://Pixels resources/Dungeon/Floor-012.png<>uid://bd54gh8xr16cc::::res://Pixels resources/Dungeon/Floor-013.png<>uid://873aae1u56y0::::res://Pixels resources/Dungeon/Barrel-001.png<>uid://np056mxi2y70::::res://Pixels resources/Dungeon/Floor-003.png<>uid://dw6ak7sr55q7s::::res://Pixels resources/Dungeon/Box-001.png<>uid://doasqnd8b0ss8::::res://Pixels resources/Dungeon/Floor-004.png<>uid://dfwk0maum0uqj::::res://Pixels resources/Dungeon/Floor-005.png<>uid://cc3wi8k6d6vyb::::res://Pixels resources/Dungeon/Candle-001.png<>uid://6qjb37pc4twg::::res://Pixels resources/Dungeon/Floor-006.png<>uid://dqfad7pp135a3::::res://Pixels resources/Dungeon/Cemetery-001.png<>uid://b8jhhqrrs6sqk::::res://Pixels resources/Dungeon/Floor-007.png<>uid://bcojpdequb84j::::res://Pixels resources/Dungeon/Earth-001.png<>uid://bbjrlntb34pir::::res://Pixels resources/Dungeon/Floor-008.png<>uid://c5lg4t688wh4q::::res://Pixels resources/Dungeon/Earth-002.png<>uid://b40vlnce3q2fj::::res://Pixels resources/Dungeon/Floor-009.png<>uid://dhowv3rm02snr::::res://Pixels resources/Dungeon/Earth-003.png<>uid://rd3dtb0561wv::::res://Pixels resources/Dungeon/Floor-010.png<>uid://df810kw7tq7l3::::res://Pixels resources/Dungeon/Earth-004.png<>uid://boagmrm0g60fh::::res://Pixels resources/Dungeon/Earth-005.png<>uid://jr33aj3q0n5g::::res://Pixels resources/Dungeon/Earth-006.png<>uid://m5ibrvmbtjjc::::res://Pixels resources/Dungeon/Earth-007.png<>uid://bru5ffkhpa222::::res://Pixels resources/Dungeon/Earth-008.png<>uid://drmb3loq4qjm3::::res://Pixels resources/Dungeon/Earth-009.png<>uid://bjvew8evjqjef::::res://Pixels resources/Dungeon/Earth-010.png<>uid://b8q4niffv01wd::::res://Pixels resources/Dungeon/Earth-011.png<>uid://b315v4am7dbjn::::res://Pixels resources/Dungeon/Earth-012.png<>uid://c88twxomom0y8::::res://Pixels resources/Dungeon/Earth-013.png<>uid://cd4fj8pnja632::::res://Pixels resources/Dungeon/Earth-014.png<>uid://c7hptlc7cyev7::::res://Pixels resources/Dungeon/Gate-001.png<>uid://b4k4kalsyd85n::::res://Pixels resources/Dungeon/Gate-002.png<>uid://dhh4qb5yl30i6::::res://Pixels resources/Dungeon/Jar-001.png<>uid://dfc8hc5xeavpc::::res://Pixels resources/Dungeon/Jar-002.png<>uid://c4srkk3r1ciht::::res://Pixels resources/Dungeon/Pillar-001.png<>uid://d0xodxsvi1bcc::::res://Pixels resources/Dungeon/Pillar-002.png<>uid://06nseuparwou::::res://Pixels resources/Dungeon/Pillar-003.png<>uid://dxfulpk0n3vbm::::res://Pixels resources/Dungeon/Pillar-004.png<>uid://bn1jii7774a77::::res://Pixels resources/Dungeon/Pillar-005.png<>uid://cespt6gjbpkah::::res://Pixels resources/Dungeon/Stone-001.png<>uid://c7rxo2a4vv3wh::::res://Pixels resources/Dungeon/Stone-002.png<>uid://uw04qsf58nj2::::res://Pixels resources/Dungeon/Stone-003.png<>uid://chhwdu7jtgonh::::res://Pixels resources/Dungeon/Stone-004.png<>uid://bh0nyg5fl04me::::res://Pixels resources/Dungeon/Stone-005.png<>uid://dlki87tlux61p::::res://Pixels resources/Dungeon/Stone-006.png<>uid://bx83fqao310o8::::res://Pixels resources/Dungeon/Wall-001.png<>uid://ccpr7viqoly04::::res://Pixels resources/Dungeon/Wall-002.png<>uid://dvet78hh4t448::::res://Pixels resources/Dungeon/Wall-003.png<>uid://dikoclx2340e::::res://Pixels resources/Dungeon/Wall-004.png<>uid://bvci1y78lw3fl::::res://Pixels resources/Dungeon/Web-001.png
-::res://resources/theme/::1715007906
+::res://resources/theme/::1715196993
 Bitfantasy.ttf::FontFile::9220220752028521775::1715007032::1715007032::1::::<><>::
-theme.tres::Theme::1120851792893287054::1715007906::0::1::::<><>::uid://d4mlxoepwg232::::res://resources/theme/Bitfantasy.ttf<>uid://c5m503mmlhm1e::::res://assets/UI/ui.png
+theme.tres::Theme::1120851792893287054::1715196993::0::1::::<><>::uid://d4mlxoepwg232::::res://resources/theme/Bitfantasy.ttf<>uid://c5m503mmlhm1e::::res://assets/UI/ui.png
 ::res://resources/upgrades/::1715007032
 ability.gd::GDScript::-1::1715007032::0::1::::Ability<>AbilityUpgrade<>::
 ability_upgrade.gd::GDScript::-1::1715007032::0::1::::AbilityUpgrade<>Resource<>::
-player_speed.tres::Resource/AbilityUpgrade::2029884175248596276::1715007032::0::1::::<><>::res://resources/upgrades/ability_upgrade.gd
-scythe.tres::Resource/Ability::5931120734134732539::1715007032::0::1::::<><>::res://resources/upgrades/ability.gd<>uid://clc82wv1hhc8c::::res://Scenes/Ability/scythe_ability_controller/scythe_ability_controller.tscn
-scythe_damage.tres::Resource/AbilityUpgrade::212370860621384723::1715007032::0::1::::<><>::res://resources/upgrades/ability_upgrade.gd
-sword_damage.tres::Resource/AbilityUpgrade::2850647943733733565::1715007032::0::1::::<><>::res://resources/upgrades/ability_upgrade.gd
-sword_rate.tres::Resource/AbilityUpgrade::3739040702564400629::1715007032::0::1::::<><>::res://resources/upgrades/ability_upgrade.gd
+player_speed.tres::Resource/Resource::2029884175248596276::1715007032::0::1::::<><>::res://resources/upgrades/ability_upgrade.gd
+scythe.tres::Resource/Resource::5931120734134732539::1715007032::0::1::::<><>::res://resources/upgrades/ability.gd<>uid://clc82wv1hhc8c::::res://Scenes/Ability/scythe_ability_controller/scythe_ability_controller.tscn
+scythe_damage.tres::Resource/Resource::212370860621384723::1715007032::0::1::::<><>::res://resources/upgrades/ability_upgrade.gd
+sword_damage.tres::Resource/Resource::2850647943733733565::1715007032::0::1::::<><>::res://resources/upgrades/ability_upgrade.gd
+sword_rate.tres::Resource/Resource::3739040702564400629::1715007032::0::1::::<><>::res://resources/upgrades/ability_upgrade.gd
 ::res://Scenes/::1715007031
 ::res://Scenes/Ability/::1715007031
 ::res://Scenes/Ability/scythe_ability/::1715007031
@@ -338,7 +420,7 @@ game_event.gd::GDScript::-1::1715007031::0::1::::<>Node<>::
 game_event.tscn::PackedScene::8189361450873458168::1715007031::0::1::::<><>::res://Scenes/autoload/game_event.gd
 music_player.gd::GDScript::-1::1715007031::0::1::::<>AudioStreamPlayer<>::
 music_player.tscn::PackedScene::4466239091575529389::1715007031::0::1::::<><>::uid://caej34eqsidjv::::res://Shrouded OST/Levels, Ambience, Etc/Dungeon Theme.mp3<>res://Scenes/autoload/music_player.gd
-::res://Scenes/component/::1715196957
+::res://Scenes/component/::1715211838
 death_component.gd::GDScript::-1::1715007031::0::1::::<>Node2D<>::
 death_component.tscn::PackedScene::8122001050448361588::1715007031::0::1::::<><>::res://Scenes/component/death_component.gd<>uid://bwr46uv7ehpr5::::res://Scenes/game_object/basic_enemy/basic_enemy.png<>uid://v23cjo2kcglc::::res://Scenes/component/random_audio_stream_player_2d_component.tscn<>uid://blgwyya674de::::res://assets/audio/EnemyHit.wav
 health_component.gd::GDScript::-1::1715007031::0::1::::HealthComponent<>Node<>::
@@ -346,9 +428,9 @@ health_component.tscn::PackedScene::7168109440118371301::1715007031::0::1::::<><
 hitbox_component.gd::GDScript::-1::1715007031::0::1::::HitboxComponent<>Area2D<>::
 hitbox_component.tscn::PackedScene::6461694520941450149::1715007031::0::1::::<><>::res://Scenes/component/hitbox_component.gd
 hit_flash_component.gd::GDScript::-1::1715007031::0::1::::<>Node<>::
-hit_flash_component.gdshader::Shader::-1::1715196957::0::1::::<><>::
+hit_flash_component.gdshader::Shader::-1::1715211838::0::1::::<><>::
 hit_flash_component.tscn::PackedScene::318019753623176096::1715007031::0::1::::<><>::res://Scenes/component/hit_flash_component.gd<>uid://dwpukudihghtq::::res://Scenes/component/hit_flash_component_material.tres
-hit_flash_component_material.tres::ShaderMaterial::8735615530695788946::1715007906::0::1::::<><>::res://Scenes/component/hit_flash_component.gdshader
+hit_flash_component_material.tres::ShaderMaterial::8735615530695788946::1715196993::0::1::::<><>::res://Scenes/component/hit_flash_component.gdshader
 hurtbox_component.gd::GDScript::-1::1715007031::0::1::::HurtboxComponent<>Area2D<>::
 hurtbox_component.tscn::PackedScene::7745480278702365044::1715007031::0::1::::<><>::res://Scenes/component/hurtbox_component.gd
 random_audio_stream_player_2d_component.gd::GDScript::-1::1715007031::0::1::::<>AudioStreamPlayer2D<>::
@@ -387,10 +469,10 @@ player.tscn::PackedScene::5333605090244745071::1715007031::0::1::::<><>::res://S
 wizard_enemy.gd::GDScript::-1::1715007031::0::1::::<>CharacterBody2D<>::
 wizard_enemy.png::CompressedTexture2D::1708717067316065836::1715007031::1715007031::1::::<><>::
 wizard_enemy.tscn::PackedScene::4857670871814260904::1715007031::0::1::::<><>::res://Scenes/game_object/wizard_enemy/wizard_enemy.gd<>uid://daejyk1n81nqr::::res://Scenes/component/health_component.tscn<>uid://d1vp7nohu6nbc::::res://Scenes/component/velocity_component.tscn<>uid://dnymf2jxl2j6k::::res://Scenes/component/death_component.tscn<>uid://ylyk5pbs3w41::::res://Scenes/game_object/wizard_enemy/wizard_enemy.png<>uid://dil76toga1piy::::res://Scenes/component/hurtbox_component.tscn<>uid://esb0ee5qnhki::::res://Scenes/component/hit_flash_component.tscn<>res://Scenes/component/hit_flash_component.gdshader<>uid://bqwrtq838mmq2::::res://Scenes/component/vial_drop_component.tscn<>uid://v23cjo2kcglc::::res://Scenes/component/random_audio_stream_player_2d_component.tscn<>uid://blgwyya674de::::res://assets/audio/EnemyHit.wav
-::res://Scenes/Main/::1715196752
+::res://Scenes/Main/::1715211406
 cavern.tscn::PackedScene::7936691976899728147::1715188177::0::1::::<><>::res://Scenes/Main/main.gd<>uid://ke1sjca8ix7t::::res://Scenes/ui/end_screen.tscn<>uid://bkcsjsk2ciff::::res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn<>uid://c278ff8trxl6l::::res://Shrouded OST/Levels, Ambience, Etc/LostContinued.mp3<>uid://3mabw7g8m1pk::::res://Scenes/ui/vignette.tscn<>uid://bbievodkkjif6::::res://Scenes/ui/arena_time_ui.tscn<>uid://b2qk4lun3auka::::res://Scenes/ui/experience_bar.tscn<>uid://b4ldv4pnb6pwr::::res://Scenes/manager/arena_time_manager.tscn<>uid://d4hn1jnv4erob::::res://Scenes/manager/enemy_manager.tscn<>uid://bkcuahjo37wb2::::res://Scenes/game_object/basic_enemy/basic_enemy.tscn<>uid://cbhden0us7fum::::res://Scenes/game_object/wizard_enemy/wizard_enemy.tscn<>uid://c6lnjj56rq6af::::res://Scenes/manager/experience_manager.tscn<>uid://c6b8mn6mye12d::::res://Scenes/manager/upgrade_manager.tscn<>uid://blcdlcvxso8ca::::res://Scenes/game_object/game_camera/game_camera.tscn<>uid://dvibh1sc3g308::::res://resources/caverntileset.tres<>uid://ch8vxxiweatbb::::res://Scenes/game_object/Player/player.tscn
 main.gd::GDScript::-1::1715196111::0::1::::<>Node<>::
-main.tscn::PackedScene::3258721576015603899::1715196752::0::1::::<><>::res://Scenes/Main/main.gd<>uid://blcdlcvxso8ca::::res://Scenes/game_object/game_camera/game_camera.tscn<>uid://bbievodkkjif6::::res://Scenes/ui/arena_time_ui.tscn<>uid://ch8vxxiweatbb::::res://Scenes/game_object/Player/player.tscn<>uid://d4hn1jnv4erob::::res://Scenes/manager/enemy_manager.tscn<>uid://b2qk4lun3auka::::res://Scenes/ui/experience_bar.tscn<>uid://ke1sjca8ix7t::::res://Scenes/ui/end_screen.tscn<>uid://b4ldv4pnb6pwr::::res://Scenes/manager/arena_time_manager.tscn<>uid://bkcsjsk2ciff::::res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn<>uid://3mabw7g8m1pk::::res://Scenes/ui/vignette.tscn<>uid://c6lnjj56rq6af::::res://Scenes/manager/experience_manager.tscn<>uid://caej34eqsidjv::::res://Shrouded OST/Levels, Ambience, Etc/Dungeon Theme.mp3<>uid://c6b8mn6mye12d::::res://Scenes/manager/upgrade_manager.tscn<>uid://bkcuahjo37wb2::::res://Scenes/game_object/basic_enemy/basic_enemy.tscn<>uid://cbhden0us7fum::::res://Scenes/game_object/wizard_enemy/wizard_enemy.tscn<>uid://873aae1u56y0::::res://Pixels resources/Dungeon/Barrel-001.png<>uid://dw6ak7sr55q7s::::res://Pixels resources/Dungeon/Box-001.png<>uid://m5ibrvmbtjjc::::res://Pixels resources/Dungeon/Earth-007.png<>uid://bru5ffkhpa222::::res://Pixels resources/Dungeon/Earth-008.png<>uid://drmb3loq4qjm3::::res://Pixels resources/Dungeon/Earth-009.png<>uid://bjvew8evjqjef::::res://Pixels resources/Dungeon/Earth-010.png<>uid://b8q4niffv01wd::::res://Pixels resources/Dungeon/Earth-011.png<>uid://b315v4am7dbjn::::res://Pixels resources/Dungeon/Earth-012.png<>uid://c88twxomom0y8::::res://Pixels resources/Dungeon/Earth-013.png<>uid://cd4fj8pnja632::::res://Pixels resources/Dungeon/Earth-014.png<>uid://cy1vy05fwk540::::res://Pixels resources/Dungeon/Floor-001.png<>uid://c4oc1gdf103nh::::res://Pixels resources/Dungeon/Floor-002.png<>uid://cc3wi8k6d6vyb::::res://Pixels resources/Dungeon/Candle-001.png<>uid://np056mxi2y70::::res://Pixels resources/Dungeon/Floor-003.png<>uid://doasqnd8b0ss8::::res://Pixels resources/Dungeon/Floor-004.png<>uid://dfwk0maum0uqj::::res://Pixels resources/Dungeon/Floor-005.png<>uid://6qjb37pc4twg::::res://Pixels resources/Dungeon/Floor-006.png<>uid://b8jhhqrrs6sqk::::res://Pixels resources/Dungeon/Floor-007.png<>uid://bbjrlntb34pir::::res://Pixels resources/Dungeon/Floor-008.png<>uid://b40vlnce3q2fj::::res://Pixels resources/Dungeon/Floor-009.png<>uid://rd3dtb0561wv::::res://Pixels resources/Dungeon/Floor-010.png<>uid://bpqr1psp2k6p1::::res://Pixels resources/Dungeon/Floor-011.png<>uid://c2uqj8mep1rkr::::res://Pixels resources/Dungeon/Floor-012.png<>uid://dqfad7pp135a3::::res://Pixels resources/Dungeon/Cemetery-001.png<>uid://bd54gh8xr16cc::::res://Pixels resources/Dungeon/Floor-013.png<>uid://c7hptlc7cyev7::::res://Pixels resources/Dungeon/Gate-001.png<>uid://b4k4kalsyd85n::::res://Pixels resources/Dungeon/Gate-002.png<>uid://dhh4qb5yl30i6::::res://Pixels resources/Dungeon/Jar-001.png<>uid://dfc8hc5xeavpc::::res://Pixels resources/Dungeon/Jar-002.png<>uid://c4srkk3r1ciht::::res://Pixels resources/Dungeon/Pillar-001.png<>uid://d0xodxsvi1bcc::::res://Pixels resources/Dungeon/Pillar-002.png<>uid://06nseuparwou::::res://Pixels resources/Dungeon/Pillar-003.png<>uid://dxfulpk0n3vbm::::res://Pixels resources/Dungeon/Pillar-004.png<>uid://bn1jii7774a77::::res://Pixels resources/Dungeon/Pillar-005.png<>uid://bcojpdequb84j::::res://Pixels resources/Dungeon/Earth-001.png<>uid://cespt6gjbpkah::::res://Pixels resources/Dungeon/Stone-001.png<>uid://c7rxo2a4vv3wh::::res://Pixels resources/Dungeon/Stone-002.png<>uid://uw04qsf58nj2::::res://Pixels resources/Dungeon/Stone-003.png<>uid://chhwdu7jtgonh::::res://Pixels resources/Dungeon/Stone-004.png<>uid://bh0nyg5fl04me::::res://Pixels resources/Dungeon/Stone-005.png<>uid://dlki87tlux61p::::res://Pixels resources/Dungeon/Stone-006.png<>uid://bx83fqao310o8::::res://Pixels resources/Dungeon/Wall-001.png<>uid://ccpr7viqoly04::::res://Pixels resources/Dungeon/Wall-002.png<>uid://dvet78hh4t448::::res://Pixels resources/Dungeon/Wall-003.png<>uid://dikoclx2340e::::res://Pixels resources/Dungeon/Wall-004.png<>uid://c5lg4t688wh4q::::res://Pixels resources/Dungeon/Earth-002.png<>uid://bvci1y78lw3fl::::res://Pixels resources/Dungeon/Web-001.png<>uid://dhowv3rm02snr::::res://Pixels resources/Dungeon/Earth-003.png<>uid://df810kw7tq7l3::::res://Pixels resources/Dungeon/Earth-004.png<>uid://boagmrm0g60fh::::res://Pixels resources/Dungeon/Earth-005.png<>uid://jr33aj3q0n5g::::res://Pixels resources/Dungeon/Earth-006.png
+main.tscn::PackedScene::3258721576015603899::1715211406::0::1::::<><>::res://Scenes/Main/main.gd<>uid://blcdlcvxso8ca::::res://Scenes/game_object/game_camera/game_camera.tscn<>uid://bbievodkkjif6::::res://Scenes/ui/arena_time_ui.tscn<>uid://ch8vxxiweatbb::::res://Scenes/game_object/Player/player.tscn<>uid://d4hn1jnv4erob::::res://Scenes/manager/enemy_manager.tscn<>uid://b2qk4lun3auka::::res://Scenes/ui/experience_bar.tscn<>uid://ke1sjca8ix7t::::res://Scenes/ui/end_screen.tscn<>uid://b4ldv4pnb6pwr::::res://Scenes/manager/arena_time_manager.tscn<>uid://bkcsjsk2ciff::::res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn<>uid://3mabw7g8m1pk::::res://Scenes/ui/vignette.tscn<>uid://c6lnjj56rq6af::::res://Scenes/manager/experience_manager.tscn<>uid://caej34eqsidjv::::res://Shrouded OST/Levels, Ambience, Etc/Dungeon Theme.mp3<>uid://c6b8mn6mye12d::::res://Scenes/manager/upgrade_manager.tscn<>uid://bkcuahjo37wb2::::res://Scenes/game_object/basic_enemy/basic_enemy.tscn<>uid://cbhden0us7fum::::res://Scenes/game_object/wizard_enemy/wizard_enemy.tscn<>uid://873aae1u56y0::::res://Pixels resources/Dungeon/Barrel-001.png<>uid://dw6ak7sr55q7s::::res://Pixels resources/Dungeon/Box-001.png<>uid://m5ibrvmbtjjc::::res://Pixels resources/Dungeon/Earth-007.png<>uid://bru5ffkhpa222::::res://Pixels resources/Dungeon/Earth-008.png<>uid://drmb3loq4qjm3::::res://Pixels resources/Dungeon/Earth-009.png<>uid://bjvew8evjqjef::::res://Pixels resources/Dungeon/Earth-010.png<>uid://b8q4niffv01wd::::res://Pixels resources/Dungeon/Earth-011.png<>uid://b315v4am7dbjn::::res://Pixels resources/Dungeon/Earth-012.png<>uid://c88twxomom0y8::::res://Pixels resources/Dungeon/Earth-013.png<>uid://cd4fj8pnja632::::res://Pixels resources/Dungeon/Earth-014.png<>uid://cy1vy05fwk540::::res://Pixels resources/Dungeon/Floor-001.png<>uid://c4oc1gdf103nh::::res://Pixels resources/Dungeon/Floor-002.png<>uid://cc3wi8k6d6vyb::::res://Pixels resources/Dungeon/Candle-001.png<>uid://np056mxi2y70::::res://Pixels resources/Dungeon/Floor-003.png<>uid://doasqnd8b0ss8::::res://Pixels resources/Dungeon/Floor-004.png<>uid://dfwk0maum0uqj::::res://Pixels resources/Dungeon/Floor-005.png<>uid://6qjb37pc4twg::::res://Pixels resources/Dungeon/Floor-006.png<>uid://b8jhhqrrs6sqk::::res://Pixels resources/Dungeon/Floor-007.png<>uid://bbjrlntb34pir::::res://Pixels resources/Dungeon/Floor-008.png<>uid://b40vlnce3q2fj::::res://Pixels resources/Dungeon/Floor-009.png<>uid://rd3dtb0561wv::::res://Pixels resources/Dungeon/Floor-010.png<>uid://bpqr1psp2k6p1::::res://Pixels resources/Dungeon/Floor-011.png<>uid://c2uqj8mep1rkr::::res://Pixels resources/Dungeon/Floor-012.png<>uid://dqfad7pp135a3::::res://Pixels resources/Dungeon/Cemetery-001.png<>uid://bd54gh8xr16cc::::res://Pixels resources/Dungeon/Floor-013.png<>uid://c7hptlc7cyev7::::res://Pixels resources/Dungeon/Gate-001.png<>uid://b4k4kalsyd85n::::res://Pixels resources/Dungeon/Gate-002.png<>uid://dhh4qb5yl30i6::::res://Pixels resources/Dungeon/Jar-001.png<>uid://dfc8hc5xeavpc::::res://Pixels resources/Dungeon/Jar-002.png<>uid://c4srkk3r1ciht::::res://Pixels resources/Dungeon/Pillar-001.png<>uid://d0xodxsvi1bcc::::res://Pixels resources/Dungeon/Pillar-002.png<>uid://06nseuparwou::::res://Pixels resources/Dungeon/Pillar-003.png<>uid://dxfulpk0n3vbm::::res://Pixels resources/Dungeon/Pillar-004.png<>uid://bn1jii7774a77::::res://Pixels resources/Dungeon/Pillar-005.png<>uid://bcojpdequb84j::::res://Pixels resources/Dungeon/Earth-001.png<>uid://cespt6gjbpkah::::res://Pixels resources/Dungeon/Stone-001.png<>uid://c7rxo2a4vv3wh::::res://Pixels resources/Dungeon/Stone-002.png<>uid://uw04qsf58nj2::::res://Pixels resources/Dungeon/Stone-003.png<>uid://chhwdu7jtgonh::::res://Pixels resources/Dungeon/Stone-004.png<>uid://bh0nyg5fl04me::::res://Pixels resources/Dungeon/Stone-005.png<>uid://dlki87tlux61p::::res://Pixels resources/Dungeon/Stone-006.png<>uid://bx83fqao310o8::::res://Pixels resources/Dungeon/Wall-001.png<>uid://ccpr7viqoly04::::res://Pixels resources/Dungeon/Wall-002.png<>uid://dvet78hh4t448::::res://Pixels resources/Dungeon/Wall-003.png<>uid://dikoclx2340e::::res://Pixels resources/Dungeon/Wall-004.png<>uid://c5lg4t688wh4q::::res://Pixels resources/Dungeon/Earth-002.png<>uid://bvci1y78lw3fl::::res://Pixels resources/Dungeon/Web-001.png<>uid://dhowv3rm02snr::::res://Pixels resources/Dungeon/Earth-003.png<>uid://df810kw7tq7l3::::res://Pixels resources/Dungeon/Earth-004.png<>uid://boagmrm0g60fh::::res://Pixels resources/Dungeon/Earth-005.png<>uid://jr33aj3q0n5g::::res://Pixels resources/Dungeon/Earth-006.png
 tile_0111.png::CompressedTexture2D::4552903304061499774::1715007031::1715007031::1::::<><>::
 ::res://Scenes/manager/::1715007031
 arena_time_manager.gd::GDScript::-1::1715007031::0::1::::<>Node<>::
@@ -401,7 +483,7 @@ experience_manager.gd::GDScript::-1::1715007031::0::1::::<>Node<>::
 experience_manager.tscn::PackedScene::6972209588997135985::1715007031::0::1::::<><>::res://Scenes/manager/experience_manager.gd
 upgrade_manager.gd::GDScript::-1::1715007031::0::1::::<>Node<>::
 upgrade_manager.tscn::PackedScene::6952785719477391969::1715007031::0::1::::<><>::res://Scenes/manager/upgrade_manager.gd<>uid://dagssqm3no7pg::::res://Scenes/ui/upgrade_screen.tscn
-::res://Scenes/ui/::1715196957
+::res://Scenes/ui/::1715211838
 ability_upgrade_card.gd::GDScript::-1::1715007031::0::1::::<>PanelContainer<>::
 ability_upgrade_card.tscn::PackedScene::6488639542504518117::1715007031::0::1::::<><>::res://Scenes/ui/ability_upgrade_card.gd<>uid://djtj0duuw7hud::::res://Scenes/component/random_stream_player_component.tscn<>uid://bqemrac8o10el::::res://assets/audio/HUDHoverReal.wav<>uid://cwqhuip0gon05::::res://assets/audio/UpgradeSelect.wav
 arena_time_ui.gd::GDScript::-1::1715007031::0::1::::<>CanvasLayer<>::
@@ -416,15 +498,15 @@ main_menu.gd::GDScript::-1::1715007031::0::1::::<>CanvasLayer<>::
 main_menu.tscn::PackedScene::3426478000770481426::1715188177::0::1::::<><>::uid://b4wwookp53201::::res://Scenes/ui/sound_button.tscn<>res://Scenes/ui/main_menu.gd<>uid://bkcsjsk2ciff::::res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn<>uid://b33608sdgoyqm::::res://Shrouded OST/Main Theme/Shrouded.mp3
 MarginContainer.gd::GDScript::-1::1715007031::0::1::::<>MarginContainer<>::
 options_menu.gd::GDScript::-1::1715007031::0::1::::<>CanvasLayer<>::
-options_menu.tscn::PackedScene::2735469178226770993::1715188177::0::1::::<><>::res://Scenes/ui/options_menu.gd<>uid://b4wwookp53201::::res://Scenes/ui/sound_button.tscn
-pause_menu.gd::GDScript::-1::1715196751::0::1::::<>CanvasLayer<>::
-pause_menu.tscn::PackedScene::6336147358532053065::1715196753::0::1::::<><>::res://Scenes/ui/pause_menu.gd<>uid://b4wwookp53201::::res://Scenes/ui/sound_button.tscn
+options_menu.tscn::PackedScene::2735469178226770993::1715211407::0::1::::<><>::res://Scenes/ui/options_menu.gd<>uid://b4wwookp53201::::res://Scenes/ui/sound_button.tscn
+pause_menu.gd::GDScript::-1::1715211267::0::1::::<>CanvasLayer<>::
+pause_menu.tscn::PackedScene::6336147358532053065::1715211406::0::1::::<><>::res://Scenes/ui/pause_menu.gd<>uid://b4wwookp53201::::res://Scenes/ui/sound_button.tscn
 sound_button.gd::GDScript::-1::1715007031::0::1::::<>Button<>::
 sound_button.tscn::PackedScene::4468674986238586232::1715007031::0::1::::<><>::res://Scenes/ui/sound_button.gd<>uid://djtj0duuw7hud::::res://Scenes/component/random_stream_player_component.tscn<>uid://dt3idbae0y02r::::res://assets/audio/ButtonSelect.wav
 upgrade_screen.gd::GDScript::-1::1715007031::0::1::::<>CanvasLayer<>::
-upgrade_screen.tscn::PackedScene::7172774227965153604::1715196753::0::1::::<><>::res://Scenes/ui/upgrade_screen.gd<>uid://cype7eyu53mdp::::res://Scenes/ui/ability_upgrade_card.tscn
+upgrade_screen.tscn::PackedScene::7172774227965153604::1715211406::0::1::::<><>::res://Scenes/ui/upgrade_screen.gd<>uid://cype7eyu53mdp::::res://Scenes/ui/ability_upgrade_card.tscn
 vignette.gd::GDScript::-1::1715007031::0::1::::<>CanvasLayer<>::
-vignette.gdshader::Shader::-1::1715196957::0::1::::<><>::
+vignette.gdshader::Shader::-1::1715211838::0::1::::<><>::
 vignette.tscn::PackedScene::1990063145972187296::1715187194::0::1::::<><>::res://Scenes/ui/vignette.gdshader<>res://Scenes/ui/vignette.gd
 ::res://scripts/::1715007032
 weighted_table.gd::GDScript::-1::1715007032::0::1::::WeightedTable<>RefCounted<>::

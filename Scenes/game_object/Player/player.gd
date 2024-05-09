@@ -6,9 +6,10 @@ extends CharacterBody2D
 @onready var health_component = $HealthComponent
 @onready var health_bar = $HealthBar
 @onready var abilities = $Abilities
-@onready var animation_player = $AnimationPlayer
 @onready var visuals = $Visuals
 @onready var velocity_component = $VelocityComponent
+@onready var animated_sprite = $Visuals/AnimatedSprite2D
+
 
 
 var number_colliding_bodies = 0
@@ -31,19 +32,33 @@ func _process(delta):
 	velocity_component.accelerate_in_direction(direction)
 	velocity_component.move(self)
 	
+	if Input.is_action_pressed("move_up") and Input.is_action_pressed("move_left"):
+		animated_sprite.play("Run-Up-Left")
 	
-	if movement_vector.x != 0 || movement_vector.y != 0:
-		animation_player.play("walk") 
+	elif Input.is_action_pressed("move_up") and Input.is_action_pressed("move_right"):
+		animated_sprite.play("Run-Up-Right")
+	
+	elif Input.is_action_pressed("move_down") and Input.is_action_pressed("move_left"):
+		animated_sprite.play("Run-Down-Left")
+	
+	elif Input.is_action_pressed("move_down") and Input.is_action_pressed("move_right"):
+		animated_sprite.play("Run-Down-Right")
+
+	elif Input.is_action_pressed("move_right"):
+		animated_sprite.play("Run-Right")
+	
+	elif Input.is_action_pressed("move_left"):
+		animated_sprite.play("Run-Left")
+	
+	elif Input.is_action_pressed("move_down"):
+		animated_sprite.play("Run-Down")
+	
+	elif Input.is_action_pressed("move_up"):
+		animated_sprite.play("Run-Up")
+		
 	else:
-		animation_player.play("RESET")
-	
-	var move_sign = sign(movement_vector.x)
-	if move_sign == 0:
-		visuals.scale = Vector2.ONE
-	else:
-		visuals.scale = Vector2(move_sign, 1)
-	
-	
+		animated_sprite.play("Idle")
+
 	
 func get_movement_vector():
 	
