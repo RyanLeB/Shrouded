@@ -106,8 +106,7 @@ text = "Resume"
 unique_name_in_owner = true
 custom_minimum_size = Vector2(101, 19)
 layout_mode = 2
-text = "Options
-"
+text = "Options"
 
 [node name="QuitButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/VBoxContainer" instance=ExtResource("4_3lp7k")]
 unique_name_in_owner = true
