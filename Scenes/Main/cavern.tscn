@@ -1,6 +1,6 @@
 [gd_scene load_steps=17 format=3 uid="uid://dlcufl3kcrv0f"]
 
-[ext_resource type="Script" path="res://Scenes/Main/main.gd" id="1_vnyh6"]
+[ext_resource type="Script" path="res://Scenes/Main/cavern.gd" id="1_kvvbr"]
 [ext_resource type="PackedScene" uid="uid://ke1sjca8ix7t" path="res://Scenes/ui/end_screen.tscn" id="2_nc733"]
 [ext_resource type="PackedScene" uid="uid://bkcsjsk2ciff" path="res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn" id="3_ml6w3"]
 [ext_resource type="AudioStream" uid="uid://c278ff8trxl6l" path="res://Shrouded OST/Levels, Ambience, Etc/LostContinued.mp3" id="4_rkgdx"]
@@ -18,13 +18,12 @@
 [ext_resource type="PackedScene" uid="uid://ch8vxxiweatbb" path="res://Scenes/game_object/Player/player.tscn" id="66_fr0v8"]
 
 [node name="Cavern" type="Node"]
-script = ExtResource("1_vnyh6")
+script = ExtResource("1_kvvbr")
 end_screen_scene = ExtResource("2_nc733")
 metadata/_edit_horizontal_guides_ = [-63.0]
 
 [node name="BackgroundMusicPlayer" parent="." instance=ExtResource("3_ml6w3")]
 stream = ExtResource("4_rkgdx")
-volume_db = -20.0
 
 [node name="Vignette" parent="." instance=ExtResource("5_y34fm")]
 

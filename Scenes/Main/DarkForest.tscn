@@ -1,0 +1,77 @@
+[gd_scene load_steps=17 format=3 uid="uid://df5jei4j7kewl"]
+
+[ext_resource type="Script" path="res://Scenes/Main/DarkForest.gd" id="1_7sakb"]
+[ext_resource type="PackedScene" uid="uid://ke1sjca8ix7t" path="res://Scenes/ui/end_screen.tscn" id="2_1wum1"]
+[ext_resource type="PackedScene" uid="uid://bkcsjsk2ciff" path="res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn" id="3_wv56s"]
+[ext_resource type="AudioStream" uid="uid://2vndr8l0g56y" path="res://Scenes/component/ForestTheme.mp3" id="4_sc482"]
+[ext_resource type="PackedScene" uid="uid://3mabw7g8m1pk" path="res://Scenes/ui/vignette.tscn" id="5_efcwe"]
+[ext_resource type="PackedScene" uid="uid://bbievodkkjif6" path="res://Scenes/ui/arena_time_ui.tscn" id="6_qic3x"]
+[ext_resource type="PackedScene" uid="uid://b2qk4lun3auka" path="res://Scenes/ui/experience_bar.tscn" id="7_fm56q"]
+[ext_resource type="PackedScene" uid="uid://b4ldv4pnb6pwr" path="res://Scenes/manager/arena_time_manager.tscn" id="8_omfth"]
+[ext_resource type="PackedScene" uid="uid://d4hn1jnv4erob" path="res://Scenes/manager/enemy_manager.tscn" id="9_or4cn"]
+[ext_resource type="PackedScene" uid="uid://bkcuahjo37wb2" path="res://Scenes/game_object/basic_enemy/basic_enemy.tscn" id="10_gw2qd"]
+[ext_resource type="PackedScene" uid="uid://cbhden0us7fum" path="res://Scenes/game_object/wizard_enemy/wizard_enemy.tscn" id="11_55md5"]
+[ext_resource type="PackedScene" uid="uid://c6lnjj56rq6af" path="res://Scenes/manager/experience_manager.tscn" id="12_7tll1"]
+[ext_resource type="PackedScene" uid="uid://c6b8mn6mye12d" path="res://Scenes/manager/upgrade_manager.tscn" id="13_bd0da"]
+[ext_resource type="PackedScene" uid="uid://blcdlcvxso8ca" path="res://Scenes/game_object/game_camera/game_camera.tscn" id="14_7jjfi"]
+[ext_resource type="TileSet" uid="uid://dvibh1sc3g308" path="res://resources/caverntileset.tres" id="15_y1gtc"]
+[ext_resource type="PackedScene" uid="uid://ch8vxxiweatbb" path="res://Scenes/game_object/Player/player.tscn" id="16_b4yox"]
+
+[node name="DarkForest" type="Node"]
+script = ExtResource("1_7sakb")
+end_screen_scene = ExtResource("2_1wum1")
+metadata/_edit_horizontal_guides_ = [-63.0]
+
+[node name="BackgroundMusicPlayer" parent="." instance=ExtResource("3_wv56s")]
+stream = ExtResource("4_sc482")
+volume_db = -20.0
+
+[node name="Vignette" parent="." instance=ExtResource("5_efcwe")]
+
+[node name="ArenaTimeUI" parent="." node_paths=PackedStringArray("arena_time_manager") instance=ExtResource("6_qic3x")]
+arena_time_manager = NodePath("../ArenaTimeManager")
+
+[node name="ExperienceBar" parent="." node_paths=PackedStringArray("experience_manager") instance=ExtResource("7_fm56q")]
+experience_manager = NodePath("../ExperienceManager")
+
+[node name="ArenaTimeManager" parent="." instance=ExtResource("8_omfth")]
+
+[node name="EnemyManager" parent="." node_paths=PackedStringArray("arena_time_manager") instance=ExtResource("9_or4cn")]
+basic_enemy_scene = ExtResource("10_gw2qd")
+wizard_enemy_scene = ExtResource("11_55md5")
+arena_time_manager = NodePath("../ArenaTimeManager")
+
+[node name="ExperienceManager" parent="." instance=ExtResource("12_7tll1")]
+
+[node name="UpgradeManager" parent="." node_paths=PackedStringArray("experience_manager") instance=ExtResource("13_bd0da")]
+experience_manager = NodePath("../ExperienceManager")
+
+[node name="GameCamera" parent="." instance=ExtResource("14_7jjfi")]
+
+[node name="TileMap2" type="TileMap" parent="."]
+y_sort_enabled = true
+tile_set = ExtResource("15_y1gtc")
+format = 2
+layer_0/name = "Floor"
+layer_0/z_index = -1
+layer_1/name = "Walls"
+layer_1/y_sort_enabled = true
+layer_1/tile_data = PackedInt32Array()
+layer_2/name = "Pillar"
+layer_2/z_index = 1
+layer_2/tile_data = PackedInt32Array()
+layer_3/name = "Gate"
+layer_3/z_index = 2
+layer_3/tile_data = PackedInt32Array()
+layer_4/name = "Props"
+layer_4/tile_data = PackedInt32Array()
+
+[node name="Entities" type="Node2D" parent="." groups=["entities_layer"]]
+y_sort_enabled = true
+
+[node name="Player" parent="Entities" instance=ExtResource("16_b4yox")]
+unique_name_in_owner = true
+z_index = 1
+position = Vector2(303, 168)
+
+[node name="Foreground" type="Node2D" parent="." groups=["foreground_layer"]]

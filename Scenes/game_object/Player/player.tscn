@@ -412,11 +412,11 @@ shape = SubResource("CircleShape2D_ip8mj")
 [node name="Visuals" type="Node2D" parent="."]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Visuals"]
-position = Vector2(0, -4)
-scale = Vector2(0.6, 0.6)
+position = Vector2(0, -2)
+scale = Vector2(0.5, 0.5)
 sprite_frames = SubResource("SpriteFrames_6ct3k")
 animation = &"Idle"
-frame_progress = 0.351453
+frame_progress = 0.298148
 
 [node name="CollisionArea2D" type="Area2D" parent="."]
 position = Vector2(0, 1)
