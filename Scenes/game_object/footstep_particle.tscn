@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://hgi2mlrh7rub"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_m5sc2"]
+lifetime_randomness = 0.15
+particle_flag_disable_z = true
+angle_max = 90.0
+velocity_pivot = Vector3(1, 0, 0)
+spread = 32.865
+initial_velocity_min = 146.07
+initial_velocity_max = 235.96
+gravity = Vector3(0, 98, 0)
+linear_accel_max = 100.0
+scale_min = 0.0
+scale_max = 12.24
+
+[node name="Footstep_particle" type="Node2D"]
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+process_material = SubResource("ParticleProcessMaterial_m5sc2")
