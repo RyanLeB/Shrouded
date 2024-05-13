@@ -45,6 +45,13 @@ layout_mode = 2
 size_flags_horizontal = 0
 text = "Play"
 
+[node name="ShopButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource("1_ojt6s")]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Shop"
+
 [node name="OptionsButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource("1_ojt6s")]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 0)

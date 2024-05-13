@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://caf8ss8hxgtlc"]
+[gd_scene load_steps=7 format=3 uid="uid://caf8ss8hxgtlc"]
 
 [ext_resource type="Script" path="res://Scenes/ui/shop_menu.gd" id="1_etng2"]
 [ext_resource type="PackedScene" uid="uid://3mabw7g8m1pk" path="res://Scenes/ui/vignette.tscn" id="2_kpiby"]
 [ext_resource type="Resource" uid="uid://dfwj6h0qycfc3" path="res://resources/meta_upgrades/experience_gain.tres" id="2_mcrm6"]
 [ext_resource type="PackedScene" uid="uid://bkcsjsk2ciff" path="res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn" id="2_nv5wk"]
 [ext_resource type="AudioStream" uid="uid://cvebnqy7ernm7" path="res://Shrouded OST/Levels, Ambience, Etc/ShopTheme.mp3" id="3_cbnwv"]
+[ext_resource type="PackedScene" uid="uid://dcwrdixjyo6cn" path="res://Scenes/ui/meta_upgrade_card.tscn" id="3_s2gu0"]
 
 [node name="ShopMenu" type="CanvasLayer"]
 layer = 2
@@ -32,4 +33,19 @@ theme_override_constants/margin_bottom = 24
 [node name="GridContainer" type="GridContainer" parent="MarginContainer"]
 unique_name_in_owner = true
 layout_mode = 2
-columns = 3
+size_flags_horizontal = 4
+theme_override_constants/h_separation = 12
+columns = 2
+
+[node name="MetaUpgradeCard" parent="MarginContainer/GridContainer" instance=ExtResource("3_s2gu0")]
+layout_mode = 2
+
+[node name="MetaUpgradeCard2" parent="MarginContainer/GridContainer" instance=ExtResource("3_s2gu0")]
+layout_mode = 2
+
+[node name="BackButton" type="Button" parent="MarginContainer"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 8
+text = "Back"
