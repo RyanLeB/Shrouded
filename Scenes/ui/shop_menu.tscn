@@ -18,32 +18,68 @@ stream = ExtResource("3_cbnwv")
 [node name="Vignette" parent="." instance=ExtResource("2_kpiby")]
 layer = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
-custom_minimum_size = Vector2(210, 244)
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer"]
+custom_minimum_size = Vector2(210, 244)
+layout_mode = 2
+size_flags_horizontal = 3
 theme_override_constants/margin_left = 24
 theme_override_constants/margin_top = 24
 theme_override_constants/margin_right = 24
 theme_override_constants/margin_bottom = 24
 
-[node name="GridContainer" type="GridContainer" parent="MarginContainer"]
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/MarginContainer"]
 unique_name_in_owner = true
 layout_mode = 2
-size_flags_horizontal = 4
+size_flags_horizontal = 6
 theme_override_constants/h_separation = 12
 columns = 2
 
-[node name="MetaUpgradeCard" parent="MarginContainer/GridContainer" instance=ExtResource("3_s2gu0")]
+[node name="MetaUpgradeCard" parent="ScrollContainer/MarginContainer/GridContainer" instance=ExtResource("3_s2gu0")]
 layout_mode = 2
 
-[node name="MetaUpgradeCard2" parent="MarginContainer/GridContainer" instance=ExtResource("3_s2gu0")]
+[node name="MetaUpgradeCard2" parent="ScrollContainer/MarginContainer/GridContainer" instance=ExtResource("3_s2gu0")]
 layout_mode = 2
+
+[node name="MetaUpgradeCard3" parent="ScrollContainer/MarginContainer/GridContainer" instance=ExtResource("3_s2gu0")]
+layout_mode = 2
+
+[node name="MetaUpgradeCard4" parent="ScrollContainer/MarginContainer/GridContainer" instance=ExtResource("3_s2gu0")]
+layout_mode = 2
+
+[node name="MetaUpgradeCard5" parent="ScrollContainer/MarginContainer/GridContainer" instance=ExtResource("3_s2gu0")]
+layout_mode = 2
+
+[node name="MetaUpgradeCard6" parent="ScrollContainer/MarginContainer/GridContainer" instance=ExtResource("3_s2gu0")]
+layout_mode = 2
+
+[node name="MetaUpgradeCard7" parent="ScrollContainer/MarginContainer/GridContainer" instance=ExtResource("3_s2gu0")]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+custom_minimum_size = Vector2(10, 10)
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -244.0
+offset_right = 98.0
+offset_bottom = -2.92499
+grow_vertical = 0
+size_flags_horizontal = 3
+mouse_filter = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
 
 [node name="BackButton" type="Button" parent="MarginContainer"]
+unique_name_in_owner = true
 custom_minimum_size = Vector2(50, 0)
 layout_mode = 2
 size_flags_horizontal = 0
