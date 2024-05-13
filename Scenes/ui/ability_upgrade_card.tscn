@@ -356,8 +356,7 @@ theme_type_variation = &"AlternatePanelContainer"
 [node name="NameLabel" type="Label" parent="MarginContainer/VBoxContainer/PanelContainer"]
 unique_name_in_owner = true
 layout_mode = 2
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 7
+theme_type_variation = &"OutlineLabel"
 theme_override_font_sizes/font_size = 32
 text = "Test name
 "
@@ -369,10 +368,9 @@ uppercase = true
 [node name="DescriptionLabel" type="Label" parent="MarginContainer/VBoxContainer"]
 unique_name_in_owner = true
 layout_mode = 2
+theme_type_variation = &"OutlineLabel"
 theme_override_colors/font_color = Color(0.864225, 0.759701, 0.155184, 1)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_y = 0
-theme_override_constants/outline_size = 5
 text = "Write some description here a super long one just to test how looooong it can really goooooooooooo"
 horizontal_alignment = 1
 vertical_alignment = 1

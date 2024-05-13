@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://caf8ss8hxgtlc"]
+
+[ext_resource type="Script" path="res://Scenes/ui/shop_menu.gd" id="1_etng2"]
+[ext_resource type="PackedScene" uid="uid://3mabw7g8m1pk" path="res://Scenes/ui/vignette.tscn" id="2_kpiby"]
+[ext_resource type="Resource" uid="uid://dfwj6h0qycfc3" path="res://resources/meta_upgrades/experience_gain.tres" id="2_mcrm6"]
+[ext_resource type="PackedScene" uid="uid://bkcsjsk2ciff" path="res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn" id="2_nv5wk"]
+[ext_resource type="AudioStream" uid="uid://cvebnqy7ernm7" path="res://Shrouded OST/Levels, Ambience, Etc/ShopTheme.mp3" id="3_cbnwv"]
+
+[node name="ShopMenu" type="CanvasLayer"]
+layer = 2
+script = ExtResource("1_etng2")
+upgrades = Array[Resource("res://resources/meta_upgrades/meta_upgrade.gd")]([ExtResource("2_mcrm6")])
+
+[node name="BackgroundMusicPlayer" parent="." instance=ExtResource("2_nv5wk")]
+stream = ExtResource("3_cbnwv")
+
+[node name="Vignette" parent="." instance=ExtResource("2_kpiby")]
+layer = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+custom_minimum_size = Vector2(210, 244)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+columns = 3

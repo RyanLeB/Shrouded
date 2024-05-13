@@ -122,7 +122,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Idle",
-"speed": 10.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -151,7 +151,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Run-Down",
-"speed": 10.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -180,7 +180,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Run-Down-Left",
-"speed": 10.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -209,7 +209,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Run-Down-Right",
-"speed": 10.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -238,7 +238,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Run-Left",
-"speed": 10.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -267,7 +267,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Run-Right",
-"speed": 10.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -296,7 +296,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Run-Up",
-"speed": 10.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -325,7 +325,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Run-Up-Left",
-"speed": 10.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -354,7 +354,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Run-Up-Right",
-"speed": 10.0
+"speed": 12.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_b4b6b"]
@@ -412,11 +412,10 @@ shape = SubResource("CircleShape2D_ip8mj")
 [node name="Visuals" type="Node2D" parent="."]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Visuals"]
-position = Vector2(0, -2)
-scale = Vector2(0.5, 0.5)
+position = Vector2(0, -8)
+scale = Vector2(0.8, 0.8)
 sprite_frames = SubResource("SpriteFrames_6ct3k")
-animation = &"Idle"
-frame_progress = 0.298148
+animation = &"Run-Right"
 
 [node name="CollisionArea2D" type="Area2D" parent="."]
 position = Vector2(0, 1)

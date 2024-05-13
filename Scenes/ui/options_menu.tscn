@@ -1,11 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://be8c1pbbwpxa4"]
+[gd_scene load_steps=4 format=3 uid="uid://be8c1pbbwpxa4"]
 
 [ext_resource type="Script" path="res://Scenes/ui/options_menu.gd" id="1_oftfg"]
+[ext_resource type="PackedScene" uid="uid://3mabw7g8m1pk" path="res://Scenes/ui/vignette.tscn" id="2_7tv8l"]
 [ext_resource type="PackedScene" uid="uid://b4wwookp53201" path="res://Scenes/ui/sound_button.tscn" id="4_mdu4t"]
 
 [node name="OptionsMenu" type="CanvasLayer"]
 layer = 2
 script = ExtResource("1_oftfg")
+
+[node name="Vignette" parent="." instance=ExtResource("2_7tv8l")]
+layer = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 anchors_preset = 15
@@ -33,6 +37,7 @@ theme_override_constants/separation = 24
 
 [node name="Label" type="Label" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_type_variation = &"OutlineLabel"
 theme_override_font_sizes/font_size = 32
 text = "Options"
 horizontal_alignment = 1
@@ -46,6 +51,7 @@ layout_mode = 2
 
 [node name="Label" type="Label" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/VBoxContainer/SFXContainer"]
 layout_mode = 2
+theme_type_variation = &"OutlineLabel"
 text = "SFX Volume"
 
 [node name="SFXSlider" type="HSlider" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/VBoxContainer/SFXContainer"]
@@ -59,6 +65,7 @@ layout_mode = 2
 
 [node name="Label" type="Label" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/VBoxContainer/MusicContainer"]
 layout_mode = 2
+theme_type_variation = &"OutlineLabel"
 text = "Music Volume"
 
 [node name="MusicSlider" type="HSlider" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/VBoxContainer/MusicContainer"]
@@ -66,12 +73,14 @@ unique_name_in_owner = true
 layout_mode = 2
 max_value = 1.0
 step = 0.01
+value = 0.5
 
 [node name="WindowContainer" type="VBoxContainer" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/VBoxContainer"]
 layout_mode = 2
 
 [node name="Label" type="Label" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/VBoxContainer/WindowContainer"]
 layout_mode = 2
+theme_type_variation = &"OutlineLabel"
 text = "Window Mode"
 
 [node name="WindowButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/VBoxContainer/WindowContainer" instance=ExtResource("4_mdu4t")]
@@ -79,6 +88,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 size_flags_horizontal = 0
+text = "Windowed"
 
 [node name="BackButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource("4_mdu4t")]
 unique_name_in_owner = true
@@ -86,3 +96,6 @@ custom_minimum_size = Vector2(50, 19)
 layout_mode = 2
 size_flags_horizontal = 0
 text = "Back"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2

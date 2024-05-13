@@ -653,6 +653,7 @@ arena_time_manager = NodePath("../ArenaTimeManager")
 experience_manager = NodePath("../ExperienceManager")
 
 [node name="GameCamera" parent="." instance=ExtResource("1_ik26k")]
+zoom = Vector2(0.7, 0.7)
 
 [node name="TileMap" type="TileMap" parent="."]
 y_sort_enabled = true

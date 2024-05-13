@@ -1,12 +1,16 @@
-[gd_scene load_steps=5 format=3 uid="uid://bo22ueoin0rfm"]
+[gd_scene load_steps=6 format=3 uid="uid://bo22ueoin0rfm"]
 
 [ext_resource type="PackedScene" uid="uid://b4wwookp53201" path="res://Scenes/ui/sound_button.tscn" id="1_ojt6s"]
 [ext_resource type="Script" path="res://Scenes/ui/main_menu.gd" id="1_svep3"]
+[ext_resource type="PackedScene" uid="uid://3mabw7g8m1pk" path="res://Scenes/ui/vignette.tscn" id="2_itjf3"]
 [ext_resource type="PackedScene" uid="uid://bkcsjsk2ciff" path="res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn" id="2_suudq"]
 [ext_resource type="AudioStream" uid="uid://b33608sdgoyqm" path="res://Shrouded OST/Main Theme/Shrouded.mp3" id="3_m0kt2"]
 
 [node name="MainMenu" type="CanvasLayer"]
 script = ExtResource("1_svep3")
+
+[node name="Vignette" parent="." instance=ExtResource("2_itjf3")]
+layer = 2
 
 [node name="BackgroundMusicPlayer" parent="." instance=ExtResource("2_suudq")]
 stream = ExtResource("3_m0kt2")
@@ -67,6 +71,8 @@ offset_bottom = 85.0
 grow_horizontal = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
 theme_override_font_sizes/normal_font_size = 46
 bbcode_enabled = true
 text = "[center][tornado radius=3.0 freq=5.0 connected=1]Shrouded[/tornado][/center]"
