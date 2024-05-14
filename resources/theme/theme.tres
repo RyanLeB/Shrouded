@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=20 format=3 uid="uid://p77jawgpv7m5"]
+[gd_resource type="Theme" load_steps=19 format=3 uid="uid://p77jawgpv7m5"]
 
 [ext_resource type="FontFile" uid="uid://d4mlxoepwg232" path="res://resources/theme/Bitfantasy.ttf" id="1_1d7tn"]
 [ext_resource type="Texture2D" uid="uid://c5m503mmlhm1e" path="res://assets/UI/ui.png" id="1_qhnc1"]
@@ -14,14 +14,6 @@ texture_margin_top = 1.0
 texture_margin_right = 1.0
 texture_margin_bottom = 1.0
 region_rect = Rect2(18, 2, 12, 12)
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_t2wsi"]
-texture = ExtResource("1_qhnc1")
-texture_margin_left = 6.0
-texture_margin_top = 3.0
-texture_margin_right = 6.0
-texture_margin_bottom = 3.0
-region_rect = Rect2(52, 4, 8, 8)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vobou"]
 
@@ -132,10 +124,10 @@ default_font = ExtResource("1_1d7tn")
 AlternatePanelContainer/base_type = &"PanelContainer"
 AlternatePanelContainer/styles/panel = SubResource("StyleBoxTexture_dxfwf")
 Button/colors/font_color = Color(0.133197, 0.133196, 0.133196, 1)
+Button/colors/font_disabled_color = Color(0.996078, 0.996078, 0.996078, 1)
 Button/colors/font_focus_color = Color(0.133197, 0.133196, 0.133196, 1)
 Button/colors/font_hover_color = Color(0.284851, 0.28485, 0.28485, 1)
 Button/colors/font_pressed_color = Color(0.133197, 0.133196, 0.133196, 1)
-Button/styles/disabled = SubResource("StyleBoxTexture_t2wsi")
 Button/styles/focus = SubResource("StyleBoxEmpty_vobou")
 Button/styles/hover = SubResource("StyleBoxTexture_y8mkj")
 Button/styles/normal = SubResource("StyleBoxTexture_sneku")

@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://Scenes/Main/DarkForest.gd" id="1_7sakb"]
 [ext_resource type="PackedScene" uid="uid://ke1sjca8ix7t" path="res://Scenes/ui/end_screen.tscn" id="2_1wum1"]
 [ext_resource type="PackedScene" uid="uid://bkcsjsk2ciff" path="res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn" id="3_wv56s"]
-[ext_resource type="AudioStream" uid="uid://2vndr8l0g56y" path="res://Scenes/component/ForestTheme.mp3" id="4_sc482"]
+[ext_resource type="AudioStream" uid="uid://2vndr8l0g56y" path="res://Shrouded OST/Levels, Ambience, Etc/ForestTheme.mp3" id="4_sc482"]
 [ext_resource type="PackedScene" uid="uid://3mabw7g8m1pk" path="res://Scenes/ui/vignette.tscn" id="5_efcwe"]
 [ext_resource type="PackedScene" uid="uid://bbievodkkjif6" path="res://Scenes/ui/arena_time_ui.tscn" id="6_qic3x"]
 [ext_resource type="PackedScene" uid="uid://b2qk4lun3auka" path="res://Scenes/ui/experience_bar.tscn" id="7_fm56q"]
@@ -14,8 +14,9 @@
 [ext_resource type="PackedScene" uid="uid://c6lnjj56rq6af" path="res://Scenes/manager/experience_manager.tscn" id="12_7tll1"]
 [ext_resource type="PackedScene" uid="uid://c6b8mn6mye12d" path="res://Scenes/manager/upgrade_manager.tscn" id="13_bd0da"]
 [ext_resource type="PackedScene" uid="uid://blcdlcvxso8ca" path="res://Scenes/game_object/game_camera/game_camera.tscn" id="14_7jjfi"]
-[ext_resource type="TileSet" uid="uid://dvibh1sc3g308" path="res://resources/caverntileset.tres" id="15_y1gtc"]
+[ext_resource type="TileSet" uid="uid://c1wpcfjubqlf7" path="res://resources/caverntileset.tres" id="15_y1gtc"]
 [ext_resource type="PackedScene" uid="uid://ch8vxxiweatbb" path="res://Scenes/game_object/Player/player.tscn" id="16_b4yox"]
+
 
 [node name="DarkForest" type="Node"]
 script = ExtResource("1_7sakb")
