@@ -1,0 +1,42 @@
+[gd_scene load_steps=8 format=3 uid="uid://jcsmp3h3blrn"]
+
+[ext_resource type="Texture2D" uid="uid://dl5mg8d14dyi4" path="res://Dust1.png" id="1_1x5i7"]
+[ext_resource type="Texture2D" uid="uid://bm5j50w1yrgee" path="res://Dust2.png" id="2_kyhtf"]
+[ext_resource type="Texture2D" uid="uid://bb1klvoh6jtwe" path="res://Dust3.png" id="3_6goag"]
+[ext_resource type="Texture2D" uid="uid://bs4mg631wtb4h" path="res://Dust4.png" id="4_hr6sn"]
+[ext_resource type="Texture2D" uid="uid://cpa7rv2aa5gxf" path="res://Dust5.png" id="5_3rj7a"]
+[ext_resource type="Script" path="res://Scenes/game_object/step_particles.gd" id="6_kestq"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5wyf1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_1x5i7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_kyhtf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_6goag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_hr6sn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_3rj7a")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="StepParticles" type="AnimatedSprite2D"]
+texture_filter = 1
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_5wyf1")
+autoplay = "default"
+frame = 1
+frame_progress = 0.524284
+script = ExtResource("6_kestq")
+
+[connection signal="animation_finished" from="." to="." method="_on_animation_finished"]

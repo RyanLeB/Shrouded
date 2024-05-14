@@ -12,6 +12,8 @@ extends CharacterBody2D
 
 
 
+
+
 var number_colliding_bodies = 0
 var base_speed = 0
 
@@ -32,33 +34,47 @@ func _process(delta):
 	velocity_component.accelerate_in_direction(direction)
 	velocity_component.move(self)
 	
+	
+	
 	if Input.is_action_pressed("move_up") and Input.is_action_pressed("move_left"):
 		animated_sprite.play("Run-Up-Left")
+		
 	
 	elif Input.is_action_pressed("move_up") and Input.is_action_pressed("move_right"):
 		animated_sprite.play("Run-Up-Right")
+		
 	
 	elif Input.is_action_pressed("move_down") and Input.is_action_pressed("move_left"):
 		animated_sprite.play("Run-Down-Left")
+		
 	
 	elif Input.is_action_pressed("move_down") and Input.is_action_pressed("move_right"):
 		animated_sprite.play("Run-Down-Right")
+		
 
 	elif Input.is_action_pressed("move_right"):
 		animated_sprite.play("Run-Right")
+		
 	
 	elif Input.is_action_pressed("move_left"):
 		animated_sprite.play("Run-Left")
+		
 	
 	elif Input.is_action_pressed("move_down"):
 		animated_sprite.play("Run-Down")
+		
 	
 	elif Input.is_action_pressed("move_up"):
 		animated_sprite.play("Run-Up")
 		
+		
+
+		
 	else:
 		animated_sprite.play("Idle")
+		
 
+	
 	
 func get_movement_vector():
 	
@@ -100,4 +116,6 @@ func on_ability_upgrade_added(ability_upgrade: AbilityUpgrade, current_upgrades:
 		abilities.add_child(ability.ability_controller_scene.instantiate())	
 	elif ability_upgrade.id == "player_speed":
 		velocity_component.max_speed = base_speed + (base_speed * current_upgrades["player_speed"]["quantity"] * .1)
+
+
 
