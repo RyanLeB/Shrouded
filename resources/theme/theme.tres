@@ -1,7 +1,8 @@
-[gd_resource type="Theme" load_steps=19 format=3 uid="uid://p77jawgpv7m5"]
+[gd_resource type="Theme" load_steps=20 format=3 uid="uid://p77jawgpv7m5"]
 
 [ext_resource type="FontFile" uid="uid://d4mlxoepwg232" path="res://resources/theme/Bitfantasy.ttf" id="1_1d7tn"]
 [ext_resource type="Texture2D" uid="uid://c5m503mmlhm1e" path="res://assets/UI/ui.png" id="1_qhnc1"]
+[ext_resource type="Texture2D" uid="uid://dh3xo5xdxmquv" path="res://Shadow.png" id="2_k14bj"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dxfwf"]
 content_margin_left = 4.0
@@ -75,12 +76,12 @@ expand_margin_right = 2.0
 expand_margin_bottom = 2.0
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5wucr"]
-texture = ExtResource("1_qhnc1")
+texture = ExtResource("2_k14bj")
 texture_margin_left = 4.0
-texture_margin_top = 6.0
+texture_margin_top = 4.0
 texture_margin_right = 4.0
-texture_margin_bottom = 3.0
-region_rect = Rect2(0, 0, 16, 16)
+texture_margin_bottom = 4.0
+region_rect = Rect2(2, 2, 28, 28)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_17ou2"]
 bg_color = Color(0.0862745, 0.0862745, 0.0862745, 1)

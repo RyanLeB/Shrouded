@@ -43,6 +43,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 size_flags_horizontal = 0
+theme_override_constants/outline_size = 3
 text = "Play"
 
 [node name="ShopButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource("1_ojt6s")]
@@ -50,6 +51,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 size_flags_horizontal = 0
+theme_override_constants/outline_size = 3
 text = "Shop"
 
 [node name="OptionsButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource("1_ojt6s")]
@@ -57,6 +59,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 size_flags_horizontal = 0
+theme_override_constants/outline_size = 3
 text = "Options"
 
 [node name="QuitButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource("1_ojt6s")]
@@ -64,6 +67,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 size_flags_horizontal = 0
+theme_override_constants/outline_size = 3
 text = "Quit Game"
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
@@ -78,6 +82,7 @@ offset_bottom = 85.0
 grow_horizontal = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+theme_override_colors/default_color = Color(0.83435, 0.735221, 0.143227, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 7
 theme_override_font_sizes/normal_font_size = 46

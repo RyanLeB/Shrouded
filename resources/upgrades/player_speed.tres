@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_0armj")
 id = "player_speed"
-max_quantity = 1
+max_quantity = 3
 name = "Hermes Boots"
 description = "Increases player movement speed by 10%."

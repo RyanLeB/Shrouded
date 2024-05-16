@@ -18,3 +18,4 @@ func on_player_died():
 	add_child(end_screen_instance)
 	end_screen_instance.set_defeat()
 	MetaProgression.save()
+	
