@@ -1,0 +1,30 @@
+[gd_scene load_steps=10 format=3 uid="uid://c65y330yhdo4s"]
+
+[ext_resource type="Script" path="res://Scenes/Main/hub.gd" id="1_5uqqf"]
+[ext_resource type="PackedScene" uid="uid://bkcsjsk2ciff" path="res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn" id="1_6jwdl"]
+[ext_resource type="AudioStream" uid="uid://caibwcwba1y23" path="res://Shrouded OST/Levels, Ambience, Etc/HUBWorld.mp3" id="2_bn0q1"]
+[ext_resource type="AudioStream" uid="uid://ca3pg361uxvoh" path="res://Shrouded OST/Levels, Ambience, Etc/HUBWorld_2.mp3" id="3_04rpy"]
+[ext_resource type="PackedScene" uid="uid://3mabw7g8m1pk" path="res://Scenes/ui/vignette.tscn" id="3_omqoe"]
+[ext_resource type="Script" path="res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.gd" id="3_p4k1t"]
+[ext_resource type="PackedScene" uid="uid://blcdlcvxso8ca" path="res://Scenes/game_object/game_camera/game_camera.tscn" id="4_bi8h5"]
+[ext_resource type="AudioStream" uid="uid://cmg516j1802wq" path="res://Shrouded OST/Levels, Ambience, Etc/HUBWorld3.mp3" id="4_xs13h"]
+[ext_resource type="PackedScene" uid="uid://ch8vxxiweatbb" path="res://Scenes/game_object/Player/player.tscn" id="5_byyxc"]
+
+[node name="HUB" type="Node"]
+script = ExtResource("1_5uqqf")
+
+[node name="BackgroundMusicPlayer" parent="." instance=ExtResource("1_6jwdl")]
+script = ExtResource("3_p4k1t")
+streams = Array[AudioStream]([ExtResource("2_bn0q1"), ExtResource("3_04rpy"), ExtResource("4_xs13h")])
+
+[node name="Vignette" parent="." instance=ExtResource("3_omqoe")]
+
+[node name="GameCamera" parent="." instance=ExtResource("4_bi8h5")]
+
+[node name="Entities" type="Node2D" parent="." groups=["entities_layer"]]
+y_sort_enabled = true
+
+[node name="Player" parent="Entities" instance=ExtResource("5_byyxc")]
+unique_name_in_owner = true
+z_index = 1
+position = Vector2(303, 168)
