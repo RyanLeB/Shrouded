@@ -166,3 +166,4 @@ Pause={
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
+gl_compatibility/nvidia_disable_threaded_optimization=false

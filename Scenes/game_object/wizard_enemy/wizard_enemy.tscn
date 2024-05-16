@@ -4,13 +4,13 @@
 [ext_resource type="PackedScene" uid="uid://daejyk1n81nqr" path="res://Scenes/component/health_component.tscn" id="1_sm5bj"]
 [ext_resource type="PackedScene" uid="uid://d1vp7nohu6nbc" path="res://Scenes/component/velocity_component.tscn" id="2_j6nf4"]
 [ext_resource type="PackedScene" uid="uid://dnymf2jxl2j6k" path="res://Scenes/component/death_component.tscn" id="2_x41o5"]
-[ext_resource type="Texture2D" uid="uid://ylyk5pbs3w41" path="res://Scenes/game_object/wizard_enemy/wizard_enemy.png" id="3_0ct6p"]
 [ext_resource type="PackedScene" uid="uid://dil76toga1piy" path="res://Scenes/component/hurtbox_component.tscn" id="4_dvgv6"]
 [ext_resource type="PackedScene" uid="uid://esb0ee5qnhki" path="res://Scenes/component/hit_flash_component.tscn" id="5_w22f3"]
 [ext_resource type="Shader" path="res://Scenes/component/hit_flash_component.gdshader" id="6_xbmx3"]
 [ext_resource type="PackedScene" uid="uid://bqwrtq838mmq2" path="res://Scenes/component/vial_drop_component.tscn" id="7_nebkc"]
 [ext_resource type="PackedScene" uid="uid://v23cjo2kcglc" path="res://Scenes/component/random_audio_stream_player_2d_component.tscn" id="8_vmb4n"]
 [ext_resource type="AudioStream" uid="uid://blgwyya674de" path="res://assets/audio/EnemyHit.wav" id="9_pv78k"]
+[ext_resource type="Texture2D" uid="uid://cltgcye36xaag" path="res://Pixels resources/Enemies and Bosses/Ghost-001.png" id="10_c4l50"]
 
 [sub_resource type="Animation" id="Animation_i671l"]
 length = 0.001
@@ -48,7 +48,7 @@ tracks/2/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(1, 1)]
+"values": [Vector2(0.7, 0.7)]
 }
 
 [sub_resource type="Animation" id="Animation_7mpb3"]
@@ -90,7 +90,7 @@ tracks/2/keys = {
 "times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
 "transitions": PackedFloat32Array(1, 1, 2.07053, 1),
 "update": 0,
-"values": [Vector2(1, 1), Vector2(1, 1), Vector2(1.5, 0.8), Vector2(0.9, 1.1)]
+"values": [Vector2(0.7, 0.7), Vector2(0.7, 0.7), Vector2(0.751, 0.6), Vector2(0.6, 0.733)]
 }
 tracks/3/type = "method"
 tracks/3/imported = false
@@ -167,7 +167,8 @@ max_pitch = 1.5
 [node name="Visuals" type="Node2D" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="Visuals"]
-texture = ExtResource("3_0ct6p")
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("10_c4l50")
 offset = Vector2(0, -8)
 
 [node name="HurtboxComponent" parent="." node_paths=PackedStringArray("health_component") instance=ExtResource("4_dvgv6")]
@@ -175,10 +176,9 @@ position = Vector2(0, -7)
 health_component = NodePath("../HealthComponent")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HurtboxComponent"]
-visible = false
+position = Vector2(0, 5)
 shape = SubResource("CircleShape2D_lxgh8")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
-position = Vector2(0, -4)
+position = Vector2(0, -1)
 shape = SubResource("CircleShape2D_erfls")

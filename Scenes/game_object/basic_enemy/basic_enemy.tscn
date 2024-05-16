@@ -1,7 +1,6 @@
 [gd_scene load_steps=18 format=3 uid="uid://bkcuahjo37wb2"]
 
 [ext_resource type="Script" path="res://Scenes/game_object/basic_enemy/basic_enemy.gd" id="1_4rlg5"]
-[ext_resource type="Texture2D" uid="uid://bwr46uv7ehpr5" path="res://Scenes/game_object/basic_enemy/basic_enemy.png" id="2_06t44"]
 [ext_resource type="PackedScene" uid="uid://daejyk1n81nqr" path="res://Scenes/component/health_component.tscn" id="2_40dy7"]
 [ext_resource type="PackedScene" uid="uid://bqwrtq838mmq2" path="res://Scenes/component/vial_drop_component.tscn" id="3_034e5"]
 [ext_resource type="PackedScene" uid="uid://dnymf2jxl2j6k" path="res://Scenes/component/death_component.tscn" id="4_binut"]
@@ -9,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://dil76toga1piy" path="res://Scenes/component/hurtbox_component.tscn" id="4_i17ic"]
 [ext_resource type="Shader" path="res://Scenes/component/hit_flash_component.gdshader" id="6_ejg4y"]
 [ext_resource type="PackedScene" uid="uid://esb0ee5qnhki" path="res://Scenes/component/hit_flash_component.tscn" id="7_r1df1"]
+[ext_resource type="Texture2D" uid="uid://cj1yctal48b6q" path="res://Pixels resources/Enemies and Bosses/Spider-001.png" id="9_w0ig0"]
 [ext_resource type="PackedScene" uid="uid://v23cjo2kcglc" path="res://Scenes/component/random_audio_stream_player_2d_component.tscn" id="10_blgb1"]
 [ext_resource type="AudioStream" uid="uid://blgwyya674de" path="res://assets/audio/EnemyHit.wav" id="11_52oja"]
 
@@ -48,7 +48,7 @@ tracks/2/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(1, 1)]
+"values": [Vector2(0.5, 0.5)]
 }
 
 [sub_resource type="Animation" id="Animation_3bws4"]
@@ -89,7 +89,7 @@ tracks/2/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(1, 1)]
+"values": [Vector2(0.5, 0.5)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_b4iil"]
@@ -120,6 +120,7 @@ libraries = {
 "": SubResource("AnimationLibrary_b4iil")
 }
 autoplay = "walk"
+speed_scale = 0.7
 
 [node name="HealthComponent" parent="." instance=ExtResource("2_40dy7")]
 max_health = 60.0
@@ -143,17 +144,18 @@ sprite = NodePath("../Visuals/Sprite2D")
 health_component = NodePath("../HealthComponent")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HurtboxComponent"]
-position = Vector2(0, -6)
+position = Vector2(0, -4)
 shape = SubResource("CircleShape2D_kh1y2")
 
 [node name="Visuals" type="Node2D" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="Visuals"]
-texture = ExtResource("2_06t44")
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("9_w0ig0")
 offset = Vector2(0, -6)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -6.35)
+position = Vector2(0, -4)
 shape = SubResource("CircleShape2D_cxrvu")
 
 [node name="RandomAudioStreamPlayer2DComponent" parent="." instance=ExtResource("10_blgb1")]
