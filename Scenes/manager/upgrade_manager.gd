@@ -13,13 +13,17 @@ var upgrade_scythe_damage = preload("res://resources/upgrades/scythe_damage.tres
 var upgrade_sword_rate = preload("res://resources/upgrades/sword_rate.tres")
 var upgrade_sword_damage = preload("res://resources/upgrades/sword_damage.tres")
 var upgrade_player_speed = preload("res://resources/upgrades/player_speed.tres")
+var upgrade_shuriken = preload("res://resources/upgrades/shuriken.tres")
+var upgrade_shuriken_count = preload("res://resources/upgrades/shuriken_amount.tres")
 
 
 func _ready():
 	upgrade_pool.add_item(upgrade_scythe, 10)
+	upgrade_pool.add_item(upgrade_shuriken, 5)
 	upgrade_pool.add_item(upgrade_sword_rate, 10)
 	upgrade_pool.add_item(upgrade_sword_damage, 10)
 	upgrade_pool.add_item(upgrade_player_speed, 5)
+
 	
 	experience_manager.level_up.connect(on_level_up)
 	
@@ -47,6 +51,8 @@ func update_upgrade_pool(chosen_upgrade: AbilityUpgrade):
 	# unlock upgrade for chosen ability
 	if chosen_upgrade.id == upgrade_scythe.id:
 		upgrade_pool.add_item(upgrade_scythe_damage, 10)
+	elif chosen_upgrade.id == upgrade_shuriken.id:
+		upgrade_pool.add_item(upgrade_shuriken_count, 5)
 
 
 func pick_upgrades():

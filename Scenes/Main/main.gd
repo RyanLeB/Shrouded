@@ -1,6 +1,7 @@
 extends Node
 
 @export var end_screen_scene: PackedScene
+@onready var experience_manager = $ExperienceManager
 
 var pause_menu_scene = preload("res://Scenes/ui/pause_menu.tscn")
 

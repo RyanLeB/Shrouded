@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-
+@export var arena_time_manager: Node
 
 @onready var damage_interval_timer = $DamageIntervalTimer
 @onready var health_component = $HealthComponent
@@ -18,11 +18,17 @@ var number_colliding_bodies = 0
 var base_speed = 0
 
 func _ready():
+	if arena_time_manager == null:
+		return
+	else:
+		arena_time_manager.arena_difficulty_increased.connect(on_arena_difficulty_increased)
+	
 	base_speed = velocity_component.max_speed
 	
 	$CollisionArea2D.body_entered.connect(on_body_entered)
 	$CollisionArea2D.body_exited.connect(on_body_exited)
 	damage_interval_timer.timeout.connect(on_damage_interval_timer_timeout)
+	health_component.health_decreased.connect(on_health_decreased)
 	health_component.health_changed.connect(on_health_changed)
 	GameEvent.ability_upgrade_added.connect(on_ability_upgrade_added)
 	update_health_display()
@@ -104,11 +110,20 @@ func on_body_exited(other_body: Node2D):
 func on_damage_interval_timer_timeout():
 	check_deal_damage()
 
+func on_arena_difficulty_increased(difficulty: int):
+	var health_regen_quantity = MetaProgression.get_upgrade_count("health_regen")
+	var is_thirty_second_interval = (difficulty % 6) == 0
+	if is_thirty_second_interval:
+		health_component.heal(health_regen_quantity)
+
+
+func on_health_decreased():
+	GameEvent.emit_player_damaged()
+	
+	$HitRandomStreamPlayer.play_random()
 
 func on_health_changed():
-	GameEvent.emit_player_damaged()
 	update_health_display()
-	$HitRandomStreamPlayer.play_random()
 
 func on_ability_upgrade_added(ability_upgrade: AbilityUpgrade, current_upgrades: Dictionary):
 	if ability_upgrade is Ability:
