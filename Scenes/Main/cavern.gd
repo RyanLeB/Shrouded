@@ -1,6 +1,7 @@
 extends Node
 
 @export var end_screen_scene: PackedScene
+@onready var experience_manager = $ExperienceManager
 
 var pause_menu_scene = preload("res://Scenes/ui/pause_menu.tscn")
 
@@ -17,4 +18,4 @@ func on_player_died():
 	var end_screen_instance = end_screen_scene.instantiate()
 	add_child(end_screen_instance)
 	end_screen_instance.set_defeat()
-
+	MetaProgression.save()

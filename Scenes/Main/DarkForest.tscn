@@ -1,4 +1,4 @@
-[gd_scene load_steps=147 format=3 uid="uid://df5jei4j7kewl"]
+[gd_scene load_steps=148 format=3 uid="uid://df5jei4j7kewl"]
 
 [ext_resource type="Script" path="res://Scenes/Main/DarkForest.gd" id="1_7sakb"]
 [ext_resource type="PackedScene" uid="uid://ke1sjca8ix7t" path="res://Scenes/ui/end_screen.tscn" id="2_1wum1"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://bkcuahjo37wb2" path="res://Scenes/game_object/basic_enemy/basic_enemy.tscn" id="10_gw2qd"]
 [ext_resource type="PackedScene" uid="uid://cbhden0us7fum" path="res://Scenes/game_object/wizard_enemy/wizard_enemy.tscn" id="11_55md5"]
 [ext_resource type="PackedScene" uid="uid://c6lnjj56rq6af" path="res://Scenes/manager/experience_manager.tscn" id="12_7tll1"]
+[ext_resource type="PackedScene" uid="uid://j1y74nu01yhi" path="res://Scenes/game_object/ghost_enemy/ghost_enemy.tscn" id="12_ykdp2"]
 [ext_resource type="PackedScene" uid="uid://c6b8mn6mye12d" path="res://Scenes/manager/upgrade_manager.tscn" id="13_bd0da"]
 [ext_resource type="PackedScene" uid="uid://blcdlcvxso8ca" path="res://Scenes/game_object/game_camera/game_camera.tscn" id="14_7jjfi"]
 [ext_resource type="Texture2D" uid="uid://bj8qilvk2h10j" path="res://Pixels resources/Dark Forest/Bracken-001.png" id="15_vboy8"]
@@ -16760,7 +16761,8 @@ experience_manager = NodePath("../ExperienceManager")
 
 [node name="EnemyManager" parent="." node_paths=PackedStringArray("arena_time_manager") instance=ExtResource("9_or4cn")]
 basic_enemy_scene = ExtResource("10_gw2qd")
-wizard_enemy_scene = ExtResource("11_55md5")
+skull_enemy_scene = ExtResource("11_55md5")
+ghost_enemy_scene = ExtResource("12_ykdp2")
 arena_time_manager = NodePath("../ArenaTimeManager")
 
 [node name="ExperienceManager" parent="." instance=ExtResource("12_7tll1")]
@@ -16787,10 +16789,11 @@ layer_3/tile_data = PackedInt32Array(786444, 63, 0, 786426, 49, 0, 786431, 58, 0
 [node name="Entities" type="Node2D" parent="." groups=["entities_layer"]]
 y_sort_enabled = true
 
-[node name="Player" parent="Entities" instance=ExtResource("16_b4yox")]
+[node name="Player" parent="Entities" node_paths=PackedStringArray("arena_time_manager") instance=ExtResource("16_b4yox")]
 unique_name_in_owner = true
 z_index = 1
-position = Vector2(303, 168)
+position = Vector2(307, 150)
+arena_time_manager = NodePath("../../ArenaTimeManager")
 
 [node name="Foreground" type="Node2D" parent="." groups=["foreground_layer"]]
 

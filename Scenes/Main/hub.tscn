@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=3 uid="uid://c65y330yhdo4s"]
+[gd_scene load_steps=38 format=3 uid="uid://c65y330yhdo4s"]
 
 [ext_resource type="Script" path="res://Scenes/Main/hub.gd" id="1_5uqqf"]
 [ext_resource type="PackedScene" uid="uid://bkcsjsk2ciff" path="res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn" id="1_6jwdl"]
@@ -103,6 +103,11 @@ size = Vector2(64.5, 19.5)
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_hr7qo"]
 
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_4n4ou"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3c3dy"]
+size = Vector2(64.5, 19.5)
+
 [node name="HUB" type="Node"]
 script = ExtResource("1_5uqqf")
 
@@ -154,7 +159,8 @@ position = Vector2(-2, 6)
 shape = SubResource("RectangleShape2D_oc646")
 
 [node name="Salesman" type="AnimatedSprite2D" parent="."]
-z_index = 5
+z_index = 1
+y_sort_enabled = true
 position = Vector2(422, -8)
 sprite_frames = SubResource("SpriteFrames_nrjdr")
 autoplay = "default"
@@ -205,3 +211,23 @@ physics_material_override = SubResource("PhysicsMaterial_hr7qo")
 position = Vector2(3.41926, 9.60777)
 rotation = -0.324723
 shape = SubResource("RectangleShape2D_0p17s")
+
+[node name="Stairs7" type="StaticBody2D" parent="."]
+position = Vector2(398, 436)
+rotation = 1.89163
+physics_material_override = SubResource("PhysicsMaterial_hr7qo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Stairs7"]
+position = Vector2(3.41926, 9.60777)
+rotation = -0.324723
+shape = SubResource("RectangleShape2D_0p17s")
+
+[node name="Stairs6" type="StaticBody2D" parent="."]
+position = Vector2(305, 438)
+rotation = 1.89163
+physics_material_override = SubResource("PhysicsMaterial_4n4ou")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Stairs6"]
+position = Vector2(-49.3641, 35.3721)
+rotation = -0.616636
+shape = SubResource("RectangleShape2D_3c3dy")

@@ -9,6 +9,7 @@ extends CanvasLayer
 var meta_upgrade_card_scene = preload("res://Scenes/ui/meta_upgrade_card.tscn")
 
 func _ready():
+	back_button.grab_focus()
 	back_button.pressed.connect(on_back_pressed)
 	for child in grid_container.get_children():
 		child.queue_free()

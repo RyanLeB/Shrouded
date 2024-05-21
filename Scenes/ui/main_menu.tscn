@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://bo22ueoin0rfm"]
+[gd_scene load_steps=17 format=3 uid="uid://bo22ueoin0rfm"]
 
 [ext_resource type="PackedScene" uid="uid://b4wwookp53201" path="res://Scenes/ui/sound_button.tscn" id="1_ojt6s"]
 [ext_resource type="Script" path="res://Scenes/ui/main_menu.gd" id="1_svep3"]
@@ -7,6 +7,46 @@
 [ext_resource type="AudioStream" uid="uid://b33608sdgoyqm" path="res://Shrouded OST/Main Theme/Shrouded.mp3" id="3_m0kt2"]
 [ext_resource type="TileSet" uid="uid://tmm81apyilx7" path="res://assets/environment/hubflooring.tres" id="6_0l8jw"]
 [ext_resource type="TileSet" uid="uid://ckdlrklbv5x6d" path="res://assets/environment/hub.tres" id="7_j77nn"]
+[ext_resource type="Texture2D" uid="uid://b83cco58kmvqu" path="res://Pixels resources/Hub area/Dog-001.png" id="8_h45cc"]
+[ext_resource type="Texture2D" uid="uid://hr5an2uaxnoe" path="res://Pixels resources/Hub area/Dog-002.png" id="9_ivywy"]
+[ext_resource type="Texture2D" uid="uid://py5biomprsun" path="res://Pixels resources/Hub area/Dog-003.png" id="10_er0xe"]
+[ext_resource type="Texture2D" uid="uid://c4rk0v83bnf2c" path="res://Pixels resources/Hub area/Dog-004.png" id="11_jn0gf"]
+[ext_resource type="Texture2D" uid="uid://dcfjr88hb50y" path="res://Pixels resources/Hub area/Dog-005.png" id="12_s4kwd"]
+[ext_resource type="Texture2D" uid="uid://chng5hvi8xxtv" path="res://Pixels resources/Hub area/Dog-006.png" id="13_gje4q"]
+[ext_resource type="Texture2D" uid="uid://btgydph6cndbk" path="res://Pixels resources/Hub area/Dog-007.png" id="14_w4q5d"]
+[ext_resource type="Texture2D" uid="uid://b1n6u3rq8o2px" path="res://Pixels resources/Hub area/Dog-008.png" id="15_48fn4"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_igjf0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_h45cc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ivywy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_er0xe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_jn0gf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_s4kwd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_gje4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_w4q5d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_48fn4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
 
 [node name="MainMenu" type="CanvasLayer"]
 script = ExtResource("1_svep3")
@@ -33,6 +73,7 @@ theme_override_constants/margin_right = 8
 theme_override_constants/margin_bottom = 8
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/MarginContainer"]
+z_index = 5
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 8
@@ -42,6 +83,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 size_flags_horizontal = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 3
 text = "Play"
 
@@ -50,6 +92,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 size_flags_horizontal = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 3
 text = "Shop"
 
@@ -58,6 +101,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 size_flags_horizontal = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 3
 text = "Options"
 
@@ -66,6 +110,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 size_flags_horizontal = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 3
 text = "Quit Game"
 
@@ -75,19 +120,19 @@ custom_minimum_size = Vector2(100, 0)
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -148.0
-offset_top = 25.0
-offset_right = 152.0
-offset_bottom = 85.0
+offset_left = -146.0
+offset_top = 29.0
+offset_right = 154.0
+offset_bottom = 109.0
 grow_horizontal = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-theme_override_colors/default_color = Color(0.83435, 0.735221, 0.143227, 1)
+theme_override_colors/default_color = Color(0.902855, 0.902855, 7.70092e-07, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 7
 theme_override_font_sizes/normal_font_size = 46
 bbcode_enabled = true
-text = "[center][tornado radius=3.0 freq=5.0 connected=1]Shrouded[/tornado][/center]"
+text = "[center][tornado radius=2.0 freq=5.0 connected=1]Shrouded[/tornado][/center]"
 
 [node name="Floor" type="TileMap" parent="."]
 position = Vector2(-43, 151)
@@ -108,3 +153,17 @@ layer_1/tile_data = PackedInt32Array(22872135, 31, 0, 22807118, 30, 0, 24314073,
 layer_2/name = "layer 0"
 layer_2/z_index = -1
 layer_2/tile_data = PackedInt32Array(-3866054, 9, 0, 4260409, 10, 0, 3342928, 11, 0, 22151184, 17, 0, 13697013, 22, 0, 10879690, 23, 0, 34275667, 19, 0, 11666257, 19, 0, -5963560, 16, 0, -9764369, 15, 0, -9764370, 15, 0, -11468447, 28, 0, 2294330, 33, 0, 3080976, 20, 0, -7339302, 29, 0, -654616, 13, 0, -654653, 13, 0, 1049364, 13, 0, 15532540, 13, 0, 22413448, 13, 0, 5505114, 13, 0, 7602227, 13, 0, 26018125, 21, 0, 23265546, 8, 0, 2360149, 8, 0, 525255, 8, 0, 26477326, 8, 0, 28705614, 8, 0, 27657005, 8, 0, 1770362, 8, 0, 983965, 8, 0, 1014, 8, 0, 9371551, 8, 0, 8650609, 8, 0, 7798591, 8, 0, 7405327, 8, 0, 7405284, 8, 0, 8126139, 8, 0, 25493481, 8, 0, 27131851, 8, 0, 28639147, 8, 0, 30146439, 8, 0, 31784795, 8, 0, 32964387, 8, 0, 32571830, 7, 0, 36635079, 7, 0, 39649721, 7, 0, 42795438, 7, 0, 34341100, 7, 0, 32768250, 7, 0, 39780583, 7, 0, 42598650, 7, 0, 19267679, 6, 0)
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+modulate = Color(1, 1, 1, 0.443137)
+custom_minimum_size = Vector2(300, 60)
+offset_left = 176.0
+offset_top = 20.0
+offset_right = 476.0
+offset_bottom = 80.0
+size_flags_horizontal = 4
+
+[node name="Doggy" type="AnimatedSprite2D" parent="."]
+position = Vector2(145, 204)
+sprite_frames = SubResource("SpriteFrames_igjf0")
+autoplay = "default"

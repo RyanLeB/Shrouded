@@ -12,7 +12,7 @@ signal back_pressed
 
 func _ready():
 	
-	
+	back_button.grab_focus()
 	back_button.pressed.connect(on_back_pressed)
 	window_button.pressed.connect(on_window_button_pressed)
 	sfx_slider.value_changed.connect(on_audio_slider_changed.bind("SFX"))

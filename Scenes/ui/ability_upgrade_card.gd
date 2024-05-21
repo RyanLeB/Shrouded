@@ -8,6 +8,7 @@ signal selected
 var disabled = false
 
 func _ready():
+	
 	gui_input.connect(on_gui_input)
 	mouse_entered.connect(on_mouse_entered)
 	mouse_exited.connect(on_mouse_exit)

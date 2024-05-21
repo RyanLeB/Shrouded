@@ -18,7 +18,7 @@ var upgrade_shuriken_count = preload("res://resources/upgrades/shuriken_amount.t
 
 
 func _ready():
-	upgrade_pool.add_item(upgrade_scythe, 10)
+	upgrade_pool.add_item(upgrade_scythe, 1000)
 	upgrade_pool.add_item(upgrade_shuriken, 5)
 	upgrade_pool.add_item(upgrade_sword_rate, 10)
 	upgrade_pool.add_item(upgrade_sword_damage, 10)

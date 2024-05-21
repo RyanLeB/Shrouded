@@ -12,6 +12,7 @@ extends PanelContainer
 var upgrade: MetaUpgrade
 
 func _ready():
+	
 	purchase_button.pressed.connect(on_purchase_pressed)
 	
 

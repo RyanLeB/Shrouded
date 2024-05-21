@@ -1,4 +1,4 @@
-[gd_scene load_steps=173 format=3 uid="uid://cagsdp5kaflfn"]
+[gd_scene load_steps=174 format=3 uid="uid://cagsdp5kaflfn"]
 
 [ext_resource type="Script" path="res://Scenes/Main/cavern.gd" id="1_kvvbr"]
 [ext_resource type="PackedScene" uid="uid://ke1sjca8ix7t" path="res://Scenes/ui/end_screen.tscn" id="2_nc733"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://bkcuahjo37wb2" path="res://Scenes/game_object/basic_enemy/basic_enemy.tscn" id="10_bn2hh"]
 [ext_resource type="PackedScene" uid="uid://cbhden0us7fum" path="res://Scenes/game_object/wizard_enemy/wizard_enemy.tscn" id="11_sfoyi"]
 [ext_resource type="PackedScene" uid="uid://c6lnjj56rq6af" path="res://Scenes/manager/experience_manager.tscn" id="12_45ady"]
+[ext_resource type="PackedScene" uid="uid://j1y74nu01yhi" path="res://Scenes/game_object/ghost_enemy/ghost_enemy.tscn" id="12_gs51w"]
 [ext_resource type="PackedScene" uid="uid://c6b8mn6mye12d" path="res://Scenes/manager/upgrade_manager.tscn" id="13_xjoqu"]
 [ext_resource type="PackedScene" uid="uid://blcdlcvxso8ca" path="res://Scenes/game_object/game_camera/game_camera.tscn" id="14_8ft6w"]
 [ext_resource type="Texture2D" uid="uid://cfpxxkhba2yfu" path="res://Pixels resources/Cavern/Barrel-001.png" id="16_gric3"]
@@ -11989,13 +11990,14 @@ experience_manager = NodePath("../ExperienceManager")
 
 [node name="EnemyManager" parent="." node_paths=PackedStringArray("arena_time_manager") instance=ExtResource("9_k2qsv")]
 basic_enemy_scene = ExtResource("10_bn2hh")
-wizard_enemy_scene = ExtResource("11_sfoyi")
+skull_enemy_scene = ExtResource("11_sfoyi")
+ghost_enemy_scene = ExtResource("12_gs51w")
 arena_time_manager = NodePath("../ArenaTimeManager")
-
-[node name="ExperienceManager" parent="." instance=ExtResource("12_45ady")]
 
 [node name="UpgradeManager" parent="." node_paths=PackedStringArray("experience_manager") instance=ExtResource("13_xjoqu")]
 experience_manager = NodePath("../ExperienceManager")
+
+[node name="ExperienceManager" parent="." instance=ExtResource("12_45ady")]
 
 [node name="GameCamera" parent="." instance=ExtResource("14_8ft6w")]
 
@@ -12027,10 +12029,11 @@ layer_0/tile_data = PackedInt32Array(-65543, 0, 0, -7, 0, 0, 65529, 0, 0, 131065
 [node name="Entities" type="Node2D" parent="." groups=["entities_layer"]]
 y_sort_enabled = true
 
-[node name="Player" parent="Entities" instance=ExtResource("66_fr0v8")]
+[node name="Player" parent="Entities" node_paths=PackedStringArray("arena_time_manager") instance=ExtResource("66_fr0v8")]
 unique_name_in_owner = true
 z_index = 1
-position = Vector2(303, 168)
+position = Vector2(314, 161)
+arena_time_manager = NodePath("../../ArenaTimeManager")
 
 [node name="Foreground" type="Node2D" parent="." groups=["foreground_layer"]]
 
