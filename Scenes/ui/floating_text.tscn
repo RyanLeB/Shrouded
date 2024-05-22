@@ -3,6 +3,7 @@
 [ext_resource type="Script" path="res://Scenes/ui/floating_text.gd" id="1_wb1li"]
 
 [node name="FloatingText" type="Node2D"]
+z_index = 5
 script = ExtResource("1_wb1li")
 
 [node name="Label" type="Label" parent="."]
