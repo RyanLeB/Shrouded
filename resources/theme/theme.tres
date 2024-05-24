@@ -1,16 +1,17 @@
-[gd_resource type="Theme" load_steps=20 format=3 uid="uid://p77jawgpv7m5"]
+[gd_resource type="Theme" load_steps=21 format=3 uid="uid://p77jawgpv7m5"]
 
-[ext_resource type="Texture2D" uid="uid://b47fvbqll7cyp" path="res://resources/theme/HUDButtonPress.png" id="1_2wlja"]
-[ext_resource type="Texture2D" uid="uid://clx8da6tndhe8" path="res://resources/theme/HUD.png" id="2_0xglv"]
+[ext_resource type="Texture2D" uid="uid://gbumnpy3olt3" path="res://Pixels resources/HUD-UI/HUD-002.png" id="1_2j7bo"]
+[ext_resource type="Texture2D" uid="uid://br3fm2rwnqt26" path="res://Pixels resources/HUD-UI/HUD-001.png" id="2_4lfqp"]
 [ext_resource type="FontFile" uid="uid://cbyx82kg27e6t" path="res://resources/theme/Pixellari.ttf" id="3_f1uvx"]
 [ext_resource type="Texture2D" uid="uid://b4tsk3pno6o3s" path="res://resources/theme/HUDButtonPressed.png" id="3_ihuua"]
+[ext_resource type="Texture2D" uid="uid://enfwvuly0i55" path="res://Pixels resources/HUD-UI/HUD-004.png" id="4_83ljq"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dxfwf"]
 content_margin_left = 4.0
 content_margin_top = 4.0
 content_margin_right = 4.0
 content_margin_bottom = 4.0
-texture = ExtResource("1_2wlja")
+texture = ExtResource("1_2j7bo")
 texture_margin_left = 14.0
 texture_margin_top = 1.0
 texture_margin_right = 12.0
@@ -18,7 +19,7 @@ texture_margin_bottom = 1.0
 region_rect = Rect2(0, 0, 64, 64)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_y8mkj"]
-texture = ExtResource("1_2wlja")
+texture = ExtResource("1_2j7bo")
 texture_margin_left = 10.0
 texture_margin_top = 10.0
 texture_margin_right = 10.0
@@ -26,7 +27,7 @@ texture_margin_bottom = 10.0
 region_rect = Rect2(0, 0, 64, 64)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_sneku"]
-texture = ExtResource("2_0xglv")
+texture = ExtResource("2_4lfqp")
 texture_margin_left = 10.0
 texture_margin_top = 10.0
 texture_margin_right = 10.0
@@ -75,7 +76,7 @@ expand_margin_right = 2.0
 expand_margin_bottom = 2.0
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5wucr"]
-texture = ExtResource("2_0xglv")
+texture = ExtResource("4_83ljq")
 texture_margin_left = 10.0
 texture_margin_top = 10.0
 texture_margin_right = 10.0

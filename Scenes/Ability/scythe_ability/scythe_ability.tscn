@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://dd4ywavw2nahn"]
 
 [ext_resource type="Script" path="res://Scenes/Ability/scythe_ability/scythe_ability.gd" id="1_273d6"]
-[ext_resource type="Texture2D" uid="uid://brajrrbw4foty" path="res://Scenes/Ability/scythe_ability/Scythe.png" id="2_sx40j"]
+[ext_resource type="Texture2D" uid="uid://cnnwnpkmh1akt" path="res://Pixels resources/Character Skills/Scythe-001.png" id="2_a18hk"]
 [ext_resource type="PackedScene" uid="uid://cycdfunfhnvmb" path="res://Scenes/component/hitbox_component.tscn" id="3_hg5gq"]
 
 [sub_resource type="Animation" id="Animation_1cw8v"]
@@ -43,6 +43,7 @@ _data = {
 }
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_v1mdk"]
+radius = 20.0
 
 [node name="ScytheAbility" type="Node2D"]
 script = ExtResource("1_273d6")
@@ -54,8 +55,7 @@ libraries = {
 autoplay = "default"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.6, 0.6)
-texture = ExtResource("2_sx40j")
+texture = ExtResource("2_a18hk")
 
 [node name="HitboxComponent" parent="." instance=ExtResource("3_hg5gq")]
 
