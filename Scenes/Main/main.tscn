@@ -626,12 +626,12 @@ sources/48 = SubResource("TileSetAtlasSource_h0lhw")
 sources/49 = SubResource("TileSetAtlasSource_656rj")
 sources/50 = SubResource("TileSetAtlasSource_uejyu")
 
-[sub_resource type="Gradient" id="Gradient_urvtp"]
+[sub_resource type="Gradient" id="Gradient_6mt03"]
 offsets = PackedFloat32Array(0, 0.746753)
 colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_8wqgu"]
-gradient = SubResource("Gradient_urvtp")
+gradient = SubResource("Gradient_6mt03")
 fill = 1
 fill_from = Vector2(0.5, 0.5)
 
