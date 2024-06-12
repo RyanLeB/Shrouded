@@ -1,0 +1,123 @@
+[gd_scene load_steps=11 format=3 uid="uid://bqmutwtexystj"]
+
+[ext_resource type="Texture2D" uid="uid://v5w8j6gb3n7y" path="res://shadowbackground.png" id="1_u12kj"]
+[ext_resource type="Texture2D" uid="uid://bw7gfnbd3qo13" path="res://Pixels resources/Game-Logo/Logo-002.png" id="2_guehh"]
+[ext_resource type="PackedScene" uid="uid://bkcsjsk2ciff" path="res://addons/maaacks_music_controller/base/scenes/MusicPlayers/BackgroundMusicPlayer.tscn" id="3_dhuyn"]
+[ext_resource type="AudioStream" uid="uid://de4cbik5waox0" path="res://Shrouded OST/Main Theme/CreditsShrouded.mp3" id="4_qoif5"]
+
+[sub_resource type="Animation" id="Animation_1712l"]
+resource_name = "fade_in"
+length = 5.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.1, 5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_ft3v6"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.1, 0.1)]
+}
+
+[sub_resource type="Animation" id="Animation_an86e"]
+resource_name = "pulse"
+length = 8.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 4, 8),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0.1, 0.1), Vector2(0.125, 0.125), Vector2(0.1, 0.1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_s0wxe"]
+_data = {
+"RESET": SubResource("Animation_ft3v6"),
+"fade_in": SubResource("Animation_1712l"),
+"pulse": SubResource("Animation_an86e")
+}
+
+[sub_resource type="Animation" id="Animation_8kqr0"]
+resource_name = "pulse"
+length = 8.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 4, 8),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0.1, 0.1), Vector2(0.125, 0.125), Vector2(0.1, 0.1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_gwrtd"]
+_data = {
+"pulse": SubResource("Animation_8kqr0")
+}
+
+[node name="Credits" type="Node2D"]
+
+[node name="Shadowbackground" type="Sprite2D" parent="."]
+position = Vector2(159, 129)
+scale = Vector2(156.462, -51.4925)
+texture = ExtResource("1_u12kj")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(328, 73)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_guehh")
+
+[node name="FadeIn" type="AnimationPlayer" parent="Sprite2D"]
+libraries = {
+"": SubResource("AnimationLibrary_s0wxe")
+}
+autoplay = "fade_in"
+
+[node name="Pulsing" type="AnimationPlayer" parent="Sprite2D"]
+libraries = {
+"": SubResource("AnimationLibrary_gwrtd")
+}
+autoplay = "pulse"
+
+[node name="BackgroundMusicPlayer" parent="." instance=ExtResource("3_dhuyn")]
+stream = ExtResource("4_qoif5")
+volume_db = -14.882
