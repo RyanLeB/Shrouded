@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+# on ready variables
+
 @onready var velocity_component = $VelocityComponent
 @onready var visuals = $Visuals
 
@@ -9,6 +11,7 @@ extends CharacterBody2D
 func _ready():
 	$HurtboxComponent.hit.connect(on_hit)
 
+# Move to player (more floaty than normal enemy)
 
 func _process(delta):
 	
@@ -25,6 +28,7 @@ func _process(delta):
 
 
 
+# Plays hit sound effect at a random pitch
 
 func on_hit():
 	$RandomAudioStreamPlayer2DComponent.play_random()

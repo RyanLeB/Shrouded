@@ -5,10 +5,13 @@ extends CharacterBody2D
 
 var is_moving = false
 
+# connect on hit event 
 
 func _ready():
 	$HurtboxComponent.hit.connect(on_hit)
 
+
+# Handle moving to player
 
 func _process(delta):
 	if is_moving:
@@ -26,6 +29,8 @@ func _process(delta):
 func set_is_moving(moving: bool):
 	is_moving = moving
 
+
+# Plays sound effect when hit at random pitch
 
 func on_hit():
 	$RandomAudioStreamPlayer2DComponent.play_random()

@@ -6,6 +6,8 @@ func _ready():
 	pass
 
 
+# This tweens the damage number for a smooth fade away effect
+
 func start(text: String):
 	$Label.text = text
 	
